@@ -39,6 +39,13 @@ complexas nem o mapa de classe de ciclos. **Estado no portão: NÃO_ENUNCIÁVEL.
 exige o `G` geométrico (H1). Nenhuma explosão conhecida; a versão **inteira** explode
 (Atiyah–Hirzebruch) — por isso os coeficientes têm de ser `ℚ`.
 
+## 3c. Linha de fechamento
+
+Alvo exato **não enunciável** na Mathlib v4.34.1 ⇒ não existe declaração que o portão possa
+aceitar ⇒ **CLOSED_MATH = false** necessariamente. A linha passa a funcionar como nos outros
+problemas quando a fundação existir (H1/Y2): então o alvo vira um tipo Lean e o mesmo
+`closure_gate.py` calcula a bandeira.
+
 ## 4. Falsificador exato
 
 Uma classe de Hodge racional em `H^{2p}(X, ℚ) ∩ H^{p,p}` de uma variedade projetiva lisa que não
