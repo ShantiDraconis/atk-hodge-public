@@ -31,6 +31,14 @@ complexas nem o mapa de classe de ciclos. **Estado no portão: NÃO_ENUNCIÁVEL.
 | H4 | Caso `p = 1` | É teorema (Lefschetz (1,1)); serve de teste de sanidade do modelo quando o `G` real existir | Provar o caso `p = 1` no modelo como verificação |
 | H5 | Compilação | Os arquivos importam `MCore.K17`, `MCore.HodgeCanonicalSemanticModel` etc., ausentes aqui. (`audit/Vacuity.lean` compila só com Lean core — workflow `vacuity-check`) | CI a partir do commit de origem (`provenance/`) |
 
+## 3b. Linha de explosão — certificada no kernel (Lean core)
+
+`audit/Vacuity.lean`: `HodgeExplosion G` (classe `(p,p)` fora do span das classes de ciclos),
+`explosion_refutes`, `hodge_iff_no_explosion : Hodge(G) ↔ ¬ Nonempty (HodgeExplosion G)` e
+`badModel_explodes` (o formato não é vazio). Vale sobre a interface `G`; sobre a conjectura real
+exige o `G` geométrico (H1). Nenhuma explosão conhecida; a versão **inteira** explode
+(Atiyah–Hirzebruch) — por isso os coeficientes têm de ser `ℚ`.
+
 ## 4. Falsificador exato
 
 Uma classe de Hodge racional em `H^{2p}(X, ℚ) ∩ H^{p,p}` de uma variedade projetiva lisa que não
