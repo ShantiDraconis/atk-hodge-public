@@ -58,8 +58,43 @@ theorem abstract_statement_independent :
     (∃ G, GradedRationalHodgeConjecture G) ∧ (∃ G, ¬ GradedRationalHodgeConjecture G) :=
   ⟨⟨emptyModel, hodge_emptyModel⟩, ⟨badModel, not_hodge_badModel⟩⟩
 
+/-! ## Linha de explosão (formato NS: testemunha / refutação / dicotomia)
+
+A explosão de Hodge é uma classe de Hodge racional que NÃO é algébrica. Sobre a interface `G`
+o formato é exato; para valer sobre a conjectura de Hodge, `G` tem de ser a geometria real
+(não disponível na Mathlib v4.34.1). -/
+
+/-- Testemunha de explosão: classe de tipo `(p,p)` fora do span das classes de ciclos. -/
+structure HodgeExplosion (G : GradedRationalHodgeData) where
+  X : G.Variety
+  smooth : G.isSmoothProjective X
+  p : Nat
+  α : G.CohomologyQ X (2 * p)
+  typePP : G.isTypePP p α
+  notAlgebraic : ¬ G.inCycleClassSpan p α
+
+theorem explosion_refutes {G : GradedRationalHodgeData} (w : HodgeExplosion G) :
+    ¬ GradedRationalHodgeConjecture G :=
+  fun h => w.notAlgebraic (h w.X w.smooth w.p w.α w.typePP)
+
+/-- Dicotomia: Hodge (sobre `G`) ⇔ não existe explosão. -/
+theorem hodge_iff_no_explosion (G : GradedRationalHodgeData) :
+    GradedRationalHodgeConjecture G ↔ ¬ Nonempty (HodgeExplosion G) := by
+  constructor
+  · intro h ⟨w⟩
+    exact explosion_refutes w h
+  · intro h X hX p α hpp
+    exact Classical.byContradiction fun hn => h ⟨⟨X, hX, p, α, hpp, hn⟩⟩
+
+/-- No modelo ruim a explosão existe — o formato não é vazio. -/
+theorem badModel_explodes : Nonempty (HodgeExplosion badModel) :=
+  ⟨⟨(), trivial, 0, (), trivial, fun h => h⟩⟩
+
 end Audit.Hodge
 
 #print axioms Audit.Hodge.hodge_emptyModel
 #print axioms Audit.Hodge.not_hodge_badModel
 #print axioms Audit.Hodge.abstract_statement_independent
+#print axioms Audit.Hodge.explosion_refutes
+#print axioms Audit.Hodge.hodge_iff_no_explosion
+#print axioms Audit.Hodge.badModel_explodes
