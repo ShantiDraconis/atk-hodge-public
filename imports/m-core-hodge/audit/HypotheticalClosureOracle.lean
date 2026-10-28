@@ -1,0 +1,5 @@
+import MCore.BackwardAudit.HypotheticalClosureOracle
+
+#print axioms MCore.BackwardAudit.hypothetical_pointwise
+#print axioms MCore.BackwardAudit.hypothetical_concrete_witness
+#print axioms MCore.BackwardAudit.specification_oracle_only

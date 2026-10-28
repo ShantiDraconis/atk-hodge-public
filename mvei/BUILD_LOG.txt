@@ -1,0 +1,10 @@
+MVEI — log consolidado da verificação (2026-10-28T13:47:17+00:00)
+Os logs completos de cada compilação no GitHub ficam na página da execução do workflow (Actions).
+
+== m-core-hodge/.  [leanprover/lean4:v4.19.0 -> leanprover/lean4:v4.19.0]  OK
+   teoremas: fechados 1101, condicionais 0, abertos 0; axiomas declarados 0
+   nota: MANIFESTO RESOLVIDO: o lake-manifest.json não trazia o Mathlib; o MVEI rodou `lake update` na cópia de trabalho (o repositório não foi alterado).
+
+== m-core-hodge/atk-kernel  [leanprover/lean4:v4.34.1 -> leanprover/lean4:v4.34.1]  OK
+   teoremas: fechados 2, condicionais 0, abertos 0; axiomas declarados 0
+
