@@ -1,0 +1,1476 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-hodge",
+ "branch": "claim/hodge-prize-surgery-lane2",
+ "branch_state": "parada",
+ "head_commit": "2d690d5b88f53ea0b21f5868e62616642d661da6",
+ "head_commit_date": "2026-09-26T10:47:24+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "2d690d5b88f53ea0b21f5868e62616642d661da6",
+   "date": "2026-09-26T10:47:24+01:00",
+   "subject": "atk: record R0 reuse audit and exact missing concrete instances"
+  },
+  {
+   "commit": "a7dc1c8dc18d8e9011429e6fff5e542ed4135988",
+   "date": "2026-09-26T10:44:36+01:00",
+   "subject": "atk: reduce R0 to faithful concrete instantiation using K15 K16 reuse"
+  },
+  {
+   "commit": "644e1bfbca37fc841d6a9b8b4644cd2a9f33463b",
+   "date": "2026-09-26T10:43:17+01:00",
+   "subject": "atk: freeze Hodge attackable min-cut R0 R1A R3-interface"
+  },
+  {
+   "commit": "e4ea678c282ceb4b3b90f44a5eaa089d293e6571",
+   "date": "2026-09-26T10:40:37+01:00",
+   "subject": "atl: split Hodge proof lane into attackable external and research cuts"
+  },
+  {
+   "commit": "2437365f44e7ad5d0f8f2d80d3661ac6902372cd",
+   "date": "2026-09-26T10:40:04+01:00",
+   "subject": "atk: separate Hodge proof and refutation mathematical boundaries"
+  },
+  {
+   "commit": "53b695b4be122627fe30ac325b946cd44d6e4014",
+   "date": "2026-09-26T10:04:55+01:00",
+   "subject": "atk: freeze green ATL architecture checkpoint"
+  },
+  {
+   "commit": "c36b804702b83be9c49ee3986bb5c64cac37508e",
+   "date": "2026-09-26T09:20:10+01:00",
+   "subject": "atl: integrate bounded reuse retry promotion and min-cut"
+  },
+  {
+   "commit": "f9ce99c09869db7cf7fa6a4a15a70da997dae8db",
+   "date": "2026-09-26T09:19:53+01:00",
+   "subject": "atl: add atl_promotion.py"
+  },
+  {
+   "commit": "d3cea56432efe4f3faa8ccf95cff72b847ae280f",
+   "date": "2026-09-26T09:19:51+01:00",
+   "subject": "atl: add atl_retry_policy.py"
+  },
+  {
+   "commit": "2f92d9e2a39e79989505c4a9b496e0981e8d1920",
+   "date": "2026-09-26T09:19:49+01:00",
+   "subject": "atl: add atl_reuse_resolver.py"
+  },
+  {
+   "commit": "e571a89b14c785fb387510f7ca0ab0f738f5d89d",
+   "date": "2026-09-26T08:52:13+01:00",
+   "subject": "atl: derive pruning edges separately from replacement paths"
+  },
+  {
+   "commit": "a57ab71fad958aacc49a4dadb9a6cbdeb7a933c8",
+   "date": "2026-09-26T08:52:10+01:00",
+   "subject": "atl: make firewall aggregator call five independent modules"
+  },
+  {
+   "commit": "bd1747eda2a7b048a42c3214d1449e9bebb40ee9",
+   "date": "2026-09-26T08:51:50+01:00",
+   "subject": "atl: add fw_vacuous.py firewall module"
+  },
+  {
+   "commit": "e51bfad5252e637d452d888ca3e4d5530348c321",
+   "date": "2026-09-26T08:51:48+01:00",
+   "subject": "atl: add fw_interface.py firewall module"
+  },
+  {
+   "commit": "ec8333c8a7928def1b91e913f2f3a398cebc4c7a",
+   "date": "2026-09-26T08:51:46+01:00",
+   "subject": "atl: add fw_semantic.py firewall module"
+  },
+  {
+   "commit": "9777c0bce58cbebb6d9db1dd3f76f3bb0ff4d805",
+   "date": "2026-09-26T08:51:43+01:00",
+   "subject": "atl: add fw_circularity.py firewall module"
+  },
+  {
+   "commit": "93e7b917cc58eeec9a7aa2a838b256229531ae63",
+   "date": "2026-09-26T08:51:41+01:00",
+   "subject": "atl: add fw_axiom.py firewall module"
+  },
+  {
+   "commit": "e856360dbbde462dadc0205518d4d4e2ab528ec1",
+   "date": "2026-09-26T08:51:13+01:00",
+   "subject": "atl: type pruning edges explicitly"
+  },
+  {
+   "commit": "4b1d911c9d06e25dccdb2dc60af6a89fe8d6eee0",
+   "date": "2026-09-26T08:51:11+01:00",
+   "subject": "atl: make G2.1 a pruning firewall, not Hodge producer replacement"
+  },
+  {
+   "commit": "86a1340d1c48e6be6697d8b687409101b75e46fe",
+   "date": "2026-09-26T08:50:14+01:00",
+   "subject": "atk: register Hodge G2.1 route map in MCore root"
+  },
+  {
+   "commit": "e8d813cc1125c4b9276716bfa1b028b11398821c",
+   "date": "2026-09-26T08:07:34+01:00",
+   "subject": "fix: materialize Hodge G2.1 route module before aggregate audit"
+  },
+  {
+   "commit": "68a9f2ee7d064f3f9fdb09793a9787c8a6ced9d5",
+   "date": "2026-09-26T08:07:05+01:00",
+   "subject": "atl: derive graph and firewalls in consolidated certification"
+  },
+  {
+   "commit": "35cf64bdd5e909565353e6ba334fa4cccc271c6d",
+   "date": "2026-09-26T08:06:47+01:00",
+   "subject": "atl: add five-module fail-closed firewall"
+  },
+  {
+   "commit": "5fca327903b9530b49654d7a43ad9ee85feaacdd",
+   "date": "2026-09-26T08:06:45+01:00",
+   "subject": "atl: derive graph state and min-cut from canonical source"
+  },
+  {
+   "commit": "d65c7fd53b755b81ab88bd60809c515337b11293",
+   "date": "2026-09-26T08:06:43+01:00",
+   "subject": "atl: add empirical cost history seed"
+  },
+  {
+   "commit": "6279ccf8e6ee830a8238c922b8d29e104e1e8cc9",
+   "date": "2026-09-26T08:06:10+01:00",
+   "subject": "atl: add canonical Hodge graph source of truth"
+  },
+  {
+   "commit": "400722608bfbce1562fd23183bcd0105e64c937d",
+   "date": "2026-09-26T08:06:07+01:00",
+   "subject": "atl: add canonical primitive-plus-log graph schema"
+  },
+  {
+   "commit": "c3f41326ab02f8e49ec452e779f75a8052510219",
+   "date": "2026-09-26T08:05:33+01:00",
+   "subject": "fix: build G2.1 Hodge route map before aggregate gate audit"
+  },
+  {
+   "commit": "ac2db5c4891c7507ad6bc96650bb5b74676075ca",
+   "date": "2026-09-26T01:25:05+01:00",
+   "subject": "atk: link G2.1 falsification pattern to Hodge discovery graph"
+  },
+  {
+   "commit": "a51c6d495012f20182eb59c280bdaf5b2f2e6f1f",
+   "date": "2026-09-26T01:24:51+01:00",
+   "subject": "atk: include G2.1/Hodge route map in aggregate gate audit"
+  },
+  {
+   "commit": "eec1ed8fe42e0a6dfc930c8487166a624d2ceb9e",
+   "date": "2026-09-26T01:24:35+01:00",
+   "subject": "atk: formalize G2.1 negative template and Hodge live-route boundary"
+  },
+  {
+   "commit": "c1da35a9786b773e496c417722a889491045d991",
+   "date": "2026-09-26T00:36:04+01:00",
+   "subject": "atk: integrate proof discovery queue into consolidated certification"
+  },
+  {
+   "commit": "7047b4ae81c32ac9b0c38541534a173d34259b22",
+   "date": "2026-09-26T00:19:33+01:00",
+   "subject": "atk: integrate proof discovery graph into consolidated certification"
+  },
+  {
+   "commit": "8924b7b491f3e2a1a9dca9c527ff4187745ee3d6",
+   "date": "2026-09-26T00:19:21+01:00",
+   "subject": "atk: add proof discovery and formalization queue engine"
+  },
+  {
+   "commit": "4c53a279910f27ef13c6db7494247b0c14902987",
+   "date": "2026-09-26T00:19:05+01:00",
+   "subject": "atk: add cross-domain proof discovery graph"
+  },
+  {
+   "commit": "9819bdb77e34f9d69ee7896cc9fe012c481fbc2c",
+   "date": "2026-09-26T00:00:35+01:00",
+   "subject": "atk: test all active gate files in one Lean invocation"
+  },
+  {
+   "commit": "828e67dcb4588d28c1230c226f00623887ba4c5e",
+   "date": "2026-09-26T00:00:24+01:00",
+   "subject": "atk: add one-shot audit for all active Hodge gate files"
+  },
+  {
+   "commit": "c5638399360350ce754221e0e491ccdfd956421a",
+   "date": "2026-09-25T23:29:27+01:00",
+   "subject": "atk: freeze final historical producer candidates as nonpromoting"
+  },
+  {
+   "commit": "6dd9af211533612e78ab993d35c62d425d1aa234",
+   "date": "2026-09-25T22:18:03+01:00",
+   "subject": "atk: close historical reuse search with no concrete producer"
+  },
+  {
+   "commit": "27491442a2a84ee5204917644d60056c876afeec",
+   "date": "2026-09-25T22:08:17+01:00",
+   "subject": "atk: freeze reusable historical terminal routes as conditional only"
+  },
+  {
+   "commit": "91ccac3bd6e581400471277129336e59f1b6ea25",
+   "date": "2026-09-25T22:03:46+01:00",
+   "subject": "atk: register reuse-first property"
+  },
+  {
+   "commit": "4b31b1b54252807ffde6c4c6ea0e25ee8b19769a",
+   "date": "2026-09-25T22:03:42+01:00",
+   "subject": "atk: enforce reuse-first no-duplicate-work policy"
+  },
+  {
+   "commit": "7ca3a466e7601afff892851537362a00b05e747d",
+   "date": "2026-09-25T21:59:29+01:00",
+   "subject": "atk: register one-inhabitant scientific external fast path"
+  },
+  {
+   "commit": "669f282d2d095340ebedb4ec8fb0cf05bf4fa307",
+   "date": "2026-09-25T21:59:26+01:00",
+   "subject": "atk: audit one-inhabitant external fast path"
+  },
+  {
+   "commit": "d6d238f53554fc2ba8ddbeffdc46235ece0d2d42",
+   "date": "2026-09-25T21:59:15+01:00",
+   "subject": "atk: collapse remaining Hodge fast path to one concrete inhabitant"
+  },
+  {
+   "commit": "8b7ad1b2b9e45a445abef56bc2b51f1e25369b90",
+   "date": "2026-09-25T21:57:45+01:00",
+   "subject": "atk: include route-freeze manifest in consolidated artifact"
+  },
+  {
+   "commit": "dec2bfd39a3cca85818b8440417783b5ee97033f",
+   "date": "2026-09-25T21:57:38+01:00",
+   "subject": "atk: record single automatic no-loop route"
+  },
+  {
+   "commit": "2a7b3d39fe0583720c1e9908119b5bcaecc659d1",
+   "date": "2026-09-25T21:57:17+01:00",
+   "subject": "atk: preserve hodge-claim-test.yml as manual fallback only"
+  },
+  {
+   "commit": "8bc01c918ad33a6ef45a4d7870bd4cc6fe389d7b",
+   "date": "2026-09-25T21:57:14+01:00",
+   "subject": "atk: preserve certificate.yml as manual fallback only"
+  },
+  {
+   "commit": "40da639a1c73c0a8f1ea7d9f7cdd71c00c732937",
+   "date": "2026-09-25T21:56:32+01:00",
+   "subject": "atk: freeze nonproductive routes without deleting files"
+  },
+  {
+   "commit": "a3b8c95759c5651de61a20ae8686ed3cb54c5c30",
+   "date": "2026-09-25T21:56:20+01:00",
+   "subject": "atk: eliminate duplicate claim-test loops"
+  },
+  {
+   "commit": "9a14cc401a39b4688a36c3a2e693ed2f0e6bbcaf",
+   "date": "2026-09-25T21:56:11+01:00",
+   "subject": "atk: route certificate CI through canonical fast path"
+  },
+  {
+   "commit": "78fb5be8bad22f748aaf27505decc52e5960fc83",
+   "date": "2026-09-25T21:49:06+01:00",
+   "subject": "atk: record accelerated external-certificate fast path"
+  },
+  {
+   "commit": "d8ec08f2f0a2afafdaa44187d606f939a2f2ad5d",
+   "date": "2026-09-25T21:48:21+01:00",
+   "subject": "atk: audit one-shot external route in consolidated workflow"
+  },
+  {
+   "commit": "f8431dd0e19f165cfde05a5f8c7adab09b463ed4",
+   "date": "2026-09-25T21:48:18+01:00",
+   "subject": "atk: include fast external route in MCore build"
+  },
+  {
+   "commit": "1250bcb7f41755e734a675150d8270bfad7940e9",
+   "date": "2026-09-25T21:48:09+01:00",
+   "subject": "atk: add one-shot concrete refutation to external route"
+  },
+  {
+   "commit": "50e64b970055b2a0e3a3f3a9671f36a68db123f0",
+   "date": "2026-09-25T21:47:24+01:00",
+   "subject": "ci: deduplicate claim-test under atk all-claims router"
+  },
+  {
+   "commit": "f479a5d94c30ed8bb57671753fee3a0861f20561",
+   "date": "2026-09-25T21:47:09+01:00",
+   "subject": "ci: cancel obsolete certificate runs for faster ATK"
+  },
+  {
+   "commit": "6a877c7573f32be9e02c5be8863bd565606c51bb",
+   "date": "2026-09-25T21:46:30+01:00",
+   "subject": "atk: consolidate all claims into one accelerated workflow"
+  },
+  {
+   "commit": "a51c59858d4c88daeacd28b935702065ab681777",
+   "date": "2026-09-25T21:46:09+01:00",
+   "subject": "atk: add fail-closed all-claims router"
+  },
+  {
+   "commit": "bfb1e3308e418a321c7e4aedbd3f81d60ef8ae0c",
+   "date": "2026-09-25T21:45:42+01:00",
+   "subject": "atk: add canonical all-claims registry"
+  },
+  {
+   "commit": "7e5a67d6cde808d2662ab61e1d3c4ea5656d7d9c",
+   "date": "2026-09-25T21:35:56+01:00",
+   "subject": "audit: freeze absence of concrete p>1 Hodge candidate in corpus"
+  },
+  {
+   "commit": "3000e9e64bc37db5c03dfae4c7ada2bf333419cc",
+   "date": "2026-09-25T21:35:22+01:00",
+   "subject": "ci: align certificate with p>1 inhabitation gate"
+  },
+  {
+   "commit": "96c8925b1495f502643a3435d02190412df54cab",
+   "date": "2026-09-25T21:30:16+01:00",
+   "subject": "audit: exclude codimension-one and abstract countermodels from Hodge refutation"
+  },
+  {
+   "commit": "0655b7f6f3cedeb9ab7486b9744424a60da17226",
+   "date": "2026-09-25T21:28:48+01:00",
+   "subject": "ci: align certificate with concrete inhabitation gate"
+  },
+  {
+   "commit": "8dbbff9c4bc2c16e03d122649998537a1e97ab17",
+   "date": "2026-09-25T21:28:39+01:00",
+   "subject": "audit: fail-close uninhabited Hodge scientific interfaces"
+  },
+  {
+   "commit": "d861039daf0221a76dda1e6b02f4268387e28982",
+   "date": "2026-09-25T21:26:06+01:00",
+   "subject": "audit: freeze advanced Hodge branches as non-producers"
+  },
+  {
+   "commit": "ef9b2cc4ee7f5489b409c5c224554d8fe42f1957",
+   "date": "2026-09-25T21:18:34+01:00",
+   "subject": "cert: freeze complete-plus-separator checkpoint"
+  },
+  {
+   "commit": "2e8035fe2302f9c557d9ec5fdf21c30787b5516b",
+   "date": "2026-09-25T21:06:52+01:00",
+   "subject": "ci: align ledger with complete plus finite separator gate"
+  },
+  {
+   "commit": "232a81f82eeec79c1b3ea070ed77b5bc307c1233",
+   "date": "2026-09-25T20:41:18+01:00",
+   "subject": "cert: freeze finite-witness separator interface"
+  },
+  {
+   "commit": "4d5b1bba70fe396085a6ae6398bc681ad5c0a5ef",
+   "date": "2026-09-25T20:29:07+01:00",
+   "subject": "hodge: reduce separation to explicit finite-witness invariant"
+  },
+  {
+   "commit": "2b656839cdbd60cf14ca5ca4f128de0291a3e399",
+   "date": "2026-09-25T20:29:04+01:00",
+   "subject": "cert: freeze finite-span completeness adapter interface"
+  },
+  {
+   "commit": "820563b699d7b0e64607f9040e37a27ac47c5537",
+   "date": "2026-09-25T20:26:57+01:00",
+   "subject": "hodge: isolate exact finite-span completeness adapter"
+  },
+  {
+   "commit": "0c1fb9bf7d1c77c8951f4ee4fae1932d0062655a",
+   "date": "2026-09-25T20:26:16+01:00",
+   "subject": "ci: reduce finite-span gate after eval sound certification"
+  },
+  {
+   "commit": "4290315323a1b9f8c6855d96be98949c894beeed",
+   "date": "2026-09-25T20:16:20+01:00",
+   "subject": "cert: freeze finite span eval and soundness; isolate completeness"
+  },
+  {
+   "commit": "b968d100a2b726d2d53430f0f8a75b8189ec05ce",
+   "date": "2026-09-25T20:11:18+01:00",
+   "subject": "hodge: implement finite span eval and prove soundness"
+  },
+  {
+   "commit": "844bfa422b93806ead72749d65ca07acb2fa84a6",
+   "date": "2026-09-25T20:06:45+01:00",
+   "subject": "hodge: isolate rational cohomology operations required by eval"
+  },
+  {
+   "commit": "d83d66be59c26bfc023e669182fea2332165e209",
+   "date": "2026-09-25T20:06:23+01:00",
+   "subject": "cert: freeze finite span semantic core interface"
+  },
+  {
+   "commit": "7fb37dc7e70029fff91f385ddc33099391ff8c74",
+   "date": "2026-09-25T19:52:23+01:00",
+   "subject": "hodge: isolate finite span semantic core"
+  },
+  {
+   "commit": "ebb353043d13b6e9f594e8df3d621851bc2b68a2",
+   "date": "2026-09-25T19:52:20+01:00",
+   "subject": "ci: align ledger with finite-span and separator gate"
+  },
+  {
+   "commit": "8a4c96de8e57942421ba9fd7cce97af5dcac15a6",
+   "date": "2026-09-25T19:51:16+01:00",
+   "subject": "cert: freeze finite cycle-span syntax and split semantic subgates"
+  },
+  {
+   "commit": "7392823798be92801f4a8fb361b7b59adad74d8f",
+   "date": "2026-09-25T19:44:12+01:00",
+   "subject": "hodge: concretize span witness as finite rational cycle syntax"
+  },
+  {
+   "commit": "ee6a733e3f373f648f78ff374cf0455356899c15",
+   "date": "2026-09-25T19:43:49+01:00",
+   "subject": "ci: align ledger with concrete span separation gate"
+  },
+  {
+   "commit": "5d2f1f180db77a1e901dc2f591c8589daa7f3db4",
+   "date": "2026-09-25T19:40:55+01:00",
+   "subject": "cert: freeze concrete span separation interface"
+  },
+  {
+   "commit": "dca48a9ecaa3043c4127c6a297edfeb4bce9f35f",
+   "date": "2026-09-25T19:39:51+01:00",
+   "subject": "hodge: add concrete span separation model for genuine notAlgebraic route"
+  },
+  {
+   "commit": "16ac2d292b0acf4cd636b7f53639f725bab09d7a",
+   "date": "2026-09-25T19:24:29+01:00",
+   "subject": "cert: freeze anti-circularity audit at irreducible algebraicity cut"
+  },
+  {
+   "commit": "1c3a9c5b9e3e2851a24cb600155fd42dff671059",
+   "date": "2026-09-25T19:18:42+01:00",
+   "subject": "ci: align ledger with irreducible notAlgebraic gate"
+  },
+  {
+   "commit": "37f0aa0d48e1c2f45df2a1287d08408f1783534d",
+   "date": "2026-09-25T19:17:51+01:00",
+   "subject": "fix: mark classical separator constructor noncomputable"
+  },
+  {
+   "commit": "8a48b6838390d88a9d2290811e3f44b261524c51",
+   "date": "2026-09-25T19:17:06+01:00",
+   "subject": "fix: define separator constructor as data not theorem"
+  },
+  {
+   "commit": "a3ef6c6c709e18d9fa5c28db9fc37e00db535dde",
+   "date": "2026-09-25T19:06:30+01:00",
+   "subject": "audit: record terminal algebraicity cut convergence"
+  },
+  {
+   "commit": "2e6cb2e7ced95d9df182735588dd10d1d9ce7900",
+   "date": "2026-09-25T19:06:27+01:00",
+   "subject": "ci: audit separator anti-circularity equivalence"
+  },
+  {
+   "commit": "1b91d2e6287b42a3391f9186d0e5af63c777208f",
+   "date": "2026-09-25T19:06:25+01:00",
+   "subject": "audit: prove separator gate equivalent to notAlgebraic"
+  },
+  {
+   "commit": "4a80a041ddac062f12c5342a71b907453a4db962",
+   "date": "2026-09-25T19:05:09+01:00",
+   "subject": "ci: align assertions with separator witness gate"
+  },
+  {
+   "commit": "259ce7b0f420723effafd226993c374501b1d5d8",
+   "date": "2026-09-25T19:00:36+01:00",
+   "subject": "cert: freeze separator criterion and isolate witness fields"
+  },
+  {
+   "commit": "21b585b76e175d1ada795f1038f32426ad25c1da",
+   "date": "2026-09-25T18:57:42+01:00",
+   "subject": "ci: audit Hodge separating-invariant criterion"
+  },
+  {
+   "commit": "99c22f8865db55d76061c9249cb41f98b3d0c798",
+   "date": "2026-09-25T18:57:39+01:00",
+   "subject": "hodge: reduce notAlgebraic to explicit separating invariant"
+  },
+  {
+   "commit": "51f0c2a764fd604c1e69dbe09185a72cab07fc60",
+   "date": "2026-09-25T18:56:50+01:00",
+   "subject": "ci: align assertions with exact notAlgebraic gate"
+  },
+  {
+   "commit": "cfa7c2400c5de1912e950bd4ad4dd60d22bf1782",
+   "date": "2026-09-25T18:44:41+01:00",
+   "subject": "cert: freeze separation interface; isolate notAlgebraic theorem"
+  },
+  {
+   "commit": "a73739b7ccb9f93c35f47ba7aafdab7383b824dc",
+   "date": "2026-09-25T18:41:27+01:00",
+   "subject": "ci: audit exact Hodge separation gate"
+  },
+  {
+   "commit": "602a4895fefd1627854330124610455b155a8203",
+   "date": "2026-09-25T18:41:23+01:00",
+   "subject": "fix: order separation core adapter after payload type"
+  },
+  {
+   "commit": "fd6015c6cd4680bbb74d968caf0344972dc6b77e",
+   "date": "2026-09-25T18:41:04+01:00",
+   "subject": "hodge: isolate exact separation theorem"
+  },
+  {
+   "commit": "7e4ed4244310236d23dd7ec3e54e848e960483f8",
+   "date": "2026-09-25T18:40:50+01:00",
+   "subject": "cert: freeze Hodge class core interface; isolate separation"
+  },
+  {
+   "commit": "af3eb7be30ece91c56d7752c9e0404295129ae96",
+   "date": "2026-09-25T18:40:47+01:00",
+   "subject": "ci: align assertions after geometry-core freeze"
+  },
+  {
+   "commit": "89ffa12168bbd943f4c2a87ebc7fadfefd581240",
+   "date": "2026-09-25T18:38:57+01:00",
+   "subject": "hodge: isolate minimal class core after geometry"
+  },
+  {
+   "commit": "cf09da11388b82c415a5df9f829f92f2e5b9c22b",
+   "date": "2026-09-25T18:38:54+01:00",
+   "subject": "cert: freeze Hodge geometry core and advance frontier"
+  },
+  {
+   "commit": "30bb9610f6367a8b6d4fc389f06aed7ba00daf8a",
+   "date": "2026-09-25T18:36:18+01:00",
+   "subject": "fix: repair geometry core syntax and explicit transition"
+  },
+  {
+   "commit": "56ea2afbbd9f2e544f9381f12cc22e3105611e3f",
+   "date": "2026-09-25T18:34:44+01:00",
+   "subject": "hodge: isolate minimal geometry core for prize surgery"
+  },
+  {
+   "commit": "dbd7d5ce5b2e2e0c0f8e9f66a49116bb48299cdb",
+   "date": "2026-09-25T18:34:40+01:00",
+   "subject": "ci: align assertions with frozen three-payload Hodge gate"
+  },
+  {
+   "commit": "6efde6fc887350810d19f980726dd69a7d587277",
+   "date": "2026-09-25T18:33:17+01:00",
+   "subject": "cert: freeze noncircular three-payload Hodge frontier"
+  },
+  {
+   "commit": "1a06c0e6754d103371587bfaaf06aca2016afac2",
+   "date": "2026-09-25T18:28:25+01:00",
+   "subject": "ci: audit noncircular refutation payload promotion"
+  },
+  {
+   "commit": "6a8a397ea28d09ee4e6bcd027ef99566ef0ecfdd",
+   "date": "2026-09-25T18:28:22+01:00",
+   "subject": "fix: promote prize payloads to terminal lane without cycle"
+  },
+  {
+   "commit": "a4751868de860fcb7d9aed985b3bfe1658214b08",
+   "date": "2026-09-25T18:28:18+01:00",
+   "subject": "fix: keep prize decomposition independent of terminal lane"
+  },
+  {
+   "commit": "4fb8170f91faffd851861df635d5467dc2724a5a",
+   "date": "2026-09-25T18:26:56+01:00",
+   "subject": "ci: audit decomposed Hodge refutation payloads"
+  },
+  {
+   "commit": "fc1abfb01e81429278633590e14313c76fdf4acf",
+   "date": "2026-09-25T18:26:53+01:00",
+   "subject": "hodge: wire prize payload decomposition"
+  },
+  {
+   "commit": "20945d9dd5e6faebe7f40ed9d91f26d9430ce7c2",
+   "date": "2026-09-25T18:26:42+01:00",
+   "subject": "hodge: decompose refutation gate into geometry class separation payloads"
+  },
+  {
+   "commit": "e3e96b873c113028c33ba9df31ec7ebcbfb444de",
+   "date": "2026-09-25T18:26:07+01:00",
+   "subject": "fix: order hardened terminal payload declarations"
+  },
+  {
+   "commit": "18ea9d7819699f0b255a33940d14443f1fe2fc7a",
+   "date": "2026-09-25T18:24:52+01:00",
+   "subject": "ci: audit hardened terminal scientific gate"
+  },
+  {
+   "commit": "93cb44749b1f5ff57544c7e4cb9b05cdff1d71e2",
+   "date": "2026-09-25T18:24:32+01:00",
+   "subject": "cert: harden Hodge gate against excluded-middle shortcut"
+  },
+  {
+   "commit": "df124ea618bb5130617c308cfc2976e4ab64436d",
+   "date": "2026-09-25T18:24:24+01:00",
+   "subject": "hodge: harden open gate to explicit terminal scientific payload"
+  },
+  {
+   "commit": "b6c98f31b4918376b380116bc745f6a1157853f6",
+   "date": "2026-09-25T18:22:30+01:00",
+   "subject": "ci: align assertions with minimal scientific payload gate"
+  },
+  {
+   "commit": "d68e4d1ef12293acee69f1e796386b6f282ca34c",
+   "date": "2026-09-25T18:20:48+01:00",
+   "subject": "cert: pin minimal scientific payload as sole open gate"
+  },
+  {
+   "commit": "96de6b2b16da5cfd66dab277667acb8bdfe1d4eb",
+   "date": "2026-09-25T18:17:08+01:00",
+   "subject": "ci: audit minimal Hodge scientific payload"
+  },
+  {
+   "commit": "769f082027234454a66bc028b78d344502ce4154",
+   "date": "2026-09-25T18:17:02+01:00",
+   "subject": "hodge: reduce final-fail to minimal scientific payload"
+  },
+  {
+   "commit": "729368478c06bcdf6bae95d4e3176c61d0707432",
+   "date": "2026-09-25T18:14:10+01:00",
+   "subject": "ci: align frozen ledger assertions with HodgeFinalFail gate"
+  },
+  {
+   "commit": "6bfdfb918cc9daf7a152ce84da4bb00d280270d5",
+   "date": "2026-09-25T18:12:12+01:00",
+   "subject": "cert: freeze final-proof wiring; isolate HodgeFinalFail"
+  },
+  {
+   "commit": "e0fca4f1326b86382e1b4b3021c57e831e5d3f18",
+   "date": "2026-09-25T18:06:24+01:00",
+   "subject": "ci: audit scientific final proof chain"
+  },
+  {
+   "commit": "6332858329bedeae0f76492222855596b38a4356",
+   "date": "2026-09-25T18:06:22+01:00",
+   "subject": "hodge: register conditional final-proof artifact chain"
+  },
+  {
+   "commit": "59d53d586fd45445d7f55260cc730289313e8703",
+   "date": "2026-09-25T18:06:09+01:00",
+   "subject": "hodge: complete conditional scientific final proof and external certificate"
+  },
+  {
+   "commit": "f934a03df733aef255377291dda00582a0693b9f",
+   "date": "2026-09-25T17:55:12+01:00",
+   "subject": "ci: fail closed on claim harness audit errors"
+  },
+  {
+   "commit": "413706dc4910d4c64ce03ec196333171d248fcd9",
+   "date": "2026-09-25T17:55:10+01:00",
+   "subject": "fix: wire Hodge claim harness into MCore"
+  },
+  {
+   "commit": "5aaf3ece14b23cb3053fe819bf641724c563bebe",
+   "date": "2026-09-25T17:54:13+01:00",
+   "subject": "test: start fail-closed Hodge claim harness"
+  },
+  {
+   "commit": "6eeffd0b7d43011c0ac0dd7e3eda000c7da3e0f6",
+   "date": "2026-09-25T17:45:16+01:00",
+   "subject": "ci: certify current both-false scientific boundary"
+  },
+  {
+   "commit": "a3b55594c19b421c1f0036f7a9378a5fa04a41ee",
+   "date": "2026-09-25T17:45:09+01:00",
+   "subject": "hodge: pin current four-way state as both-false open math"
+  },
+  {
+   "commit": "72201648b6ee5f37f5ac1b2e88a0f4c622761184",
+   "date": "2026-09-25T17:36:55+01:00",
+   "subject": "ci: audit explicit four-way Hodge state"
+  },
+  {
+   "commit": "e871c9d117cb0f45ae18fad395a8be3c81e93967",
+   "date": "2026-09-25T17:36:48+01:00",
+   "subject": "hodge: record explicit four-way open-math semantics"
+  },
+  {
+   "commit": "c7ed4ad682a25b5713f6cd28981c319a18889d40",
+   "date": "2026-09-25T17:36:40+01:00",
+   "subject": "hodge: make four-way lane state explicit"
+  },
+  {
+   "commit": "76b219ce1139349196e5710026676fee8b2ac037",
+   "date": "2026-09-25T17:33:36+01:00",
+   "subject": "ci: audit bilateral Hodge final-fail certificate"
+  },
+  {
+   "commit": "c8a071e891721ba5a5ed99dd99d87ccb85a867c8",
+   "date": "2026-09-25T17:33:34+01:00",
+   "subject": "hodge: register bilateral lane closure package"
+  },
+  {
+   "commit": "14beb14455e3770bb04077a9e1f8577924fceb96",
+   "date": "2026-09-25T17:33:18+01:00",
+   "subject": "hodge: close both lanes around shared frontier"
+  },
+  {
+   "commit": "fead21a7745732a9980f803aaa8c7eeaecb27df6",
+   "date": "2026-09-25T17:30:49+01:00",
+   "subject": "fix: express refutation-lane exclusion as noninhabitation"
+  },
+  {
+   "commit": "8b3cd5bc8abcb1fe66d61829b306638f8d9a1ce1",
+   "date": "2026-09-25T16:35:30+01:00",
+   "subject": "hodge: register dual-lane final-fail readiness"
+  },
+  {
+   "commit": "493b8cf428acd29dfcf93b978a0f8d72ede21d78",
+   "date": "2026-09-25T16:35:21+01:00",
+   "subject": "hodge: wire dual-lane final-fail architecture"
+  },
+  {
+   "commit": "c80629acb66bf1cabccc3f9c48343c1429b639b6",
+   "date": "2026-09-25T16:35:13+01:00",
+   "subject": "hodge: add dual proof/refutation lanes and final-fail frontier"
+  },
+  {
+   "commit": "13f6ff6db7db522a860b8dd178a7a45bfcb32277",
+   "date": "2026-09-25T15:51:05+01:00",
+   "subject": "cert: externalize GREEN Hodge prize lane 2 candidate"
+  },
+  {
+   "commit": "fde7cf5d133fd1b0ecf20d648dc6934c5c0658cd",
+   "date": "2026-09-25T15:22:00+01:00",
+   "subject": "fix: rewrite dense prize lane cleanly"
+  },
+  {
+   "commit": "8624dd37a82e84ae9a678b636377be0d3adcf822",
+   "date": "2026-09-25T15:20:15+01:00",
+   "subject": "ci: certify single dense prize open-math gate"
+  },
+  {
+   "commit": "e08238e9f251cd51e6058112aff5acb5bd5b0525",
+   "date": "2026-09-25T15:20:12+01:00",
+   "subject": "hodge: compress prize ledger to one open-math gate"
+  },
+  {
+   "commit": "909e5125bb7729a471ada5fc39b1529e0c270742",
+   "date": "2026-09-25T15:20:02+01:00",
+   "subject": "hodge: compress prize lane to one open-math construction"
+  },
+  {
+   "commit": "7f452e888dbffbf75a5eebaae4ce91b50f30d4fd",
+   "date": "2026-09-25T15:14:19+01:00",
+   "subject": "fix: make prize external constructors definitions"
+  },
+  {
+   "commit": "18f3b34c3c14a99b490a336a9035498d3c68485c",
+   "date": "2026-09-25T15:14:16+01:00",
+   "subject": "fix: make structural data constructors definitions"
+  },
+  {
+   "commit": "1e476ad3c4b84320df92544cd68f470868b8cf62",
+   "date": "2026-09-25T15:12:08+01:00",
+   "subject": "hodge: register consolidated prize claim chain"
+  },
+  {
+   "commit": "fd649bb8c003d90583a2bf6d7f94af6fe263fbb8",
+   "date": "2026-09-25T15:12:00+01:00",
+   "subject": "hodge: consolidate all certified anchors into prize claim"
+  },
+  {
+   "commit": "17637c2ed7a1e17288d17964df1191b491c3c21c",
+   "date": "2026-09-25T14:56:33+01:00",
+   "subject": "fix: make HodgePrizeSurgeryLane2.lean data-carrying structures Type-valued"
+  },
+  {
+   "commit": "e700437830395313faee683081c2e6b1be8bd2d1",
+   "date": "2026-09-25T14:56:30+01:00",
+   "subject": "fix: make HodgeCriticalClosure.lean data-carrying structures Type-valued"
+  },
+  {
+   "commit": "4be5782d6b92b2c2836ef5f631288945bfd10809",
+   "date": "2026-09-25T14:27:50+01:00",
+   "subject": "ci: audit fail-closed Hodge prize surgery lane 2"
+  },
+  {
+   "commit": "e2418716b23b1e7035c25c6d0f7d064d68cb762c",
+   "date": "2026-09-25T14:27:37+01:00",
+   "subject": "hodge: wire prize surgery lane 2"
+  },
+  {
+   "commit": "82915a2627a829b183fd3a2abcf1ae7b2c6a9ffe",
+   "date": "2026-09-25T14:27:29+01:00",
+   "subject": "hodge: open prize-grade surgery lane 2"
+  },
+  {
+   "commit": "e1ef0f53bc80c5593ef96b21f5ad58160391a4a6",
+   "date": "2026-09-25T14:16:30+01:00",
+   "subject": "ci: certify structural Hodge critical-closure claim"
+  },
+  {
+   "commit": "87b0c86a90034946bccbfd3b6ba7fbdae907710a",
+   "date": "2026-09-25T14:16:12+01:00",
+   "subject": "hodge: wire structural final certificate"
+  },
+  {
+   "commit": "48c04286131361f5dfb0f95abdde9a66086dd5bf",
+   "date": "2026-09-25T14:16:04+01:00",
+   "subject": "hodge: close structural critical-balance claim to external certificate"
+  },
+  {
+   "commit": "e99f382e25d9ee07f835e37f3debc727803d5b83",
+   "date": "2026-09-25T14:10:21+01:00",
+   "subject": "hodge: wire critical closure layer"
+  },
+  {
+   "commit": "886966a26942df9ef1e40e85a23294eb7b3660ae",
+   "date": "2026-09-25T14:10:14+01:00",
+   "subject": "hodge: add critical 0/1 to 0/0 closure state"
+  },
+  {
+   "commit": "227ba0ce58c010640ab9a10cb103ed680ff1afbb",
+   "date": "2026-09-25T12:52:20+01:00",
+   "subject": "ci: rewrite Hodge certificate workflow cleanly"
+  },
+  {
+   "commit": "b9926c34a5d34d03998cf8c14c39d6b75aa1a0eb",
+   "date": "2026-09-25T12:52:02+01:00",
+   "subject": "ci: harden Hodge axiom audit parser"
+  },
+  {
+   "commit": "55f838020a110d7b6ae39cdb24fcf39052be63c6",
+   "date": "2026-09-25T12:51:40+01:00",
+   "subject": "ci: allow standard classical axioms in Hodge audit"
+  },
+  {
+   "commit": "82f8935aff60dd16c34902b9b128516af0f2027a",
+   "date": "2026-09-25T12:48:25+01:00",
+   "subject": "fix: represent Hodge claim closure state with booleans"
+  },
+  {
+   "commit": "7f26518fc815d449852ed99c3872bcf97d796a4a",
+   "date": "2026-09-25T12:46:17+01:00",
+   "subject": "fix: explicit classical contradiction in Hodge reduction"
+  },
+  {
+   "commit": "47005992e2f415010013e29c9f07795383d2253d",
+   "date": "2026-09-25T12:43:20+01:00",
+   "subject": "hodge: wire contraction-repulsion claim dynamics"
+  },
+  {
+   "commit": "6d41c9fc2dbc36b9eb30906630ed9f2926efe008",
+   "date": "2026-09-25T12:43:14+01:00",
+   "subject": "hodge: formalize truth-falsehood contraction/repulsion dynamics"
+  },
+  {
+   "commit": "efd94af7e34945f42ac9db06e4b069beea2d7f24",
+   "date": "2026-09-25T11:06:42+01:00",
+   "subject": "hodge: wire FINAL_FAIL surgery into MCore"
+  },
+  {
+   "commit": "a5d0442be8ed5b0961b02733b73609cbd6fd2df9",
+   "date": "2026-09-25T11:06:33+01:00",
+   "subject": "hodge: add fail-closed FINAL_FAIL to Clay counterexample surgery"
+  },
+  {
+   "commit": "e5ed24192c78a91847c4dd233ef82a473a73b8e0",
+   "date": "2026-09-25T11:03:17+01:00",
+   "subject": "ci: validate Clay Hodge logic refutation claim"
+  },
+  {
+   "commit": "f9383aeab8bf498bc164f3564371194a7527d54d",
+   "date": "2026-09-25T11:03:02+01:00",
+   "subject": "claim: target refutation of official Clay Hodge logic"
+  },
+  {
+   "commit": "7f4f735a303fd4b0fd12aa99f56df66c916f0cab",
+   "date": "2026-09-25T10:56:26+01:00",
+   "subject": "ci: validate single Hodge OPEN_MATH claim gate"
+  },
+  {
+   "commit": "4bb94c2598b7b43373a28d8bf5de7bab47e003d8",
+   "date": "2026-09-25T10:55:42+01:00",
+   "subject": "claim: establish single Hodge resolution OPEN_MATH gate"
+  },
+  {
+   "commit": "01cfdfc3e36aa5d0b719675e8deb514af9e95107",
+   "date": "2026-09-25T08:39:56+01:00",
+   "subject": "ci: validate empty Hodge scaffold"
+  },
+  {
+   "commit": "fabcc2fa73bece8a492507b8f1d012efa76e1c1e",
+   "date": "2026-09-25T08:39:44+01:00",
+   "subject": "reset Hodge to empty scaffold through FINAL_ROOT and FINAL_PROOF"
+  },
+  {
+   "commit": "07a508bf627a756393a4ed22cb40e793672e0162",
+   "date": "2026-09-25T08:33:36+01:00",
+   "subject": "open-math: register Hodge certificate chain ledger"
+  },
+  {
+   "commit": "2aa62815d8ddae0cd6c48d631b3df00f1e8b02b0",
+   "date": "2026-09-25T08:33:21+01:00",
+   "subject": "open-math: wire Hodge final certificate chain into MCore"
+  },
+  {
+   "commit": "f39934edcc84cdb6a7eebacb5cae79c0cb1972bd",
+   "date": "2026-09-25T08:33:13+01:00",
+   "subject": "open-math: add fail-closed Hodge final certificate chain"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.assembled_prize_yields_counterexample",
+   "file": "lean/MCore/OpenMath/HodgePrizePayloadDecomposition.lean",
+   "line": 433,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} (G : MCore.HodgePrizeGeometryPayload D) (C : MCore.HodgePrizeClassPayload D G),   MCore.HodgePrizeSeparationPayload D G C → MCore.ClayHodgeCounterexample D"
+  },
+  {
+   "name": "MCore.both_false_is_open_math",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 170,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.HodgeFourWayState.bothFalse.isOpenMath = true"
+  },
+  {
+   "name": "MCore.both_true_impossible",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 164,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgeProofLane D → MCore.HodgeRefutationLane D → False"
+  },
+  {
+   "name": "MCore.canonicalCriticalBalance",
+   "file": "lean/MCore/OpenMath/HodgeStructuralFinalCertificate.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.CriticalBalance MCore.canonicalCriticalForces"
+  },
+  {
+   "name": "MCore.certify_clay_logic_refutation",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HODGE_RESOLUTION_OPEN_MATH D → MCore.ClayLogicRefutationCertificate D"
+  },
+  {
+   "name": "MCore.claim_test_no_simultaneous_survivors",
+   "file": "lean/MCore/OpenMath/HodgeClaimHarness.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgeProofLane D → MCore.HodgeRefutationLane D → False"
+  },
+  {
+   "name": "MCore.classify_contradiction",
+   "file": "lean/MCore/OpenMath/HodgeClaimHarness.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.classifyClaimTest true true = MCore.HodgeClaimTestState.contradiction"
+  },
+  {
+   "name": "MCore.classify_neither",
+   "file": "lean/MCore/OpenMath/HodgeClaimHarness.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.classifyClaimTest false false = MCore.HodgeClaimTestState.neither"
+  },
+  {
+   "name": "MCore.classify_proof_only",
+   "file": "lean/MCore/OpenMath/HodgeClaimHarness.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.classifyClaimTest true false = MCore.HodgeClaimTestState.proofOnly"
+  },
+  {
+   "name": "MCore.classify_refutation_only",
+   "file": "lean/MCore/OpenMath/HodgeClaimHarness.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.classifyClaimTest false true = MCore.HodgeClaimTestState.refutationOnly"
+  },
+  {
+   "name": "MCore.clay_logic_refutation_implies_not_statement",
+   "file": "lean/MCore/HodgeReduction.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.ClayLogicRefutationClaim D → ¬MCore.ClayHodgeStatement D"
+  },
+  {
+   "name": "MCore.clay_refutation_exact",
+   "file": "lean/MCore/HodgeReduction.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, ¬MCore.ClayHodgeStatement D ↔ MCore.ClayHodgeCounterexample D"
+  },
+  {
+   "name": "MCore.clay_refutation_to_final_root",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HODGE_RESOLUTION_OPEN_MATH D → MCore.HodgeFinalRoot D"
+  },
+  {
+   "name": "MCore.concreteBundleExternalOutcomeRefuted",
+   "file": "lean/MCore/OpenMath/HodgeFastExternalRoute.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} (B : MCore.HodgeConcreteRefutationBundle D),   (MCore.concreteBundleScientificExternal B).outcome = MCore.HodgeScientificOutcome.refuted"
+  },
+  {
+   "name": "MCore.concreteBundleExternalRejectsBothFalse",
+   "file": "lean/MCore/OpenMath/HodgeFastExternalRoute.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} (B : MCore.HodgeConcreteRefutationBundle D),   (MCore.concreteBundleScientificExternal B).bothFalseRejected = true"
+  },
+  {
+   "name": "MCore.concreteFiniteSpan_implies_abstract",
+   "file": "lean/MCore/OpenMath/HodgePrizePayloadDecomposition.lean",
+   "line": 224,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} {G : MCore.HodgePrizeGeometryCore D} {C : MCore.HodgePrizeClassCore D G}   (O : MCore.HodgeRationalCohomologyOperations D G C) {α : D.Cohomology G.Xsurgery (2 * C.p)},   MCore.HodgeConcreteFiniteSpanAt O α → D.isRationalLinearCombinationOfCycleClasses α"
+  },
+  {
+   "name": "MCore.concreteInputExternalOutcomeRefuted",
+   "file": "lean/MCore/OpenMath/HodgeFastExternalRoute.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (I : MCore.HodgeConcreteExternalInput),   (MCore.concreteInputScientificExternal I).outcome = MCore.HodgeScientificOutcome.refuted"
+  },
+  {
+   "name": "MCore.concrete_span_model_proves_notAlgebraic",
+   "file": "lean/MCore/OpenMath/HodgePrizePayloadDecomposition.lean",
+   "line": 352,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} {G : MCore.HodgePrizeGeometryCore D} {C : MCore.HodgePrizeClassCore D G},   MCore.HodgeConcreteSpanSeparationModel D G C → ¬D.isRationalLinearCombinationOfCycleClasses C.h"
+  },
+  {
+   "name": "MCore.critical_state_to_final_root",
+   "file": "lean/MCore/OpenMath/HodgeCriticalClosure.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.CriticalStateToClayCounterexample D → MCore.HodgeFinalRoot D"
+  },
+  {
+   "name": "MCore.critical_state_to_open_math",
+   "file": "lean/MCore/OpenMath/HodgeCriticalClosure.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.CriticalStateToClayCounterexample D → MCore.HODGE_RESOLUTION_OPEN_MATH D"
+  },
+  {
+   "name": "MCore.falsehood_closure_to_final_root",
+   "file": "lean/MCore/OpenMath/HodgeClaimDynamics.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.FalsehoodContraction D → MCore.HodgeFinalRoot D"
+  },
+  {
+   "name": "MCore.falsehood_closure_to_open_math",
+   "file": "lean/MCore/OpenMath/HodgeClaimDynamics.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.FalsehoodContraction D → MCore.HODGE_RESOLUTION_OPEN_MATH D"
+  },
+  {
+   "name": "MCore.final_fail_proof_excludes_refutation",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 125,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgeProofLane D → ¬Nonempty (MCore.HodgeRefutationLane D)"
+  },
+  {
+   "name": "MCore.final_fail_refutation_excludes_proof",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 131,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgeRefutationLane D → ¬MCore.HodgeProofLane D"
+  },
+  {
+   "name": "MCore.final_proof_to_external",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgeFinalProof D → MCore.HodgeExternalCertificate D"
+  },
+  {
+   "name": "MCore.final_root_to_final_proof",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgeFinalRoot D → MCore.HodgeFinalProof D"
+  },
+  {
+   "name": "MCore.finiteSpanEval_sound",
+   "file": "lean/MCore/OpenMath/HodgePrizePayloadDecomposition.lean",
+   "line": 197,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} {G : MCore.HodgePrizeGeometryCore D} {C : MCore.HodgePrizeClassCore D G}   (O : MCore.HodgeRationalCohomologyOperations D G C) (terms : List (MCore.HodgeCycleSpanTerm D G C)),   D.isRationalLinearCombinationOfCycleClasses (MCore.finiteSpanEval O terms)"
+  },
+  {
+   "name": "MCore.finiteSpan_iff_abstract_given_complete",
+   "file": "lean/MCore/OpenMath/HodgePrizePayloadDecomposition.lean",
+   "line": 246,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} {G : MCore.HodgePrizeGeometryCore D} {C : MCore.HodgePrizeClassCore D G}   (O : MCore.HodgeRationalCohomologyOperations D G C),   MCore.HodgeFiniteSpanCompleteness O →     ∀ (α : D.Cohomology G.Xsurgery (2 * C.p)),       D.isRationalLinearCombinationOfCycleClasses α ↔ MCore.HodgeConcreteFiniteSpanAt O α"
+  },
+  {
+   "name": "MCore.finiteWitnessSeparator_proves_notAlgebraic",
+   "file": "lean/MCore/OpenMath/HodgePrizePayloadDecomposition.lean",
+   "line": 272,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} {G : MCore.HodgePrizeGeometryCore D} {C : MCore.HodgePrizeClassCore D G}   (O : MCore.HodgeRationalCohomologyOperations D G C),   MCore.HodgeFiniteSpanCompleteness O →     MCore.HodgeFiniteWitnessSeparator O → ¬D.isRationalLinearCombinationOfCycleClasses C.h"
+  },
+  {
+   "name": "MCore.historical_final_fail_math_endpoint_not_proved",
+   "file": "lean/MCore/OpenMath/FinalFailSurgery.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.historicalFinalFail.mathematicalEndpointProved = false"
+  },
+  {
+   "name": "MCore.historical_final_fail_no_proof_claimed",
+   "file": "lean/MCore/OpenMath/FinalFailSurgery.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.historicalFinalFail.proofClaimed = false"
+  },
+  {
+   "name": "MCore.historical_final_fail_process_closed",
+   "file": "lean/MCore/OpenMath/FinalFailSurgery.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.historicalFinalFail.processClosed = true"
+  },
+  {
+   "name": "MCore.hodge_negative_firewalls_do_not_promote",
+   "file": "lean/MCore/OpenMath/HodgeG21RouteMap.lean",
+   "line": 85,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.hodgeAbstractSeparatorRoute.scientificPromotion = false ∧   MCore.hodgeCodimOneRefutationRoute.scientificPromotion = false ∧     MCore.hodgeR2R3ShortcutRoute.scientificPromotion = false"
+  },
+  {
+   "name": "MCore.hodge_only_live_route_is_positive_producer",
+   "file": "lean/MCore/OpenMath/HodgeG21RouteMap.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.hodgeConcreteExternalRoute.kind = MCore.HodgeRouteKind.positiveProducer ∧   MCore.hodgeConcreteExternalRoute.state = MCore.HodgeRouteState.openMath ∧     MCore.hodgeConcreteExternalRoute.scientificPromotion = true"
+  },
+  {
+   "name": "MCore.k1Topic_is_empty",
+   "file": "lean/MCore/K1.lean",
+   "line": 7,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k1Topic.content = none"
+  },
+  {
+   "name": "MCore.k2Topic_is_empty",
+   "file": "lean/MCore/K2.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k2Topic.content = none"
+  },
+  {
+   "name": "MCore.k3AttackSlot_is_empty",
+   "file": "lean/MCore/AttackDAG/K3AlgebraAttacks.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k3AttackSlot.content = none"
+  },
+  {
+   "name": "MCore.k3Frontier_is_empty",
+   "file": "lean/MCore/Frontier/K3Gaps.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k3Frontier.content = none"
+  },
+  {
+   "name": "MCore.k3Topic_is_empty",
+   "file": "lean/MCore/K3.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k3Topic.content = none"
+  },
+  {
+   "name": "MCore.k4Topic_is_empty",
+   "file": "lean/MCore/K4.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k4Topic.content = none"
+  },
+  {
+   "name": "MCore.k5Topic_is_empty",
+   "file": "lean/MCore/K5.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k5Topic.content = none"
+  },
+  {
+   "name": "MCore.k6Topic_is_empty",
+   "file": "lean/MCore/K6.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6Topic.content = none"
+  },
+  {
+   "name": "MCore.negative_formulation_closes",
+   "file": "lean/MCore/OpenMath/HodgeG21RouteMap.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {A A' P : Prop}, MCore.NegativeFormulationPattern A A' P → A → ¬A' ∧ (A ∧ P → False)"
+  },
+  {
+   "name": "MCore.not_statement_to_counterexample",
+   "file": "lean/MCore/HodgeReduction.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, ¬MCore.ClayHodgeStatement D → MCore.ClayHodgeCounterexample D"
+  },
+  {
+   "name": "MCore.prize_claim_to_final_proof",
+   "file": "lean/MCore/OpenMath/HodgePrizeSurgeryLane2.lean",
+   "line": 117,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgePrizeClaim D → MCore.HodgePrizeFinalProof D"
+  },
+  {
+   "name": "MCore.prize_claim_to_final_root",
+   "file": "lean/MCore/OpenMath/HodgePrizeSurgeryLane2.lean",
+   "line": 111,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgePrizeClaim D → MCore.HodgePrizeFinalRoot D"
+  },
+  {
+   "name": "MCore.prize_construction_to_final_root",
+   "file": "lean/MCore/OpenMath/HodgePrizeSurgeryLane2.lean",
+   "line": 85,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.PrizeCounterexampleConstruction D → MCore.HodgePrizeFinalRoot D"
+  },
+  {
+   "name": "MCore.prize_construction_yields_clay_counterexample",
+   "file": "lean/MCore/OpenMath/HodgePrizeSurgeryLane2.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.PrizeCounterexampleConstruction D → MCore.ClayHodgeCounterexample D"
+  },
+  {
+   "name": "MCore.prize_final_root_to_final_proof",
+   "file": "lean/MCore/OpenMath/HodgePrizeSurgeryLane2.lean",
+   "line": 91,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgePrizeFinalRoot D → MCore.HodgePrizeFinalProof D"
+  },
+  {
+   "name": "MCore.proof_false_refutation_true_is_terminal",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 176,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.HodgeFourWayState.proofFalseRefutationTrue.isTerminalScientific = true"
+  },
+  {
+   "name": "MCore.proof_lane_excludes_refutation",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgeProofLane D → ¬Nonempty (MCore.HodgeRefutationLane D)"
+  },
+  {
+   "name": "MCore.proof_true_refutation_false_is_terminal",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 173,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.HodgeFourWayState.proofTrueRefutationFalse.isTerminalScientific = true"
+  },
+  {
+   "name": "MCore.refutation_lane_counterexample",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgeRefutationLane D → MCore.ClayHodgeCounterexample D"
+  },
+  {
+   "name": "MCore.refutation_lane_excludes_proof",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.HodgeRefutationLane D → ¬MCore.ClayHodgeStatement D"
+  },
+  {
+   "name": "MCore.scientific_external_rejects_both_false",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 296,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} (F : MCore.HodgeFinalFail D),   (MCore.scientific_external_certificate F).bothFalseRejected = true"
+  },
+  {
+   "name": "MCore.scientific_final_proof_reaches_root",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 291,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} (F : MCore.HodgeFinalFail D),   (MCore.scientific_final_proof F).root = MCore.scientific_final_root F"
+  },
+  {
+   "name": "MCore.scientific_payload_final_fail_roundtrip",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 119,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} (P : MCore.HodgeScientificPayload D),   MCore.finalFailToScientificPayload (MCore.scientificPayloadToFinalFail P) = P"
+  },
+  {
+   "name": "MCore.separator_iff_notAlgebraic",
+   "file": "lean/MCore/OpenMath/HodgePrizePayloadDecomposition.lean",
+   "line": 110,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} {G : MCore.HodgePrizeGeometryCore D} {C : MCore.HodgePrizeClassCore D G},   Nonempty (MCore.HodgePrizeSeparatorCore D G C) ↔ ¬D.isRationalLinearCombinationOfCycleClasses C.h"
+  },
+  {
+   "name": "MCore.separator_proves_notAlgebraic",
+   "file": "lean/MCore/OpenMath/HodgePrizePayloadDecomposition.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} {G : MCore.HodgePrizeGeometryCore D} {C : MCore.HodgePrizeClassCore D G},   MCore.HodgePrizeSeparatorCore D G C → ¬D.isRationalLinearCombinationOfCycleClasses C.h"
+  },
+  {
+   "name": "MCore.structural_external_is_not_hodge_proof",
+   "file": "lean/MCore/OpenMath/HodgeStructuralFinalCertificate.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.STRUCTURAL_EXTERNAL_CERTIFICATE.hodgeConjectureProved = false"
+  },
+  {
+   "name": "MCore.structural_external_is_not_hodge_refutation",
+   "file": "lean/MCore/OpenMath/HodgeStructuralFinalCertificate.lean",
+   "line": 69,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.STRUCTURAL_EXTERNAL_CERTIFICATE.hodgeConjectureRefuted = false"
+  },
+  {
+   "name": "MCore.surgery_yields_final_root",
+   "file": "lean/MCore/OpenMath/FinalFailSurgery.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.FinalFailToClayCounterexampleSurgery D → MCore.HodgeFinalRoot D"
+  },
+  {
+   "name": "MCore.surgery_yields_open_math",
+   "file": "lean/MCore/OpenMath/FinalFailSurgery.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.FinalFailToClayCounterexampleSurgery D → MCore.HODGE_RESOLUTION_OPEN_MATH D"
+  },
+  {
+   "name": "MCore.terminal_payload_excludes_opposite",
+   "file": "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean",
+   "line": 106,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData} (P : MCore.HodgeTerminalScientificPayload D),   match P with   | MCore.HodgeTerminalScientificPayload.proved statement => ¬Nonempty (MCore.HodgeRefutationLane D)   | MCore.HodgeTerminalScientificPayload.refuted construction => ¬MCore.HodgeProofLane D"
+  },
+  {
+   "name": "MCore.truth_falsehood_repulsion",
+   "file": "lean/MCore/OpenMath/HodgeClaimDynamics.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.ClayHodgeData}, MCore.TruthContraction D → MCore.FalsehoodContraction D → False"
+  }
+ ],
+ "closed": 65,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/AttackDAG/K3AlgebraAttacks.lean": "c917e07c62ff4055397efb5941e89bc9162d70af2e5a3888f53428f887a0d287",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/Frontier/K3Gaps.lean": "bf81627c711f729afa4bfe8f562210e155bead64cae70209007a7e9c30ca148a",
+  "lean/MCore/Hodge.lean": "899c61bf2d4316ef8254d001bb7c4a7764d4139e979406aefea2d4b5f7b97e13",
+  "lean/MCore/HodgeReduction.lean": "fee195c3edc656eb10335894f7c6c6948ada146fa0666f958f529bc46f4648e3",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "c8229e79b2584e311103d1eeaa4351a9c6bd2d55c71d5e9ae85e8e6059651d3f",
+  "lean/MCore/K2.lean": "d56c41836096c324d99c781d1f0b4a1f6de098456af8b2d06bc36f7974d1a271",
+  "lean/MCore/K3.lean": "1c2882c22a43ca234b55438e71dc106444fcb1e58bbdb7c63036f9a9fa70ce67",
+  "lean/MCore/K4.lean": "56b893d52235390ff81739d9def2d8155a6c1d914bed3ff17474af5e05237499",
+  "lean/MCore/K5.lean": "c0db0db0d58f8deef184ce036059612719e1c7f10fa9951ce6c137dd08d1aa41",
+  "lean/MCore/K6.lean": "cbca5379212597094095520d22f6604f13a01bd49555f00185ff45ccb7e44f55",
+  "lean/MCore/OpenMath/FinalFailSurgery.lean": "4b83ede42755da6c9fed5c15e5c5e121c34d7b8432bf4909cf68ce796cfba869",
+  "lean/MCore/OpenMath/HodgeClaimDynamics.lean": "ca3474ea41b7361a2aeed207b1ed8148b02daf7164b40415b742b56b5dd3d142",
+  "lean/MCore/OpenMath/HodgeClaimHarness.lean": "76ca234ff63e55adbcfacb0c09fd2de0c0e2ead220eb120e073a1b796dc9d3ec",
+  "lean/MCore/OpenMath/HodgeCriticalClosure.lean": "561261e5bbd10b160faef13d9bb7b2b26ea3a7d3ce202d83299767efe3c38a29",
+  "lean/MCore/OpenMath/HodgeDualLaneFinalFail.lean": "1e35d9abb433dd4b7c716591fe655b45765f8f15d48db9b5f610e0c734e28205",
+  "lean/MCore/OpenMath/HodgeFastExternalRoute.lean": "cf06fb376b27a1422d142e1dcf0988a3d5f3a9e7bb14cfde1edb5064bd0168e4",
+  "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean": "182133d3b75238d0eef4217110cef9e9f2296b500af52c87c7bfbf58580aa4e8",
+  "lean/MCore/OpenMath/HodgeG21RouteMap.lean": "38e78cdaa0075a69ee35d9e3e106532aafa806ae801ec58d8e90089727daf9f6",
+  "lean/MCore/OpenMath/HodgePrizePayloadDecomposition.lean": "86261b219a33858eb9def867be879181266319667d6e71765b0129dfe452f911",
+  "lean/MCore/OpenMath/HodgePrizeSurgeryLane2.lean": "1693f66876ec5a222ac32cd3667f468668479b9344d246fe2e5f113fa5ad292b",
+  "lean/MCore/OpenMath/HodgeStructuralFinalCertificate.lean": "f0ef381721469afdc79448ec9ed7bbebd9c0b3e20eea02808e328c8ad9b75988",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "03baa265ba4cbe4f7b6347bed133fc3e52eb136307e19a894ed9940c77572d71"
+}

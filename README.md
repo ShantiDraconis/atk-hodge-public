@@ -15,3 +15,9 @@ Do not add confidential data or third-party code without checking its license an
 
 [`imports/m-core-hodge/`](imports/m-core-hodge/) holds the Lean sources of `ShantiDraconis/m-core-hodge` at commit `31d96f3` (2026-10-11): 130 files. In the MVEI verification the Lean kernel closed 1 139 theorems here (531 unique, without the lemmas Lean generates itself), with 0 conditional and 0 open (`sorry`). A closed theorem proves the statement written in the file; it is not a claim that an open problem is solved. Statements, axioms, the build log and how to reproduce: [`mvei/README.md`](mvei/README.md).
 <!-- mvei:end -->
+
+<!-- mvei-branches:start -->
+## Theorems found only on branches
+
+11 branch(es) with 241 theorems that exist only on branches and that the Lean kernel closed, each with a certificate (commit, date, history, SHA-256): [`branches/README.md`](branches/README.md).
+<!-- mvei-branches:end -->

@@ -1,0 +1,154 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-hodge",
+ "branch": "research/pure-math-final-proof-v1",
+ "branch_state": "parada",
+ "head_commit": "d80bb0f1228d68b0b229d5f1b29e134b2fef177a",
+ "head_commit_date": "2026-09-20T08:41:56+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "d80bb0f1228d68b0b229d5f1b29e134b2fef177a",
+   "date": "2026-09-20T08:41:56+01:00",
+   "subject": "audit: record observed state-2 behavioral signature"
+  },
+  {
+   "commit": "e9b44ccecbe1be624c44eee3b1e75bd9150982c7",
+   "date": "2026-09-20T08:38:47+01:00",
+   "subject": "audit: install behavioral signature calculator protocol"
+  },
+  {
+   "commit": "1ccd8fd95b707ee3aff077a688e624df69a8b42c",
+   "date": "2026-09-20T04:06:12+01:00",
+   "subject": "audit: install behavioral signature calculator contract"
+  },
+  {
+   "commit": "ac2c054e950b61ded94a94af71e34a5e0fac21fd",
+   "date": "2026-09-20T01:46:21+01:00",
+   "subject": "cert: freeze GREEN 2af833ee"
+  },
+  {
+   "commit": "2af833eeb9ad7473fbad443c675e3346f992e6ec",
+   "date": "2026-09-20T00:50:56+01:00",
+   "subject": "research: add Lean parallel residual return interface"
+  },
+  {
+   "commit": "34906bf46c6018b1c39116b2b4a61cf19ac056b8",
+   "date": "2026-09-20T00:48:47+01:00",
+   "subject": "research: wire parallel closure chain to exact frontier"
+  },
+  {
+   "commit": "097f00aaabd275c182c8f88b34348762258446f4",
+   "date": "2026-09-20T00:31:22+01:00",
+   "subject": "research: map pure-math path to exact final frontier"
+  },
+  {
+   "commit": "16d9a96dc70aafaca1b99f2907fd1fa199af91f0",
+   "date": "2026-09-19T12:34:28+01:00",
+   "subject": "Add Hodge non-circularity certificate JSON file"
+  },
+  {
+   "commit": "0cb66fdfd29d17c64f561a985e7c4e6efaedf09f",
+   "date": "2026-09-19T12:29:13+01:00",
+   "subject": "Refactor CI workflow for clarity and new audits"
+  },
+  {
+   "commit": "48b97c76b320531691bdde5d1b21b36a7f9a9781",
+   "date": "2026-09-19T12:27:08+01:00",
+   "subject": "audit: classify Hodge witness kernel as no progress"
+  },
+  {
+   "commit": "860f329f20cb7393013981b8ef5074deb8ae2050",
+   "date": "2026-09-19T11:24:44+02:00",
+   "subject": "cert: record green frontier certificate 2026-09-19"
+  },
+  {
+   "commit": "337ac80fa5e500029790c59ab501317fa10846c8",
+   "date": "2026-09-19T10:46:27+02:00",
+   "subject": "ci: explicitly certify witness kernel"
+  },
+  {
+   "commit": "703def3a7c87c0b9fe50321a3b908c53a4d903c1",
+   "date": "2026-09-19T10:44:45+02:00",
+   "subject": "ci: remove unavailable Mathlib cache executable"
+  },
+  {
+   "commit": "cd8a1af1c66959e69ad9cd0ec9511351d1507100",
+   "date": "2026-09-19T10:43:01+02:00",
+   "subject": "attack: isolate Hodge witness constructor kernel"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.BackwardAudit.constructor_implies_rational_hodge",
+   "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : MCore.HodgeSemanticData} (W : HodgeWitnessConstructor D) : MCore.RationalHodgeConjecture D"
+  },
+  {
+   "name": "MCore.BackwardAudit.hodge_constructor_iff_endpoint",
+   "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : MCore.HodgeSemanticData} : HodgeWitnessConstructor D ↔ MCore.RationalHodgeConjecture D"
+  },
+  {
+   "name": "MCore.BackwardAudit.hodge_witness_constructor_still_open",
+   "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": hodgeWitnessConstructorBuilt = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.rational_hodge_implies_constructor",
+   "file": "lean/MCore/BackwardAudit/WitnessKernel.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : MCore.HodgeSemanticData} (h : MCore.RationalHodgeConjecture D) : HodgeWitnessConstructor D"
+  },
+  {
+   "name": "MCore.Research.return_to_primary",
+   "file": "lean/MCore/Research/ParallelClosure.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Goal : Prop} (a : ParallelAttack Goal) (h : a.Residual) : Goal"
+  }
+ ],
+ "closed": 5,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BackwardAudit/WitnessKernel.lean": "cc012dd2afe1e3d6c10dd5c57933e80d86bad9256fac728d5e9c57aeba3cafca",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/Hodge.lean": "ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "273c1a3686b01cdeb8746aa8b8c679c864679a50b7b9b855bcbf99f6ecdd8f19",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/Research/ParallelClosure.lean": "0f9b91a26222e1fe7299d37a24d394082889720616d5a6944d1ddacf97177b6a",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "5fc2339607af7782a232604af69aeb5f0d92b5cdac652617a422629c07bb06eb"
+}

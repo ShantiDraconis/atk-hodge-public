@@ -1,0 +1,1122 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-hodge",
+ "branch": "atk/auto-compose-terminal-20260930",
+ "branch_state": "parada",
+ "head_commit": "5e6a20f4b0c5d08a93446274ec61b10ad1812f8b",
+ "head_commit_date": "2026-10-01T01:45:53+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "5e6a20f4b0c5d08a93446274ec61b10ad1812f8b",
+   "date": "2026-10-01T01:45:53+02:00",
+   "subject": "ATK: freeze exact final OPEN_MATH residual"
+  },
+  {
+   "commit": "24ad16154d913041c5dc8f77d8cc66611a5c07d6",
+   "date": "2026-10-01T01:20:28+02:00",
+   "subject": "ATK: remove Hodge span-adapter from direct concrete final route"
+  },
+  {
+   "commit": "fe96115a58c7c0908fb8dd6c5583f4a07096d0ad",
+   "date": "2026-10-01T01:05:30+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "97e0bad2c0dba1265283a53f8d1842ff554e1a7d",
+   "date": "2026-09-30T23:47:47+02:00",
+   "subject": "ATK: fix dependent R2/R3 Hodge producer without sorryAx"
+  },
+  {
+   "commit": "310111f1bb0c03f32f8dcf7c838f9c1f82c1c2d1",
+   "date": "2026-09-30T23:46:19+02:00",
+   "subject": "ATK: validate exact Hodge R1/R2/R3 producer"
+  },
+  {
+   "commit": "3b7380d58dff37c1c1ce107e7a0a9d7e4150d526",
+   "date": "2026-09-30T23:46:06+02:00",
+   "subject": "ATK: expose exact Hodge R1/R2/R3 final producer"
+  },
+  {
+   "commit": "680f09ced39529e82ff6aa75ee4af00f7f6a9912",
+   "date": "2026-09-30T23:38:24+02:00",
+   "subject": "ATK: validate exact field-by-field final producer"
+  },
+  {
+   "commit": "d0a1bf9dc2834997d85c7042a0fdb6c7136e9063",
+   "date": "2026-09-30T22:39:21+02:00",
+   "subject": "ATK: include exact final producer in root build"
+  },
+  {
+   "commit": "51f42db90c80ef68a9314b65392013edbaf358d3",
+   "date": "2026-09-30T22:36:40+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "b1b0c3e9127974049fdc63ef1f0f9a3ce5d33ce5",
+   "date": "2026-09-30T22:32:40+02:00",
+   "subject": "ATK: refine exact field-by-field final producer"
+  },
+  {
+   "commit": "e51e97716ee28919a1724378af44f602f9534e18",
+   "date": "2026-09-30T22:08:55+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "f663b0f289ed211d3ccb4ecb4bb6ec0c82da280b",
+   "date": "2026-09-30T22:05:17+02:00",
+   "subject": "ATK: exact field-by-field final producer"
+  },
+  {
+   "commit": "4a943c5201ade59bc1e1377f11ea21d72be3a49a",
+   "date": "2026-09-30T21:36:58+02:00",
+   "subject": "ATK: add exact field-by-field final producer"
+  },
+  {
+   "commit": "4be9e0e2d32ae3f762007357b8fcf31e00ee0917",
+   "date": "2026-09-30T21:25:35+02:00",
+   "subject": "ATK: use direct elan for FINAL_ROOT validation"
+  },
+  {
+   "commit": "eebd740698a46548ed4fee6ad4c8d813ff503f45",
+   "date": "2026-09-30T21:24:16+02:00",
+   "subject": "ATK: validate FINAL_EXTERNAL and FINAL_ROOT"
+  },
+  {
+   "commit": "78f795ed218ae32401baedc44e26f820f01aeb9b",
+   "date": "2026-09-30T21:23:19+02:00",
+   "subject": "ATK: finalize FinalExternal and FINAL_ROOT"
+  },
+  {
+   "commit": "950a4a01f62bbba2dcbbc5065a1dbeaf59725c11",
+   "date": "2026-09-30T20:36:32+02:00",
+   "subject": "ATK: use direct elan for FINAL_ROOT gate"
+  },
+  {
+   "commit": "9671483374603968cb8da9d9aa57f892da3ba2b2",
+   "date": "2026-09-30T20:35:30+02:00",
+   "subject": "ATK: validate FINAL_EXTERNAL to FINAL_ROOT"
+  },
+  {
+   "commit": "e1bcb94432b8e6384e3274eded405d9af5098464",
+   "date": "2026-09-30T20:31:56+02:00",
+   "subject": "ATK: finalize FINAL_EXTERNAL and FINAL_ROOT"
+  },
+  {
+   "commit": "8883081221482bea1dde62f00100c7532223ff31",
+   "date": "2026-09-30T20:14:54+02:00",
+   "subject": "ATK: add structural type miner for Hodge inhabitant"
+  },
+  {
+   "commit": "2a8a0c329bd65835e48d627822f8886a72c5e017",
+   "date": "2026-09-30T17:41:51+02:00",
+   "subject": "ATK: load terminal producer modules into inhabitation miner"
+  },
+  {
+   "commit": "8696ce7640df5afef4095866081bb6d39af53e45",
+   "date": "2026-09-30T17:38:30+02:00",
+   "subject": "ATK: mine direct producers of terminal inhabitant types"
+  },
+  {
+   "commit": "171075c7ca3912b4493b198195cc047f56837396",
+   "date": "2026-09-30T17:36:00+02:00",
+   "subject": "ATK: make type-unification mining fail-closed per declaration"
+  },
+  {
+   "commit": "6824feb892f0fd8d09067b4cb494a7d7c3d709fd",
+   "date": "2026-09-30T17:34:29+02:00",
+   "subject": "ATK: make inhabitation miner robust to generated structure fields"
+  },
+  {
+   "commit": "11e03cb36b400064bb59c6f43adca47f342b43ed",
+   "date": "2026-09-30T17:32:51+02:00",
+   "subject": "ATK: strengthen inhabitation miner to definitional type unification"
+  },
+  {
+   "commit": "62d16fee06c2c85c2a6ff009c36f0b4eaa453275",
+   "date": "2026-09-30T17:30:46+02:00",
+   "subject": "ATK: qualify structure projection names in miner"
+  },
+  {
+   "commit": "3a9a1f6eb89b4404f6fce57f073a7b9d6f032f5e",
+   "date": "2026-09-30T17:27:55+02:00",
+   "subject": "ATK: make inhabitation miner telescope traversal version-stable"
+  },
+  {
+   "commit": "bab5cd62fb7ecae8fd36026dce69323c43e66815",
+   "date": "2026-09-30T17:25:14+02:00",
+   "subject": "ATK: complete Lean 4.19 telescope API adaptation"
+  },
+  {
+   "commit": "d4b75227dd8813da5c7042c5d3f7abf4447f7946",
+   "date": "2026-09-30T17:23:03+02:00",
+   "subject": "ATK: fix Lean 4.19 inhabitation miner API"
+  },
+  {
+   "commit": "2e2d466170dc553fbdc16b8fc6c5b35a8987e2b4",
+   "date": "2026-09-30T17:20:05+02:00",
+   "subject": "ATK: resolve mining through lake build"
+  },
+  {
+   "commit": "1ade8f8eb61b16a5e280919bcda07198a29e0086",
+   "date": "2026-09-30T17:15:10+02:00",
+   "subject": "ATK: run field-by-field inhabitation mining"
+  },
+  {
+   "commit": "c3dbb2d7a5fe851c9bb6247103c391f170c872a1",
+   "date": "2026-09-30T17:14:57+02:00",
+   "subject": "ATK: add field-by-field inhabitation mining"
+  },
+  {
+   "commit": "a0dc9feb4034d852693f961d80a97c0eb904e945",
+   "date": "2026-09-30T15:04:18+02:00",
+   "subject": "ATK: fix Hodge terminal witness application"
+  },
+  {
+   "commit": "b4275e3f7b610f825a263f2ae0f4b291d29b51c3",
+   "date": "2026-09-30T15:03:10+02:00",
+   "subject": "ATK: fix Nonempty extraction in Hodge terminal producer"
+  },
+  {
+   "commit": "256aa73df230bd0a80d5e6dc22b233abbc41f7b7",
+   "date": "2026-09-30T15:00:53+02:00",
+   "subject": "ATK: resolve terminal modules through lake build"
+  },
+  {
+   "commit": "d3858cbece3a8b82b7c96edbf31705c6881e30a4",
+   "date": "2026-09-30T15:00:51+02:00",
+   "subject": "ATK: make auto-compose dependency-free"
+  },
+  {
+   "commit": "ff8a3fa8d91865628457ab91dee2b61ded0cb684",
+   "date": "2026-09-30T14:12:34+02:00",
+   "subject": "ATK: decouple auto-compose from status metadata"
+  },
+  {
+   "commit": "a011a4dc8b7daad7262b3241673621f8c61ef9c2",
+   "date": "2026-09-30T13:57:54+02:00",
+   "subject": "ATK: compile Hodge terminal file directly"
+  },
+  {
+   "commit": "b992583b168d7ebe9ded61f499711efd87a8b26a",
+   "date": "2026-09-30T13:56:51+02:00",
+   "subject": "ATK: use direct elan setup for terminal composition"
+  },
+  {
+   "commit": "a41a28436cbcc7aad7e3b891b9330ea374e9aaa8",
+   "date": "2026-09-30T13:55:47+02:00",
+   "subject": "ATK: add minimal terminal auto-compose workflow"
+  },
+  {
+   "commit": "c968aaed94acbfdf8e16779bd671fa4e478b5131",
+   "date": "2026-09-30T13:55:45+02:00",
+   "subject": "ATK: proof-first composition on terminal branch"
+  },
+  {
+   "commit": "b9900b17a32809c823c6656ce5ce3a4083e8d07a",
+   "date": "2026-09-27T20:08:21+01:00",
+   "subject": "ci: certify Hodge producer-first extraction"
+  },
+  {
+   "commit": "1c79fae46814b64bd71b89da8ddd42584c921ffb",
+   "date": "2026-09-27T20:08:12+01:00",
+   "subject": "hodge: export producer-first inhabitant extraction"
+  },
+  {
+   "commit": "a487d2c8378336ad43aaa94d363e0afb251cec4a",
+   "date": "2026-09-27T20:08:01+01:00",
+   "subject": "hodge: expose exact producer for terminal inhabitant"
+  },
+  {
+   "commit": "33fb7d6f552c2f3974b346ba0380d5ef6742b108",
+   "date": "2026-09-27T17:03:46+01:00",
+   "subject": "ci: build MCore before assumed closure module"
+  },
+  {
+   "commit": "55dc1aaf3212346a1c6b6e80b7916bf14771262e",
+   "date": "2026-09-27T15:39:34+01:00",
+   "subject": "ci: certify assumed Hodge complete closure route"
+  },
+  {
+   "commit": "ff8a0069ba64ab913d19aa11349d6b82fbef781c",
+   "date": "2026-09-27T15:39:23+01:00",
+   "subject": "hodge: export assumed complete closure route"
+  },
+  {
+   "commit": "25e585a5dcd9ac572725e89f97751b977d3df341",
+   "date": "2026-09-27T15:39:15+01:00",
+   "subject": "hodge: add explicit assumed complete closure route"
+  },
+  {
+   "commit": "00b93e19a5fc2f917e5ed4ea45afcf39e3e98b2b",
+   "date": "2026-09-26T23:41:37+01:00",
+   "subject": "hodge: export generic inhabitant firewall"
+  },
+  {
+   "commit": "ac4e15c7f97af63a769f1b42fdfe3295f5a222f5",
+   "date": "2026-09-26T23:41:29+01:00",
+   "subject": "hodge: prove generic HodgeHabitant target is false"
+  },
+  {
+   "commit": "c5ad87d0177055b99a9329a20e0f881a72bcda4b",
+   "date": "2026-09-26T23:24:49+01:00",
+   "subject": "cert: freeze all green Hodge inhabitant transport artifacts"
+  },
+  {
+   "commit": "627bb89027c1f733bd4f2a4323e2b211738484ef",
+   "date": "2026-09-26T23:08:46+01:00",
+   "subject": "audit: compress F4 frontier to genuine middle codimension"
+  },
+  {
+   "commit": "e6e6e925060f25dc566ab7cb4d6b55a66a48974f",
+   "date": "2026-09-26T23:02:10+01:00",
+   "subject": "hodge: export concrete F4 witness constructors"
+  },
+  {
+   "commit": "665bb388ce21e7cc58c85cdfb33ca497a18f6337",
+   "date": "2026-09-26T23:02:01+01:00",
+   "subject": "hodge: add concrete F4 cycle-witness constructors"
+  },
+  {
+   "commit": "e7edee1f428b84ac0fa552bfdd7c3bc81fcddcd2",
+   "date": "2026-09-26T22:56:32+01:00",
+   "subject": "audit: record F4 Hodge inhabitant no-shortcut attack"
+  },
+  {
+   "commit": "3dc8a3deb9dda9170fdf333b654adc7f42b01d93",
+   "date": "2026-09-26T22:08:47+01:00",
+   "subject": "hodge: export F4 realization inhabitant"
+  },
+  {
+   "commit": "5479f1ac073989b4cb98a21f84546c9c5be35618",
+   "date": "2026-09-26T22:08:41+01:00",
+   "subject": "hodge: formalize unique F4 realization inhabitant"
+  },
+  {
+   "commit": "d03ffb557b9c4ebd315d607239ea7c1584df5481",
+   "date": "2026-09-26T20:24:10+01:00",
+   "subject": "hodge: keep terminal claim build focused on unconditional higher-codimension certificate"
+  },
+  {
+   "commit": "acc153aefcf16156e80835a45e51312e52cb9e1e",
+   "date": "2026-09-26T20:20:45+01:00",
+   "subject": "fix: use genuine boundary countermodel for unconditional firewall"
+  },
+  {
+   "commit": "55e580dd6463b22bcec34d3cbe33edf187d2e2c9",
+   "date": "2026-09-26T20:10:32+01:00",
+   "subject": "hodge: export exact higher-codimension unconditional claim"
+  },
+  {
+   "commit": "a35ec70d91aa4e069f20b8f83e5e99d55b417515",
+   "date": "2026-09-26T20:10:26+01:00",
+   "subject": "hodge: add exact unconditional higher-codimension terminal claim"
+  },
+  {
+   "commit": "52943fc88fa9e2aabf93ef89d4f23ab0f4a94c92",
+   "date": "2026-09-26T20:06:07+01:00",
+   "subject": "hodge: export unconditional no-shortcut firewall"
+  },
+  {
+   "commit": "e5b09360bccc1b2fed9fa2b857b5124bf2356d34",
+   "date": "2026-09-26T20:06:01+01:00",
+   "subject": "hodge: prove boundary cannot manufacture unconditional certificate"
+  },
+  {
+   "commit": "a34b34be543b284339b5eb49ea1ae04e2f3facae",
+   "date": "2026-09-26T20:03:49+01:00",
+   "subject": "hodge: export unconditional terminal certificate"
+  },
+  {
+   "commit": "8a158b5514ce3497b91991b0d99ac3b73b41e201",
+   "date": "2026-09-26T20:03:42+01:00",
+   "subject": "hodge: add exact unconditional terminal certificate and theorem claim"
+  },
+  {
+   "commit": "2e755e24ee06e196f85bfb89718148fd0997d527",
+   "date": "2026-09-26T20:03:05+01:00",
+   "subject": "fix(hodge): lift higher-codimension H01 payload universe"
+  },
+  {
+   "commit": "cd3dbe9070e48c3f3b37eada294d4e01f8c3745c",
+   "date": "2026-09-26T20:02:07+01:00",
+   "subject": "hodge: expose direct theorem creation from every positive terminal producer"
+  },
+  {
+   "commit": "feee9a7baf24461fc1b15e7e645db42456cd1a10",
+   "date": "2026-09-26T20:01:28+01:00",
+   "subject": "fix: use data-valued positive creation result"
+  },
+  {
+   "commit": "e184f65b522e9f0e1675da7c90cad3849f0d1f6e",
+   "date": "2026-09-26T20:00:24+01:00",
+   "subject": "fix: place unified terminal producer in Type 1"
+  },
+  {
+   "commit": "2fd7fdff61e1c168e4a0e0ac27f974fe4b38abce",
+   "date": "2026-09-26T20:00:21+01:00",
+   "subject": "fix: place higher-codimension H01 producer in Type 1"
+  },
+  {
+   "commit": "2f84866058c7372fccaecb7567b586cc812722e8",
+   "date": "2026-09-26T19:59:09+01:00",
+   "subject": "hodge: export unified terminal producer"
+  },
+  {
+   "commit": "18e33398b48f54e47ec5ccfa1a50e5eebcf4f4cf",
+   "date": "2026-09-26T19:59:03+01:00",
+   "subject": "hodge: unify all legitimate terminal producers"
+  },
+  {
+   "commit": "0171346c4c6e383ca66374b6498737b67c17ea76",
+   "date": "2026-09-26T19:58:41+01:00",
+   "subject": "fix: higher-codimension H01 producer carries typed payload data"
+  },
+  {
+   "commit": "5d9adc9cd8c5753daff61ce5330efd7476f1f90c",
+   "date": "2026-09-26T19:56:19+01:00",
+   "subject": "hodge: export certified historical reuse bridge"
+  },
+  {
+   "commit": "3770f92a8074aae0def77a89b7804ddfb4cbf902",
+   "date": "2026-09-26T19:56:14+01:00",
+   "subject": "hodge: connect certified H01 history to higher-codimension terminal"
+  },
+  {
+   "commit": "4bcd09332c88a40d83db1be202b7892bdfdb8f9e",
+   "date": "2026-09-26T19:50:35+01:00",
+   "subject": "hodge: export codimension trisection"
+  },
+  {
+   "commit": "f2e8d65c67ff3d98c8c442f593d0762f8ff40ab9",
+   "date": "2026-09-26T19:50:29+01:00",
+   "subject": "hodge: split payload into codimension 0, 1, and higher"
+  },
+  {
+   "commit": "ae37a7a8bdb043c1b4d4dd1f9233fd84e7330cee",
+   "date": "2026-09-26T19:48:04+01:00",
+   "subject": "fix: qualify Hodge payload symbols in residual split"
+  },
+  {
+   "commit": "21ec3ab46be4db05008fd2d64099e293d09082ea",
+   "date": "2026-09-26T19:46:28+01:00",
+   "subject": "hodge: export residual codimension split"
+  },
+  {
+   "commit": "d0dac5a2c412fdd573cedf6143d6a11b2ffb2fb2",
+   "date": "2026-09-26T19:46:19+01:00",
+   "subject": "hodge: isolate exact non-codimension-one residual"
+  },
+  {
+   "commit": "cf7846f25b7cab7636331143c928ba854c7740d4",
+   "date": "2026-09-26T19:39:27+01:00",
+   "subject": "hodge: export tension closure API from MCore"
+  },
+  {
+   "commit": "04b1e43ceea072dfc9c546a551f667bb512247ed",
+   "date": "2026-09-26T19:39:18+01:00",
+   "subject": "fix: use proposition disjunction for enabled Hodge outcome"
+  },
+  {
+   "commit": "324d3ded1d31ccf50203e9b728d18e3a63dcb65b",
+   "date": "2026-09-26T19:34:47+01:00",
+   "subject": "hodge: enable three-case fail-closed closure theorem"
+  },
+  {
+   "commit": "a9bed96a451c2a380e01573c6e32f3ce3d2002f9",
+   "date": "2026-09-26T19:19:48+01:00",
+   "subject": "hodge: formalize exact closure truth table and parameters"
+  },
+  {
+   "commit": "272aac5e50b1f76e7384603b2ec0484d023a1b8d",
+   "date": "2026-09-26T19:17:21+01:00",
+   "subject": "fix: make tension closure depend only on certified K26 core"
+  },
+  {
+   "commit": "193765d9220130f2def723aada23f2de924da3ba",
+   "date": "2026-09-26T19:16:17+01:00",
+   "subject": "ci: check Hodge tension closure"
+  },
+  {
+   "commit": "2bfb684d777b220cd00b3fd33503d582c79c3b7a",
+   "date": "2026-09-26T19:16:15+01:00",
+   "subject": "audit: add Hodge tension status"
+  },
+  {
+   "commit": "1918f32358307f3d393635a3895eddcf29634dbb",
+   "date": "2026-09-26T19:16:13+01:00",
+   "subject": "audit: document Hodge 50-to-0 closure"
+  },
+  {
+   "commit": "e5381969f245e65d2ca9e1933ab32c93851b2817",
+   "date": "2026-09-26T19:16:11+01:00",
+   "subject": "hodge: formalize dual tension closure"
+  },
+  {
+   "commit": "f9cddb75f02cea7ff34c88f5a45261a3f3de9d98",
+   "date": "2026-09-26T15:02:46+01:00",
+   "subject": "ci: check H01 direct-core compression"
+  },
+  {
+   "commit": "1878bb9712cd9d0d97f66dd2f689145f08a3807a",
+   "date": "2026-09-26T15:02:43+01:00",
+   "subject": "audit: add Hodge direct-core overlay"
+  },
+  {
+   "commit": "474f92b75e2d1b535a71d987d5d3ca032db213dc",
+   "date": "2026-09-26T15:02:41+01:00",
+   "subject": "audit: record single-gate Hodge core"
+  },
+  {
+   "commit": "3e57999a4f3cf1df1930a52f707322b5aa4cdc0a",
+   "date": "2026-09-26T15:02:40+01:00",
+   "subject": "hodge: compress H01 to direct algebraicity core"
+  },
+  {
+   "commit": "1b27a8b2e829c55a1d27aded78d8dcd18718b55e",
+   "date": "2026-09-26T14:59:44+01:00",
+   "subject": "ci: build MCore before public reuse audit"
+  },
+  {
+   "commit": "097fee5fb9c551c60cce29128b826f8f7cc71ce5",
+   "date": "2026-09-26T14:59:08+01:00",
+   "subject": "ci: check H01 public reuse compression"
+  },
+  {
+   "commit": "4c7c03e6355415577c2c48fefe3e5c8ebc58fc89",
+   "date": "2026-09-26T14:59:06+01:00",
+   "subject": "audit: add Hodge public reuse overlay"
+  },
+  {
+   "commit": "e0b37a423cc41c401021e6793dbb1a3cb3ee16ec",
+   "date": "2026-09-26T14:59:05+01:00",
+   "subject": "audit: catalog public Hodge reuse"
+  },
+  {
+   "commit": "4e315a80717b8dd865ffd6b9c07d9d3532d6d203",
+   "date": "2026-09-26T14:59:02+01:00",
+   "subject": "hodge: add fail-closed public reuse compression"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.AutoCompose.extract",
+   "file": "lean/MCore/AutoCompose.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (c : TheoremCertificate P) : P"
+  },
+  {
+   "name": "MCore.BackwardAudit.Final.FINAL_ROOT_of_minimal_concrete_inputs",
+   "file": "lean/MCore/BackwardAudit/ExactFinalProducer.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.BackwardAudit.CodimensionZeroAlgebraicityPayload M →       MCore.BackwardAudit.Lefschetz11ConcreteLaw M →         MCore.BackwardAudit.HigherCodimH01ForwardPayload G M → MCore.BackwardAudit.Final.FINAL_ROOT G"
+  },
+  {
+   "name": "MCore.BackwardAudit.Final.codimOnePayload_of_concrete_lefschetz",
+   "file": "lean/MCore/BackwardAudit/ExactFinalProducer.lean",
+   "line": 7,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.Lefschetz11ConcreteLaw M → MCore.CodimensionOneAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.Final.finalExternal_to_FINAL_ROOT",
+   "file": "lean/MCore/BackwardAudit/FinalExternal.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.Final.FinalExternalCertificate M → MCore.BackwardAudit.Final.FINAL_ROOT G"
+  },
+  {
+   "name": "MCore.BackwardAudit.Final.higherCodimConcrete_of_h01",
+   "file": "lean/MCore/BackwardAudit/ExactFinalProducer.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.HigherCodimH01ForwardPayload G M → MCore.BackwardAudit.HigherCodimensionAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.HodgePositiveTerminalProducer.createTheorem",
+   "file": "lean/MCore/BackwardAudit/HodgeUnifiedTerminalProducer.lean",
+   "line": 120,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.BackwardAudit.HodgePositiveTerminalProducer M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.absolute_open_math_singleton",
+   "file": "lean/MCore/BackwardAudit/HodgeAssumedCompleteClosure.lean",
+   "line": 70,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.absoluteOpenMathCount = 1"
+  },
+  {
+   "name": "MCore.BackwardAudit.any_positive_producer_closes",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 145,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.PositiveProducer M → MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.assumed_complete_contains_exact_open_core",
+   "file": "lean/MCore/BackwardAudit/HodgeAssumedCompleteClosure.lean",
+   "line": 73,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.AssumedHodgeCompleteClosure G M → MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.both_is_invalid",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 220,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.closureAuditVerdict MCore.BackwardAudit.EndpointEvidenceState.both =     MCore.BackwardAudit.ClosureAuditVerdict.inconsistent ∧   MCore.BackwardAudit.auditErrorPercent MCore.BackwardAudit.EndpointEvidenceState.both = 100"
+  },
+  {
+   "name": "MCore.BackwardAudit.boundary_does_not_force_unconditional_certificate",
+   "file": "lean/MCore/BackwardAudit/HodgeUnconditionalNoShortcut.lean",
+   "line": 100,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": ¬ (∀ {G : GradedRationalHodgeData} {M : CycleSpanMechanics G}, MCore.HodgeCertificationBoundary G M → UnconditionalHodgeCertificate G M)"
+  },
+  {
+   "name": "MCore.BackwardAudit.certified_h01_forward_is_sufficient",
+   "file": "lean/MCore/BackwardAudit/HodgeCertifiedReuseBridge.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.CycleSpanAdapter G M →       MCore.BackwardAudit.CodimensionZeroAlgebraicityPayload M →         MCore.CodimensionOneAlgebraicityPayload M →           MCore.BackwardAudit.HigherCodimH01ForwardPayload G M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.concretePayload_iff_codimOne_and_residual",
+   "file": "lean/MCore/BackwardAudit/HodgeResidualCodimSplit.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.ConcreteAlgebraicityPayload M ↔     MCore.CodimensionOneAlgebraicityPayload M ∧ MCore.BackwardAudit.NonCodimOneAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.concretePayload_iff_residual_given_codimOne",
+   "file": "lean/MCore/BackwardAudit/HodgeResidualCodimSplit.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.CodimensionOneAlgebraicityPayload M →     (MCore.ConcreteAlgebraicityPayload M ↔ MCore.BackwardAudit.NonCodimOneAlgebraicityPayload M)"
+  },
+  {
+   "name": "MCore.BackwardAudit.concretePayload_iff_trisection",
+   "file": "lean/MCore/BackwardAudit/HodgeCodimTrisection.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.ConcreteAlgebraicityPayload M ↔     MCore.BackwardAudit.CodimensionZeroAlgebraicityPayload M ∧       MCore.CodimensionOneAlgebraicityPayload M ∧ MCore.BackwardAudit.HigherCodimensionAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.concretePayload_implies_codimZero",
+   "file": "lean/MCore/BackwardAudit/HodgeCodimTrisection.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.ConcreteAlgebraicityPayload M → MCore.BackwardAudit.CodimensionZeroAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.concretePayload_implies_higherCodim",
+   "file": "lean/MCore/BackwardAudit/HodgeCodimTrisection.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.ConcreteAlgebraicityPayload M → MCore.BackwardAudit.HigherCodimensionAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.concretePayload_implies_nonCodimOne",
+   "file": "lean/MCore/BackwardAudit/HodgeResidualCodimSplit.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.ConcreteAlgebraicityPayload M → MCore.BackwardAudit.NonCodimOneAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.concretePayload_of_codimOne_and_residual",
+   "file": "lean/MCore/BackwardAudit/HodgeResidualCodimSplit.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.CodimensionOneAlgebraicityPayload M →     MCore.BackwardAudit.NonCodimOneAlgebraicityPayload M → MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.concretePayload_of_habitant",
+   "file": "lean/MCore/BackwardAudit/HodgeHabitant.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.HodgeHabitant M → MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.concretePayload_of_trisection",
+   "file": "lean/MCore/BackwardAudit/HodgeCodimTrisection.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.CodimensionZeroAlgebraicityPayload M →     MCore.CodimensionOneAlgebraicityPayload M →       MCore.BackwardAudit.HigherCodimensionAlgebraicityPayload M → MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.createHodgeRefutation",
+   "file": "lean/MCore/BackwardAudit/HodgeUnifiedTerminalProducer.lean",
+   "line": 129,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.BackwardAudit.ConcreteAlgebraicityCounterexample M → ¬MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.current_open_math_is_50",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 304,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.openMathPercent MCore.BackwardAudit.currentHodgeClosureState = 50"
+  },
+  {
+   "name": "MCore.BackwardAudit.direct_core_iff_constant_qbar_r2",
+   "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} (M : CycleSpanMechanics G) : H01DirectResearchCore M ↔ TrivialQbarR2Payload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.direct_core_iff_hodge",
+   "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} (B : HodgeCertificationBoundary G M) : H01DirectResearchCore M ↔ GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.direct_core_is_single_terminal_gate",
+   "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": directCoreFrontier.directAlgebraicityCore = .terminalOpenResearch"
+  },
+  {
+   "name": "MCore.BackwardAudit.false_closed_state_is_0",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.openMathPercent MCore.BackwardAudit.HodgeClosureState.closedFalse0 = 0"
+  },
+  {
+   "name": "MCore.BackwardAudit.higherCodim_of_h01_forward",
+   "file": "lean/MCore/BackwardAudit/HodgeCertifiedReuseBridge.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.CycleSpanAdapter G M →     MCore.BackwardAudit.HigherCodimH01ForwardPayload G M → MCore.BackwardAudit.HigherCodimensionAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.higher_certificate_closes_concrete_payload",
+   "file": "lean/MCore/BackwardAudit/HodgeHigherCodimUnconditionalClaim.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.CodimensionZeroAlgebraicityPayload M →     MCore.CodimensionOneAlgebraicityPayload M →       MCore.BackwardAudit.HigherCodimensionUnconditionalCertificate M → MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.higher_certificate_enables_hodge",
+   "file": "lean/MCore/BackwardAudit/HodgeHigherCodimUnconditionalClaim.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.BackwardAudit.CodimensionZeroAlgebraicityPayload M →       MCore.CodimensionOneAlgebraicityPayload M →         MCore.BackwardAudit.HigherCodimensionUnconditionalCertificate M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.higher_certificate_iff_payload",
+   "file": "lean/MCore/BackwardAudit/HodgeHigherCodimUnconditionalClaim.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.HigherCodimensionUnconditionalCertificate M ↔     MCore.BackwardAudit.HigherCodimensionAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.hodgeCycleOfMinimalForwardPayload_verified",
+   "file": "lean/MCore/BackwardAudit/HodgeProducerFirst.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {alpha : G.CohomologyQ X (2 * p)} (P : MCore.BackwardAudit.H01MinimalForwardPayload G M X p alpha)   (hX : G.isSmoothProjective X) (hAlpha : G.isTypePP p alpha),   MCore.CycleCombination.eval M (MCore.BackwardAudit.hodgeCycleOfMinimalForwardPayload P hX hAlpha) = alpha"
+  },
+  {
+   "name": "MCore.BackwardAudit.hodgeExactLocalProducer_verified",
+   "file": "lean/MCore/BackwardAudit/HodgeProducerFirst.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {alpha : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hAlpha : G.isTypePP p alpha}   {S : MCore.BackwardAudit.SpreadData G X p alpha hX hAlpha} (D : MCore.BackwardAudit.R1DescentPointContract S)   (R2 : MCore.BackwardAudit.R2PointProductionContract M S D) (R3 : MCore.BackwardAudit.R3Transp"
+  },
+  {
+   "name": "MCore.BackwardAudit.hodge_iff_higher_given_boundary_low_codim",
+   "file": "lean/MCore/BackwardAudit/HodgeCodimTrisection.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.BackwardAudit.CodimensionZeroAlgebraicityPayload M →       MCore.CodimensionOneAlgebraicityPayload M →         (MCore.GradedRationalHodgeConjecture G ↔ MCore.BackwardAudit.HigherCodimensionAlgebraicityPayload M)"
+  },
+  {
+   "name": "MCore.BackwardAudit.hodge_iff_residual_given_boundary_and_codimOne",
+   "file": "lean/MCore/BackwardAudit/HodgeResidualCodimSplit.lean",
+   "line": 68,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.CodimensionOneAlgebraicityPayload M →       (MCore.GradedRationalHodgeConjecture G ↔ MCore.BackwardAudit.NonCodimOneAlgebraicityPayload M)"
+  },
+  {
+   "name": "MCore.BackwardAudit.hodge_of_assumed_complete_closure",
+   "file": "lean/MCore/BackwardAudit/HodgeAssumedCompleteClosure.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.AssumedHodgeCompleteClosure G M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.hodge_of_certified_h01_reuse",
+   "file": "lean/MCore/BackwardAudit/HodgeCertifiedReuseBridge.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.CycleSpanAdapter G M →       MCore.BackwardAudit.CodimensionZeroAlgebraicityPayload M →         MCore.CodimensionOneAlgebraicityPayload M →           MCore.BackwardAudit.HigherCodimH01ForwardPayload G M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.hodge_of_habitant",
+   "file": "lean/MCore/BackwardAudit/HodgeHabitant.lean",
+   "line": 79,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M → MCore.BackwardAudit.HodgeHabitant M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.negative_certificate_refutes_core",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.NegativeClosureCertificate M → ¬MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.negative_certificate_refutes_hodge",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 161,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.BackwardAudit.NegativeClosureCertificate M → ¬MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.negative_only_is_closed_false",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 210,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.closureAuditVerdict MCore.BackwardAudit.EndpointEvidenceState.negativeOnly =     MCore.BackwardAudit.ClosureAuditVerdict.closedFalse ∧   MCore.BackwardAudit.auditErrorPercent MCore.BackwardAudit.EndpointEvidenceState.negativeOnly = 0"
+  },
+  {
+   "name": "MCore.BackwardAudit.neither_is_not_closed",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 215,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.closureAuditVerdict MCore.BackwardAudit.EndpointEvidenceState.neither =     MCore.BackwardAudit.ClosureAuditVerdict.open ∧   MCore.BackwardAudit.auditErrorPercent MCore.BackwardAudit.EndpointEvidenceState.neither = 100"
+  },
+  {
+   "name": "MCore.BackwardAudit.no_generic_hodgeHabitant",
+   "file": "lean/MCore/BackwardAudit/HodgeHabitantGenericFirewall.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬∀ (G : MCore.GradedRationalHodgeData) (M : MCore.CycleSpanMechanics G), Nonempty (MCore.BackwardAudit.HodgeHabitant M)"
+  },
+  {
+   "name": "MCore.BackwardAudit.no_hodgeHabitant_on_counterexample",
+   "file": "lean/MCore/BackwardAudit/HodgeHabitantGenericFirewall.lean",
+   "line": 5,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.BackwardAudit.HodgeHabitant MCore.BackwardAudit.lefschetzCounterexampleM)"
+  },
+  {
+   "name": "MCore.BackwardAudit.nonempty_hodgeHabitant_iff_concretePayload",
+   "file": "lean/MCore/BackwardAudit/HodgeHabitant.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   Nonempty (MCore.BackwardAudit.HodgeHabitant M) ↔ MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.open_state_is_50",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.openMathPercent MCore.BackwardAudit.HodgeClosureState.open50 = 50"
+  },
+  {
+   "name": "MCore.BackwardAudit.positive_certificate_closes_core",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.PositiveClosureCertificate M → MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.BackwardAudit.positive_certificate_closes_hodge",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 152,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.BackwardAudit.PositiveClosureCertificate M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.positive_negative_incompatible",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 94,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.PositiveClosureCertificate M → MCore.BackwardAudit.NegativeClosureCertificate M → False"
+  },
+  {
+   "name": "MCore.BackwardAudit.positive_only_is_closed_true",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 205,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.closureAuditVerdict MCore.BackwardAudit.EndpointEvidenceState.positiveOnly =     MCore.BackwardAudit.ClosureAuditVerdict.closedTrue ∧   MCore.BackwardAudit.auditErrorPercent MCore.BackwardAudit.EndpointEvidenceState.positiveOnly = 0"
+  },
+  {
+   "name": "MCore.BackwardAudit.public_reuse_plus_H01_payload_closes_pointwise",
+   "file": "lean/MCore/BackwardAudit/H01PublicReuseCompression.lean",
+   "line": 76,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} (A : CycleSpanAdapter G M) {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} (P : H01MinimalForwardPayload G M X p α) : GradedAlgebraicityAt G X p α"
+  },
+  {
+   "name": "MCore.BackwardAudit.r1d_no_longer_mandatory_gate",
+   "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": directCoreFrontier.r1dQbarDescent = .optionalRoute"
+  },
+  {
+   "name": "MCore.BackwardAudit.r3_no_longer_mandatory_gate",
+   "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": directCoreFrontier.r3VariationalAlgebraicity = .optionalRoute"
+  },
+  {
+   "name": "MCore.BackwardAudit.realize_hodgeClass_eq_smul_cycleClass",
+   "file": "lean/MCore/BackwardAudit/HodgeHabitantConstructors.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.CycleSpanLaws G M →     ∀ {X : G.Variety} {p : Nat} {alpha : G.CohomologyQ X (2 * p)} (a : M.Coeff) (z : G.CycleQ X p),       alpha = M.smul a (M.cycleClass p z) → ∃ Z, MCore.CycleCombination.eval M Z = alpha"
+  },
+  {
+   "name": "MCore.BackwardAudit.realize_hodgeClass_eq_zero",
+   "file": "lean/MCore/BackwardAudit/HodgeHabitantConstructors.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} (M : MCore.CycleSpanMechanics G) {X : G.Variety} {p : Nat}   {alpha : G.CohomologyQ X (2 * p)}, alpha = M.zeroClass → ∃ Z, MCore.CycleCombination.eval M Z = alpha"
+  },
+  {
+   "name": "MCore.BackwardAudit.realize_smul_cycleClass",
+   "file": "lean/MCore/BackwardAudit/HodgeHabitantConstructors.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.CycleSpanLaws G M →     ∀ {X : G.Variety} (p : Nat) (a : M.Coeff) (z : G.CycleQ X p),       ∃ Z, MCore.CycleCombination.eval M Z = M.smul a (M.cycleClass p z)"
+  },
+  {
+   "name": "MCore.BackwardAudit.realize_zeroClass",
+   "file": "lean/MCore/BackwardAudit/HodgeHabitantConstructors.lean",
+   "line": 5,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} (M : MCore.CycleSpanMechanics G) (X : G.Variety) (p : Nat),   ∃ Z, MCore.CycleCombination.eval M Z = M.zeroClass"
+  },
+  {
+   "name": "MCore.BackwardAudit.relative_open_math_closed",
+   "file": "lean/MCore/BackwardAudit/HodgeAssumedCompleteClosure.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.relativeOpenMathCount = 0"
+  },
+  {
+   "name": "MCore.BackwardAudit.remainingResearchSubgates_count",
+   "file": "lean/MCore/BackwardAudit/H01PublicReuseCompression.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": remainingResearchSubgates.length = 3"
+  },
+  {
+   "name": "MCore.BackwardAudit.remainingResearchSubgates_exact",
+   "file": "lean/MCore/BackwardAudit/H01PublicReuseCompression.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": remainingResearchSubgates = [ .qbarHodgePointExistence, .fiberAlgebraicity, .variationalAlgebraicity ]"
+  },
+  {
+   "name": "MCore.BackwardAudit.true_closed_state_is_0",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BackwardAudit.openMathPercent MCore.BackwardAudit.HodgeClosureState.closedTrue0 = 0"
+  },
+  {
+   "name": "MCore.BackwardAudit.twist_involutive",
+   "file": "lean/MCore/BackwardAudit/HodgeTensionClosure.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (p : MCore.BackwardAudit.HodgePolarity), p.twist.twist = p"
+  },
+  {
+   "name": "MCore.BackwardAudit.unconditionalCertificate_iff_payload",
+   "file": "lean/MCore/BackwardAudit/HodgeUnconditionalCertificate.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     (MCore.BackwardAudit.UnconditionalHodgeCertificate G M ↔ MCore.ConcreteAlgebraicityPayload M)"
+  },
+  {
+   "name": "MCore.BackwardAudit.unconditional_counterexample_payload_false",
+   "file": "lean/MCore/BackwardAudit/HodgeUnconditionalNoShortcut.lean",
+   "line": 94,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": ¬ MCore.ConcreteAlgebraicityPayload unconditionalCounterexampleM"
+  },
+  {
+   "name": "MCore.BackwardAudit.unconditional_false_in_concrete_span",
+   "file": "lean/MCore/BackwardAudit/HodgeUnconditionalNoShortcut.lean",
+   "line": 36,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{p : Nat} : InConcreteCycleSpan unconditionalCounterexampleM (X"
+  },
+  {
+   "name": "MCore.BackwardAudit.unconditional_hodge_claim",
+   "file": "lean/MCore/BackwardAudit/HodgeUnconditionalCertificate.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.BackwardAudit.UnconditionalHodgeCertificate G M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.BackwardAudit.unconditional_true_not_in_concrete_span",
+   "file": "lean/MCore/BackwardAudit/HodgeUnconditionalNoShortcut.lean",
+   "line": 42,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{p : Nat} : ¬ InConcreteCycleSpan unconditionalCounterexampleM (X"
+  }
+ ],
+ "closed": 63,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/AutoCompose.lean": "82d237a328a26f6f2bd3fefd78eec2ed3f05d5db26e46f63bfee75658946a7de",
+  "lean/MCore/BackwardAudit/CodimOneAdapterFirewall.lean": "c55e4117582f7dd740589519e77e243b3a93ec26c1c6bbe623360683b6120d7b",
+  "lean/MCore/BackwardAudit/CodimOneLefschetz11.lean": "c8b257808421715ea094de9328853a546ac8a92d1ab987a42839f549b1ce8e88",
+  "lean/MCore/BackwardAudit/ExactFinalProducer.lean": "d2da89267f40183b363b53c2d643b37162f3212ed2523d53d318a749525fdcc8",
+  "lean/MCore/BackwardAudit/FinalExternal.lean": "e75b02fb452e8594eb9fcfeb5ba94393f4e24050dc9d2877b7a08f4e898124c9",
+  "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean": "25d9fffd831207caab0c64f038dfcc8d75d7417a2b8818efd3da790300e410de",
+  "lean/MCore/BackwardAudit/H01MinimalForwardPayload.lean": "2c56127ee06c26df25354d38cc5c6dbee6d0dd938d9c901fffdc702e249e4050",
+  "lean/MCore/BackwardAudit/H01PublicReuseCompression.lean": "5d1b50ff15e9221ee9d95084dc9d25127cdf5f31b6e92fdbbaaab4b3ad5cfc1d",
+  "lean/MCore/BackwardAudit/HodgeAssumedCompleteClosure.lean": "649243f883228a8c1f4ab45d4ae9de7e4958658f465a29d632aadf219e5924a2",
+  "lean/MCore/BackwardAudit/HodgeCertifiedReuseBridge.lean": "08cdad424ed2c11c35ec03db62ace53a08a8acd77cc35bdab7b302d99cbe11d9",
+  "lean/MCore/BackwardAudit/HodgeCodimTrisection.lean": "3a2432cfb8431c737812ae5df553f2c90004fc1db0256d40281ec6fa1630f4d8",
+  "lean/MCore/BackwardAudit/HodgeHabitant.lean": "3dbff9f5c722aa45a22ffb0eb2bbd79057f1d3a7a68fad3ed62d9ecf8ba740b6",
+  "lean/MCore/BackwardAudit/HodgeHabitantConstructors.lean": "4c61bf79e4249208ef6e2f0140bef9238f07b28b6a437ebb3cb8f2d746531917",
+  "lean/MCore/BackwardAudit/HodgeHabitantGenericFirewall.lean": "71ce4fb2950ab00b95ba627e23dd753e493c2baa3c8364d10ac23a05b0fb7b8a",
+  "lean/MCore/BackwardAudit/HodgeHigherCodimUnconditionalClaim.lean": "86d2083eb6558ac2dd7714779836fb278c555ec9414b758225b077f533abc44d",
+  "lean/MCore/BackwardAudit/HodgeProducerFirst.lean": "226ff072af7d689901f6a768823ea65b87795edbb4eb41e626b5ab66bfc11d23",
+  "lean/MCore/BackwardAudit/HodgeResidualCodimSplit.lean": "13cc63ed6e4384350a0f12ef3f17d95330d07a5a12d2721a8735dc0ffc0296bd",
+  "lean/MCore/BackwardAudit/HodgeTensionClosure.lean": "7c1179c38e73d73116b3d2b90b6fd6aa9b407f32590838bcde5e397c8dd426f4",
+  "lean/MCore/BackwardAudit/HodgeUnconditionalCertificate.lean": "c4bd0af94f62a4f9c8c8f54d1f63dfe5a22b3aae5769fcc517efa370a79cfcb5",
+  "lean/MCore/BackwardAudit/HodgeUnifiedTerminalProducer.lean": "f7e014f0df450f7b8e50f46b9010e0768479092e57483d818ce62b0bccdc1381",
+  "lean/MCore/BackwardAudit/R1DescentBoundary.lean": "0e41d345031d16b18a87cc9a3883f9dd9ced95bd8dc8f29e53727400bf403b6a",
+  "lean/MCore/BackwardAudit/R2AfterR3.lean": "e1f71caabaecd302948ebfe95e60099edc72ba42d4cb3d5eb2553235dca168aa",
+  "lean/MCore/BackwardAudit/R2FiberAlgebraicityBoundary.lean": "3628ba63d4b54bf1243f214f84b114ec955d45d6b251eedc1f5619a335f428ac",
+  "lean/MCore/BackwardAudit/R2HardCore.lean": "cd0bd39ffddd950cfda67891223186a5e27e50a06699684025944f8a7a9a697d",
+  "lean/MCore/BackwardAudit/R3AtomicSpecialization.lean": "88a4a5b1b3a164d43b3a0040c252aec52ceeed871cbf1ccd4835023e1b9d33e2",
+  "lean/MCore/BackwardAudit/R3CombinationMinimal.lean": "eaa26a78e0ac4308fc4a7cf2d6db1e786b57fe1a9c7b5fbad03c3e397d6340dd",
+  "lean/MCore/BackwardAudit/R3Contract.lean": "ce8213bd912e6fdf58da94c866624ac66293263307c78d7b49eb0a0d7600c07b",
+  "lean/MCore/BackwardAudit/TypedVariationalGeometry.lean": "417462de2aa7d8cdfeaa951abf14b7308e03c449dd354761166016be1ec3759b",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/Hodge.lean": "ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57",
+  "lean/MCore/HodgeDecomposition.lean": "41f2a50a9b5aedff2ce543217c598c2df9ff77c00f68b982b280745004a57ad7",
+  "lean/MCore/HodgeReduction.lean": "d7866b8952937cd25ed20910fe0fb873acdf5dbc8ebcf60853510d0327cefb30",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "273c1a3686b01cdeb8746aa8b8c679c864679a50b7b9b855bcbf99f6ecdd8f19",
+  "lean/MCore/K11.lean": "4a3c83c7e4f7d24540512322737c6c8f47e079670d3af69bf8b0bc51e1f14799",
+  "lean/MCore/K12.lean": "a532f18415a766aaa4a4737649c644763404851244a8ea323477dcba6314c6f2",
+  "lean/MCore/K13.lean": "ece5938282d291b55a9e4413168d54f25bf49ce23320dc7bb659a782e5951664",
+  "lean/MCore/K14.lean": "5aeb4c52f3744b90253e20fe7c623130e8e0d423327948adedb95ac0aab451aa",
+  "lean/MCore/K15.lean": "de99c1ec3b446705162da87de6e730d389133680c35e59646b3b0eb0ce7095aa",
+  "lean/MCore/K16.lean": "40602929beec057ab3cba850a22eca6edfbfb1e175331c8071937e4cc6dd235f",
+  "lean/MCore/K17.lean": "5bb3ca9962bf6e618cdad5274182955152d6a675439460094c2665d9376c0e53",
+  "lean/MCore/K18.lean": "97e98fb29a0c157fa272db03b68c362218c716855c20c7c6452225d9a6471bd8",
+  "lean/MCore/K19.lean": "dae000bfc6212adfa4405b60e3bdca142b2f46414efde105467cb0540a4fb43d",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K20.lean": "5a7adf5a0787bea3f7eab9e2f3ab609cee979932741c10c32f8a4f63bfabeedb",
+  "lean/MCore/K21.lean": "7489fe7c83615b2cea598ec30443bc93a6edded93a4b8a88d279e06d3afce34e",
+  "lean/MCore/K22.lean": "b63b8da7703957255d5665adcacda315f2c9999052f48a094f86d0ecbc2195a3",
+  "lean/MCore/K23.lean": "248cb592d95fb9c953e6e5e1a2c422d2d52be5eb83e3a1a061faa7309ce35591",
+  "lean/MCore/K24.lean": "6c9d3f278fafb8fb0fd029ee1c443675a127d90943e64cd94d319be7b859e2a3",
+  "lean/MCore/K25.lean": "e4d805cb48e2ca73d9622d605dff3e6a04d0acbd87cda56a01ad2a2a83c9502a",
+  "lean/MCore/K26.lean": "fcd709cf992aba50c681938bb70f90e6a7d10bcdfd43426920e58bfdf298d291",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "42de655799d628719739bbe7c97018f9944c5817b65a261fe06d45c4d6edc1be"
+}

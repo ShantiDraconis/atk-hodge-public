@@ -1,0 +1,837 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-hodge",
+ "branch": "audit/multistate-proof-refutation-v1",
+ "branch_state": "parada",
+ "head_commit": "867f54bac28328c0200aeb292747c032b662deb4",
+ "head_commit_date": "2026-09-19T09:47:12+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "867f54bac28328c0200aeb292747c032b662deb4",
+   "date": "2026-09-19T09:47:12+02:00",
+   "subject": "infra(ci): retrigger Hodge audit on no-umbrella policy changes"
+  },
+  {
+   "commit": "053e09b2fd25db3d659821395c500db891be912e",
+   "date": "2026-09-19T09:46:18+02:00",
+   "subject": "infra(ci): build only frozen R1d dependency before audit"
+  },
+  {
+   "commit": "6af599bbc71b0e17ce9d1cfbb1f764860e0733da",
+   "date": "2026-09-19T09:45:14+02:00",
+   "subject": "infra(ci): make certificate ancestry check shallow-safe"
+  },
+  {
+   "commit": "81fd5c8d7758e3cdc69dc7d8da0a8ee72972705c",
+   "date": "2026-09-19T09:44:14+02:00",
+   "subject": "infra(ci): consolidate no-umbrella policy on canonical gate"
+  },
+  {
+   "commit": "369096fab5ca9cc07fab48ecc260078478f242f7",
+   "date": "2026-09-19T09:44:12+02:00",
+   "subject": "infra(ci): consolidate no-umbrella policy on canonical gate"
+  },
+  {
+   "commit": "8256d799d754ffdd0ba8b3ebf7d58a6508f8d2d0",
+   "date": "2026-09-19T09:43:36+02:00",
+   "subject": "infra(ci): enforce no-umbrella globally"
+  },
+  {
+   "commit": "57117a200896c8fb432513bc05e0242d630a1641",
+   "date": "2026-09-19T09:43:33+02:00",
+   "subject": "infra(ci): isolate manual full reproduction"
+  },
+  {
+   "commit": "38afe2734adb6d0e31a5c1a961ae89d914443c0b",
+   "date": "2026-09-19T09:43:16+02:00",
+   "subject": "infra(ci): add fail-fast no-umbrella gate to Hodge audit"
+  },
+  {
+   "commit": "dac4638ad9df8f9de32352fee9b665ea64c70eae",
+   "date": "2026-09-19T09:43:04+02:00",
+   "subject": "infra(ci): make certificate targeted and fail-fast"
+  },
+  {
+   "commit": "049aef0cfb2b75cbbdac8fce922314f179406661",
+   "date": "2026-09-19T09:42:50+02:00",
+   "subject": "infra(ci): remove umbrella build from 8x5 audit"
+  },
+  {
+   "commit": "3d570f73ecb3cdaeda32e3cb6a911e77d4938ff6",
+   "date": "2026-09-19T09:42:28+02:00",
+   "subject": "infra(ci): add global no-umbrella anti-regression gate"
+  },
+  {
+   "commit": "72c238028da53b9a09775928ab1336a496d76901",
+   "date": "2026-09-19T09:42:25+02:00",
+   "subject": "ci: enforce targeted fast-fail certification builds"
+  },
+  {
+   "commit": "3989c9d91c9f4561da4a0b0f198029fb073d9305",
+   "date": "2026-09-19T09:42:23+02:00",
+   "subject": "ci: add global NO-UMBRELLA regression firewall"
+  },
+  {
+   "commit": "794d8155c0b8e1a42dbf0d3a28c3e3aff65f6f95",
+   "date": "2026-09-19T03:24:06+02:00",
+   "subject": "ci(hodge): gate f1680733 checkpoint promotion"
+  },
+  {
+   "commit": "30d7d252c58e4a8eddabd1645ff0ecb1122c3a04",
+   "date": "2026-09-19T03:23:44+02:00",
+   "subject": "audit(hodge): promote f1680733 after direct p1 and G4 compression"
+  },
+  {
+   "commit": "f168073341e541a89b1fa8455ebd1ffbc493278f",
+   "date": "2026-09-19T03:22:23+02:00",
+   "subject": "ci(hodge): certify direct p1 Lefschetz route"
+  },
+  {
+   "commit": "7f0f342ddfc0b82df932c4d02cb5fce364b00976",
+   "date": "2026-09-19T03:22:08+02:00",
+   "subject": "audit(hodge): add direct p1 Lefschetz route bypassing R1d and R3"
+  },
+  {
+   "commit": "44cf8fa118f42ba8cbeecbf0aa8c6775c74e90b4",
+   "date": "2026-09-19T03:20:56+02:00",
+   "subject": "ci(hodge): certify split G3 p1 semantic adapter"
+  },
+  {
+   "commit": "9f6c2ea794ac00d33767c3f6900d79a1b43ff9c5",
+   "date": "2026-09-19T03:20:48+02:00",
+   "subject": "audit(hodge): split G3 p1 semantic match into H2 comparison and divisors"
+  },
+  {
+   "commit": "64e2887c8466a2685484ef1d606c299189339474",
+   "date": "2026-09-19T03:20:16+02:00",
+   "subject": "fix(hodge): construct generator G4 decomposition without forward reference"
+  },
+  {
+   "commit": "3407ed3119f923508383dd8bc7b8f07e2e2da0d0",
+   "date": "2026-09-19T03:19:16+02:00",
+   "subject": "ci(hodge): certify Gauss-Manin linearity G4 reduction"
+  },
+  {
+   "commit": "92a9fdc6255fee17dd102d0b4a43eda0030624f8",
+   "date": "2026-09-19T03:19:07+02:00",
+   "subject": "audit(hodge): reduce G4 to Gauss-Manin linearity and cycle generators"
+  },
+  {
+   "commit": "71d930e3575d8d683d4678daffc123c9a7f2100c",
+   "date": "2026-09-19T03:18:10+02:00",
+   "subject": "fix(hodge): make Chow-Hilbert return map parameter explicit"
+  },
+  {
+   "commit": "e84cfd5217725b5742e010b3725613bdc206009f",
+   "date": "2026-09-19T03:18:07+02:00",
+   "subject": "fix(hodge): orient generator naturality and expose return transport goal"
+  },
+  {
+   "commit": "afe9ae1559da5b49b0473209f088aad2b3c1caa7",
+   "date": "2026-09-19T03:16:36+02:00",
+   "subject": "ci(hodge): certify generator-wise G4 specialization"
+  },
+  {
+   "commit": "4797beecd7af1b81b8714137522293d5bdaa455d",
+   "date": "2026-09-19T03:16:29+02:00",
+   "subject": "audit(hodge): derive G4 combination naturality from cycle generators"
+  },
+  {
+   "commit": "30ab5b6268f96fdd809c021cc6fadd66ec8390d4",
+   "date": "2026-09-19T03:15:30+02:00",
+   "subject": "ci(hodge): certify exact reverse-path G4 decomposition"
+  },
+  {
+   "commit": "03d12a3573e0d157036c15574d3b756f93509a01",
+   "date": "2026-09-19T03:15:22+02:00",
+   "subject": "audit(hodge): derive exact G4 transport return from reverse path"
+  },
+  {
+   "commit": "3f99d00805d4a4452e029bc236821a8cd140bee6",
+   "date": "2026-09-19T03:14:20+02:00",
+   "subject": "audit(hodge): fix transport roundtrip typing and add path-groupoid adapter"
+  },
+  {
+   "commit": "205de82f0765dcc1015b108bc44ab02c4737e31a",
+   "date": "2026-09-19T03:13:00+02:00",
+   "subject": "ci(hodge): certify reverse-path transport return cut"
+  },
+  {
+   "commit": "921d9e64f083a2bf4792c209ba337b363a35cfd8",
+   "date": "2026-09-19T03:12:47+02:00",
+   "subject": "audit(hodge): derive G4 transport return from reverse path"
+  },
+  {
+   "commit": "a74c7781e68c037b6226c6081f786199072a4dd7",
+   "date": "2026-09-19T01:43:04+02:00",
+   "subject": "ci(hodge): gate base checkpoint 75131c04 promotion"
+  },
+  {
+   "commit": "fe6c231a58e124c2ebda4cc510768e60909ee8b2",
+   "date": "2026-09-19T01:42:54+02:00",
+   "subject": "audit(hodge): promote 75131c04 as base checkpoint"
+  },
+  {
+   "commit": "75131c04f97c8eaed28027ee5b58ffcc757b4643",
+   "date": "2026-09-19T01:06:06+02:00",
+   "subject": "ci(hodge): certify Lefschetz semantic witness and Chow-Hilbert origin"
+  },
+  {
+   "commit": "21639aaa5fd0ea1ca14cba86538e41838c3bae5e",
+   "date": "2026-09-19T01:05:55+02:00",
+   "subject": "audit(hodge): bind G4 naturality to Chow-Hilbert morphism data"
+  },
+  {
+   "commit": "1a1473f6844029dd74da2c71c80295494f91b258",
+   "date": "2026-09-19T01:05:24+02:00",
+   "subject": "audit(hodge): make Lefschetz carrier semantic match an explicit witness"
+  },
+  {
+   "commit": "a875f831c85731eb865f1b06744226d6cc59662a",
+   "date": "2026-09-19T00:53:35+02:00",
+   "subject": "ci(hodge): certify R1d component-model sketch without construction"
+  },
+  {
+   "commit": "d6dd7e3a9d88621b06a0320715d10f3283085b22",
+   "date": "2026-09-19T00:53:22+02:00",
+   "subject": "audit(hodge): document R1d component-model residues only"
+  },
+  {
+   "commit": "fc088f38762d45522268174e06db1a97a92fa378",
+   "date": "2026-09-19T00:44:45+02:00",
+   "subject": "audit(hodge): make Lefschetz R2 closure theorem propositional"
+  },
+  {
+   "commit": "beef26f99fe26a58f0ebfc637e49db7cc8439856",
+   "date": "2026-09-19T00:43:55+02:00",
+   "subject": "ci(hodge): certify Lefschetz adapter and R3 naturality origin in parallel"
+  },
+  {
+   "commit": "e44bc23c63fc6067861c1a5a63cfcc01c4b22e5d",
+   "date": "2026-09-19T00:43:41+02:00",
+   "subject": "audit(hodge): derive G4 naturality from relative cycle-class origin"
+  },
+  {
+   "commit": "5a729e908b3a84ca021ebe8b47be89433e010d24",
+   "date": "2026-09-19T00:43:39+02:00",
+   "subject": "audit(hodge): type conditional Lefschetz 1,1 R2 adapter"
+  },
+  {
+   "commit": "dc8e519c9df0fd2b1885712611617e41647e5007",
+   "date": "2026-09-19T00:02:20+02:00",
+   "subject": "ci(hodge): parallelize R1d field bridge R2 regimes and R3 factorization"
+  },
+  {
+   "commit": "b7033de14975c0f047e2115033a3d43b9bd643c5",
+   "date": "2026-09-19T00:02:05+02:00",
+   "subject": "audit(hodge): factor geometric R3 into non-circular typed pieces"
+  },
+  {
+   "commit": "2c74edfbec20ce5754e9e3884c4fe87102ef2f96",
+   "date": "2026-09-19T00:02:02+02:00",
+   "subject": "audit(hodge): classify R2 known regimes without placebo proofs"
+  },
+  {
+   "commit": "9c830308bb70363f53456fb80bb0ed607f110de3",
+   "date": "2026-09-19T00:02:00+02:00",
+   "subject": "audit(hodge): type R1d field-of-definition bridge without axioms"
+  },
+  {
+   "commit": "78e99133fb6e15238fb190f961bccb2426503578",
+   "date": "2026-09-18T21:11:19+02:00",
+   "subject": "audit: type minimal R1d Qbar and R3 cycle-spread interfaces"
+  },
+  {
+   "commit": "c143ef639542be49373d71a4038f8a90689cff32",
+   "date": "2026-09-18T21:04:53+02:00",
+   "subject": "audit(hodge): freeze Voisin and geometric R3 typed boundaries"
+  },
+  {
+   "commit": "c32f97a785738d98205d8464dd9bff433f47aa40",
+   "date": "2026-09-18T21:03:39+02:00",
+   "subject": "audit(hodge): remove forbidden target name from geometric R3 comments"
+  },
+  {
+   "commit": "5ac6ecf1aad96819c9fbc8003428d2df5a903dd2",
+   "date": "2026-09-18T21:02:38+02:00",
+   "subject": "ci(hodge): certify Voisin boundary and geometric R3 interface"
+  },
+  {
+   "commit": "7cf5a3a3ec489590e20e8b9db1219432046a8785",
+   "date": "2026-09-18T21:02:18+02:00",
+   "subject": "audit(hodge): type independent geometric R3 specialization"
+  },
+  {
+   "commit": "06e26ba66fcedf0f9949d98e67004f73317fe2d9",
+   "date": "2026-09-18T21:02:16+02:00",
+   "subject": "audit(hodge): type exact Voisin R1d boundary"
+  },
+  {
+   "commit": "f2f7984c6565871a265a38997591d9b104ffa10b",
+   "date": "2026-09-18T20:02:21+02:00",
+   "subject": "audit(hodge): start universal 8x5 certification with Q=MATCH and HC residue"
+  },
+  {
+   "commit": "d27b505c350889d6fb08c3705327e29b16eba580",
+   "date": "2026-09-18T19:48:34+02:00",
+   "subject": "audit(hodge): record certified R1d R2 R3 exact cuts"
+  },
+  {
+   "commit": "30a1a8e177205675f8dca9784c1c11f0d9485a43",
+   "date": "2026-09-18T19:46:56+02:00",
+   "subject": "ci(hodge): build frozen R3 contract before exact-cut test"
+  },
+  {
+   "commit": "0063ec36b538f48d4acb8c665c7662edb744f815",
+   "date": "2026-09-18T19:46:04+02:00",
+   "subject": "ci(hodge): certify exact R3 circularity cut"
+  },
+  {
+   "commit": "ca2d48957eba52bc006979c8daeb2bc30f971665",
+   "date": "2026-09-18T19:45:52+02:00",
+   "subject": "audit(hodge): expose exact R3 circularity cut"
+  },
+  {
+   "commit": "336282f101490a32fa50d2948b444a3c0e97c95c",
+   "date": "2026-09-18T19:44:16+02:00",
+   "subject": "ci(hodge): add axiom-free exact R2 cut to frozen audit"
+  },
+  {
+   "commit": "6e15d4ad6e7c2c0d92a17c49554b24b8866cdb74",
+   "date": "2026-09-18T19:44:03+02:00",
+   "subject": "audit(hodge): reduce R2 to exact cycle-span obligation"
+  },
+  {
+   "commit": "c4245f23d12f64e1424f851b8eb8e89a372e7cf4",
+   "date": "2026-09-18T19:42:14+02:00",
+   "subject": "ci(hodge): build frozen R1d dependency before audit test"
+  },
+  {
+   "commit": "5b4ca1211ad6b458ebb8d51bb42f9f29658350bb",
+   "date": "2026-09-18T19:41:27+02:00",
+   "subject": "ci(hodge): certify ours anchor by exact parents and tree"
+  },
+  {
+   "commit": "407e24f92c24b07ea2472c2a72348e7d9364a48c",
+   "date": "2026-09-18T19:41:19+02:00",
+   "subject": "audit(hodge): pin exact ours-anchor parents and tree"
+  },
+  {
+   "commit": "1f6194be29805a9a8d6c063a470e8eda164165f7",
+   "date": "2026-09-18T19:40:21+02:00",
+   "subject": "ci(hodge): isolate frozen R1d audit from legacy pipeline"
+  },
+  {
+   "commit": "1dce9d92d76398af418b733dae0687158adb4879",
+   "date": "2026-09-18T19:39:27+02:00",
+   "subject": "ci(hodge): add frozen U-REF R1d eight-gate A-B"
+  },
+  {
+   "commit": "8e5d07e4d1fd70fec1c2e930f5b160c2f0f3a704",
+   "date": "2026-09-18T19:39:00+02:00",
+   "subject": "audit(hodge): attack R1d at Qbar basepoint"
+  },
+  {
+   "commit": "3f91d3e1d51866b5ffb3ef5472fd1539a812d256",
+   "date": "2026-09-18T19:38:26+02:00",
+   "subject": "audit(hodge): pin frozen frontier U-REF"
+  },
+  {
+   "commit": "a027095b1ee6abfd899a4cc53c6140f14c29045c",
+   "date": "2026-09-18T19:36:49+02:00",
+   "subject": "audit: anchor frozen Hodge frontier as read-only U-REF"
+  },
+  {
+   "commit": "5572246e80552af5bdfeeb39681b2a977b227c9a",
+   "date": "2026-09-18T11:52:46+02:00",
+   "subject": "audit: formalize 12-gate massive no-cheating architecture"
+  },
+  {
+   "commit": "3e9ffcb37b60afb62cb84d8535478024d86a02be",
+   "date": "2026-09-18T11:52:40+02:00",
+   "subject": "audit: formalize 12-gate massive no-cheating architecture"
+  },
+  {
+   "commit": "b69f1b818608f234ee6bb64265befe02602b30b7",
+   "date": "2026-09-18T11:48:12+02:00",
+   "subject": "audit: formalize canonical 18-test backward matrix"
+  },
+  {
+   "commit": "0dc1a1d6380d5ed19480d6f831eb815427245ebf",
+   "date": "2026-09-18T11:39:29+02:00",
+   "subject": "audit: define hypothetical initial closed-system contract"
+  },
+  {
+   "commit": "aae02605e57ff3b764a1f69855ee24ebef900222",
+   "date": "2026-09-18T07:11:10+02:00",
+   "subject": "audit: add isolated multistate proof/refutation certification protocol"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "HodgeR1dAudit.basepoint_is_hodge",
+   "file": "audit/hodge-r1d/R1dBasepointAttack.lean",
+   "line": 58,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) : S.isHodgeAlong (S.pathRefl S.basepoint)"
+  },
+  {
+   "name": "HodgeR1dAudit.basepoint_qbar_closes_r1d",
+   "file": "audit/hodge-r1d/R1dBasepointAttack.lean",
+   "line": 96,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) (hQbar : S.fieldOfDefinition.isDefinedOverQbar S.basepoint) : Nonempty (R1DescentPointContract S)"
+  },
+  {
+   "name": "HodgeR1dAudit.basepoint_residue_suffices",
+   "file": "audit/hodge-r1d/R1dBasepointAttack.lean",
+   "line": 141,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) : BasepointQbarResidue S → Nonempty (R1DescentPointContract S)"
+  },
+  {
+   "name": "HodgeR1dAudit.isTypePP_castCohomology",
+   "file": "audit/hodge-r1d/R1dBasepointAttack.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X Y : G.Variety} {p : Nat} {β : G.CohomologyQ X (2 * p)} (h : X = Y) (hβ : G.isTypePP p β) : G.isTypePP p (castCohomology G h β)"
+  },
+  {
+   "name": "HodgeR1dAudit.r1d_contract_iff_exact_residue",
+   "file": "audit/hodge-r1d/R1dBasepointAttack.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) : Nonempty (R1DescentPointContract S) ↔ R1dExactResidue S"
+  },
+  {
+   "name": "HodgeR1dAudit.trivial_spread_blocks_unconditional_r1d",
+   "file": "audit/hodge-r1d/R1dBasepointAttack.lean",
+   "line": 110,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} : ¬ Nonempty (R1DescentPointContract (trivialSpreadNoQbar G X p α hX hα))"
+  },
+  {
+   "name": "HodgeR1dComponentSketchAudit.component_construction_not_attempted",
+   "file": "audit/hodge-r1d/R1dComponentModelSketch.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": r1dComponentConstructionAttempted = false"
+  },
+  {
+   "name": "HodgeR1dComponentSketchAudit.component_model_still_open",
+   "file": "audit/hodge-r1d/R1dComponentModelSketch.lean",
+   "line": 50,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": r1dComponentModelComplete = false"
+  },
+  {
+   "name": "HodgeR1dFieldBridgeAudit.component_model_gives_qbar_hodge_point",
+   "file": "audit/hodge-r1d/R1dFieldOfDefinitionBridge.lean",
+   "line": 68,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) (C : HodgeLocusComponentData S) (Mdl : QbarComponentModel C) (hFinite : Mdl.isFiniteType) (hDefined : Mdl.isDefinedOverQbar) (hPoint : QbarPointExistencePrinciple S) : HasQbarPointOnRelevantHodgeLocus S"
+  },
+  {
+   "name": "HodgeR1dFieldBridgeAudit.field_of_definition_bridge_closes_r1d",
+   "file": "audit/hodge-r1d/R1dFieldOfDefinitionBridge.lean",
+   "line": 87,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) (C : HodgeLocusComponentData S) (Mdl : QbarComponentModel C) (hFinite : Mdl.isFiniteType) (hDefined : Mdl.isDefinedOverQbar) (hPoint : QbarPointExistencePrinciple S) : Nonempty (R1DescentPointContract S)"
+  },
+  {
+   "name": "HodgeR1dFieldBridgeAudit.field_of_definition_semantic_match_still_open",
+   "file": "audit/hodge-r1d/R1dFieldOfDefinitionBridge.lean",
+   "line": 119,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": fieldOfDefinitionSemanticMatchComplete = false"
+  },
+  {
+   "name": "HodgeR1dVoisinAudit.has_qbar_point_on_locus_implies_r1d",
+   "file": "audit/hodge-r1d/R1dVoisinBoundary.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) (h : HasQbarPointOnRelevantHodgeLocus S) : Nonempty (R1DescentPointContract S)"
+  },
+  {
+   "name": "HodgeR1dVoisinAudit.r1d_iff_has_qbar_point_on_locus",
+   "file": "audit/hodge-r1d/R1dVoisinBoundary.lean",
+   "line": 61,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) : Nonempty (R1DescentPointContract S) ↔ HasQbarPointOnRelevantHodgeLocus S"
+  },
+  {
+   "name": "HodgeR1dVoisinAudit.r1d_implies_has_qbar_point_on_locus",
+   "file": "audit/hodge-r1d/R1dVoisinBoundary.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) (h : Nonempty (R1DescentPointContract S)) : HasQbarPointOnRelevantHodgeLocus S"
+  },
+  {
+   "name": "HodgeR1dVoisinAudit.r1d_voisin_general_case_still_open",
+   "file": "audit/hodge-r1d/R1dVoisinBoundary.lean",
+   "line": 122,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": r1dVoisinClosedForArbitraryInput = false"
+  },
+  {
+   "name": "HodgeR1dVoisinAudit.voisin_semantic_match_still_open",
+   "file": "audit/hodge-r1d/R1dVoisinBoundary.lean",
+   "line": 118,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": voisin05Part2SemanticMatchComplete = false"
+  },
+  {
+   "name": "HodgeR2Audit.r1d_supplies_hodge_not_cycle_span",
+   "file": "audit/hodge-r1d/R2ExactCut.lean",
+   "line": 49,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (D : R1DescentPointContract S) : G.isTypePP p (S.transportedAlpha D.point.path)"
+  },
+  {
+   "name": "HodgeR2Audit.r2_contract_is_exact_residue",
+   "file": "audit/hodge-r1d/R2ExactCut.lean",
+   "line": 78,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (D : R1DescentPointContract S) : Nonempty (R2FiberCycleData M S D.point) ↔ R2ExactResidue M D"
+  },
+  {
+   "name": "HodgeR2Audit.r2_data_iff_concrete_span",
+   "file": "audit/hodge-r1d/R2ExactCut.lean",
+   "line": 7,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (Q : QbarHodgePointData S) : Nonempty (R2FiberCycleData M S Q) ↔ InConcreteCycleSpan M (S.transportedAlpha Q.path)"
+  },
+  {
+   "name": "HodgeR2Audit.r2_data_iff_semantic_span",
+   "file": "audit/hodge-r1d/R2ExactCut.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} (A : CycleSpanAdapter G M) {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (Q : QbarHodgePointData S) : Nonempty (R2FiberCycleData M S Q) ↔ G.inCycleClassSpan p (S.transportedAlpha Q.path)"
+  },
+  {
+   "name": "HodgeR2KnownRegimesAudit.divisor_regime_semantic_match_still_open",
+   "file": "audit/hodge-r1d/R2KnownRegimes.lean",
+   "line": 71,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": divisorRegimeSemanticMatchComplete = false"
+  },
+  {
+   "name": "HodgeR2KnownRegimesAudit.known_regime_certificate_closes_r2",
+   "file": "audit/hodge-r1d/R2KnownRegimes.lean",
+   "line": 53,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {Q : QbarHodgePointData S} (C : R2KnownRegimeCertificate M Q) : Nonempty (R2FiberCycleData M S Q)"
+  },
+  {
+   "name": "HodgeR2Lefschetz11Audit.lefschetz11_adapter_closes_r2",
+   "file": "audit/hodge-r1d/R2Lefschetz11Adapter.lean",
+   "line": 162,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {α : G.CohomologyQ X (2 * 1)} {hX : G.isSmoothProjective X} {hα : G.isTypePP 1 α} {S : SpreadData G X 1 α hX hα} {Q : QbarHodgePointData S} (A : Lefschetz11CarrierAdapter M S Q) (hL11 : Lefschetz11ClassicalStatement A) : Nonempty (R2FiberCycleData M S Q)"
+  },
+  {
+   "name": "HodgeR2Lefschetz11Audit.lefschetz11_remains_external",
+   "file": "audit/hodge-r1d/R2Lefschetz11Adapter.lean",
+   "line": 260,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": lefschetz11ClassicalTheoremInternal = false"
+  },
+  {
+   "name": "HodgeR2Lefschetz11Audit.semantic_match_modulo_classical_closes_r2",
+   "file": "audit/hodge-r1d/R2Lefschetz11Adapter.lean",
+   "line": 241,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {α : G.CohomologyQ X (2 * 1)} {hX : G.isSmoothProjective X} {hα : G.isTypePP 1 α} {S : SpreadData G X 1 α hX hα} {Q : QbarHodgePointData S} (SM : Lefschetz11CarrierSemanticMatch M S Q) (hL11 : Lefschetz11ClassicalStatement SM.adapter) : Nonempty (R2FiberCycleData M S Q)"
+  },
+  {
+   "name": "HodgeR2Lefschetz11DirectAudit.direct_lefschetz11_closes_concrete_span",
+   "file": "audit/hodge-r1d/R2Lefschetz11Direct.lean",
+   "line": 60,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {α : G.CohomologyQ X (2 * 1)} (A : DirectLefschetz11Adapter M X α) (hα : G.isTypePP 1 α) (hL11 : DirectLefschetz11ClassicalStatement A) : InConcreteCycleSpan M α"
+  },
+  {
+   "name": "HodgeR2Lefschetz11DirectAudit.direct_lefschetz11_closes_semantic_span",
+   "file": "audit/hodge-r1d/R2Lefschetz11Direct.lean",
+   "line": 84,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} (Span : CycleSpanAdapter G M) {X : G.Variety} {α : G.CohomologyQ X (2 * 1)} (A : DirectLefschetz11Adapter M X α) (hα : G.isTypePP 1 α) (hL11 : DirectLefschetz11ClassicalStatement A) : G.inCycleClassSpan 1 α"
+  },
+  {
+   "name": "HodgeR3Audit.original_target_implies_r3",
+   "file": "audit/hodge-r1d/R3ExactCut.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (hTarget : InConcreteCycleSpan M α) : R3TransportContract M S"
+  },
+  {
+   "name": "HodgeR3Audit.r3_contract_iff_exact_residue",
+   "file": "audit/hodge-r1d/R3ExactCut.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} : R3TransportContract M S ↔ R3ExactResidue M S"
+  },
+  {
+   "name": "HodgeR3Audit.r3_iff_original_target_given_point",
+   "file": "audit/hodge-r1d/R3ExactCut.lean",
+   "line": 51,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (P : AlgebraicPointData M S) : R3TransportContract M S ↔ InConcreteCycleSpan M α"
+  },
+  {
+   "name": "HodgeR3Audit.r3_iff_semantic_span_given_point",
+   "file": "audit/hodge-r1d/R3ExactCut.lean",
+   "line": 70,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} (A : CycleSpanAdapter G M) {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (P : AlgebraicPointData M S) : R3TransportContract M S ↔ G.inCycleClassSpan p α"
+  },
+  {
+   "name": "HodgeR3FactorizationAudit.castCohomology_addClass",
+   "file": "audit/hodge-r1d/R3GeometricFactorization.lean",
+   "line": 238,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} (M : CycleSpanMechanics G) {X Y : G.Variety} {p : Nat} (h : X = Y) (a b : G.CohomologyQ X (2 * p)) : castCohomology G h (M.addClass a b) = M.addClass (castCohomology G h a) (castCohomology G h b)"
+  },
+  {
+   "name": "HodgeR3FactorizationAudit.castCohomology_smul",
+   "file": "audit/hodge-r1d/R3GeometricFactorization.lean",
+   "line": 253,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} (M : CycleSpanMechanics G) {X Y : G.Variety} {p : Nat} (h : X = Y) (k : M.Coeff) (a : G.CohomologyQ X (2 * p)) : castCohomology G h (M.smul k a) = M.smul k (castCohomology G h a)"
+  },
+  {
+   "name": "HodgeR3FactorizationAudit.castCohomology_zeroClass",
+   "file": "audit/hodge-r1d/R3GeometricFactorization.lean",
+   "line": 224,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} (M : CycleSpanMechanics G) {X Y : G.Variety} {p : Nat} (h : X = Y) : castCohomology G h (M.zeroClass : G.CohomologyQ X (2 * p)) = (M.zeroClass : G.CohomologyQ Y (2 * p))"
+  },
+  {
+   "name": "HodgeR3FactorizationAudit.decomposed_specialization_has_original_class",
+   "file": "audit/hodge-r1d/R3GeometricFactorization.lean",
+   "line": 503,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {Q : QbarHodgePointData S} (D : GeometricCycleSpecializationDecomposed M S Q) (C : R2FiberCycleData M S Q) : (D.specializationData.specializeCombination C.combination).eval M = α"
+  },
+  {
+   "name": "HodgeR3FactorizationAudit.eval_specializeCombinationByGenerators",
+   "file": "audit/hodge-r1d/R3GeometricFactorization.lean",
+   "line": 128,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {Q : QbarHodgePointData S} {R : CohomologyReturnData S Q} (L : CohomologyReturnLinearityData M S Q R) (D : GeneratorSpecializationData M S Q R) (c : CycleCombination G M (S.Family Q.y) p) : (specializeCom"
+  },
+  {
+   "name": "HodgeR3FactorizationAudit.factor_castCohomology_roundtrip",
+   "file": "audit/hodge-r1d/R3GeometricFactorization.lean",
+   "line": 282,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X Y : G.Variety} {n : Nat} (h : X = Y) (β : G.CohomologyQ Y n) : castCohomology G h (castCohomology G h.symm β) = β"
+  },
+  {
+   "name": "HodgeR3FactorizationAudit.r3_factor_semantic_match_still_open",
+   "file": "audit/hodge-r1d/R3GeometricFactorization.lean",
+   "line": 561,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": r3FactorSemanticMatchComplete = false"
+  },
+  {
+   "name": "HodgeR3GeometricAudit.geometric_r3_semantic_match_still_open",
+   "file": "audit/hodge-r1d/R3GeometricSpecializationInterface.lean",
+   "line": 102,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": geometricR3SemanticMatchComplete = false"
+  },
+  {
+   "name": "HodgeR3GeometricAudit.specialized_combination_has_original_class",
+   "file": "audit/hodge-r1d/R3GeometricSpecializationInterface.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {Q : QbarHodgePointData S} (J : GeometricCycleSpecialization M S Q) (C : R2FiberCycleData M S Q) : (J.specializeCombination C.combination).eval M = α"
+  },
+  {
+   "name": "HodgeR3NaturalityOriginAudit.chow_hilbert_origin_yields_cycle_class_naturality",
+   "file": "audit/hodge-r1d/R3CycleClassNaturalityOrigin.lean",
+   "line": 218,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {Q : QbarHodgePointData S} {R : CohomologyReturnOrigin S Q} (B : RelativeChowHilbertBackend M S Q) (C : HasRelativeCycleClassMap (R"
+  },
+  {
+   "name": "HodgeR3NaturalityOriginAudit.relative_chow_hilbert_semantic_match_still_open",
+   "file": "audit/hodge-r1d/R3CycleClassNaturalityOrigin.lean",
+   "line": 243,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": relativeChowHilbertSemanticMatchComplete = false"
+  },
+  {
+   "name": "HodgeR3NaturalityOriginAudit.relative_origin_yields_cycle_class_naturality",
+   "file": "audit/hodge-r1d/R3CycleClassNaturalityOrigin.lean",
+   "line": 184,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {Q : QbarHodgePointData S} {R : CohomologyReturnOrigin S Q} (O : RelativeCycleClassOrigin M S Q R) (c : CycleCombination G M (S.Family Q.y) p) : (O.specializeToOriginalFiber (O.liftFromSelectedFiber c)).e"
+  },
+  {
+   "name": "HodgeR3TransportReturnAudit.castCohomology_roundtrip",
+   "file": "audit/hodge-r1d/R3TransportReturnOrigin.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X Y : G.Variety} {n : Nat} (h : X = Y) (β : G.CohomologyQ Y n) : castCohomology G h (castCohomology G h.symm β) = β"
+  },
+  {
+   "name": "HodgeR3TransportReturnAudit.reverse_path_returns_transported_alpha",
+   "file": "audit/hodge-r1d/R3TransportReturnOrigin.lean",
+   "line": 90,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {Q : QbarHodgePointData S} (D : ReversePathData S Q) : returnCohomologyOfReversePath D (S.transportedAlpha Q.path) = α"
+  },
+  {
+   "name": "MCore.Audit8x5.A_axis_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 65,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.A = MCore.Audit8x5.AxisState.pending"
+  },
+  {
+   "name": "MCore.Audit8x5.HC_axis_blocking",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.HC = MCore.Audit8x5.AxisState.blocking"
+  },
+  {
+   "name": "MCore.Audit8x5.K_axis_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.K = MCore.Audit8x5.AxisState.pending"
+  },
+  {
+   "name": "MCore.Audit8x5.Q_axis_matched",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.Q = MCore.Audit8x5.AxisState.matched"
+  },
+  {
+   "name": "MCore.Audit8x5.S_axis_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.S = MCore.Audit8x5.AxisState.pending"
+  },
+  {
+   "name": "MCore.Audit8x5.endpoint_iff_pointwise",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.HodgeSemanticData), MCore.Audit8x5.Endpoint D ↔ MCore.PointwiseHodgeAlgebraicity D"
+  },
+  {
+   "name": "MCore.Audit8x5.pointwise_payload_remains_open",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.pointwise_algebraicity_payload_status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.Audit8x5.quantifier_match",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.QuantifierMatch"
+  },
+  {
+   "name": "MultistateAudit.Hodge.Gates.fullyAudited_elim",
+   "file": "audit/20_BACKWARD_ELIMINATION/MassiveGateArchitecture.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(A : DecisiveAudit) (h : FullyAudited A) : A.provenanceLock ∧ A.hypothesisConclusionMatch ∧ A.quantifierMatch ∧ A.scalingConstantMatch ∧ A.axiomNoncircularity ∧ A.proofSearchDischarged ∧ A.falsificationSearchDischarged ∧ A.leanBuildAndAxiomsAudited"
+  }
+ ],
+ "closed": 8,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Audit8x5.lean": "71244ee0488224f03b402078b94063ddebf75c11f8c91cad3c018586ddea649f",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/Hodge.lean": "ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57",
+  "lean/MCore/HodgeBoundary.lean": "5d5e73c712c5e5d1d88493cb7625f48b671a91881a3b43fcbc5a8f8c39056032",
+  "lean/MCore/HodgeReduction.lean": "d7866b8952937cd25ed20910fe0fb873acdf5dbc8ebcf60853510d0327cefb30",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "273c1a3686b01cdeb8746aa8b8c679c864679a50b7b9b855bcbf99f6ecdd8f19",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "fb689ca8d463f96e17b60cdd1cd084a3f43a957ad753951fef4cd22c74b82a25"
+}

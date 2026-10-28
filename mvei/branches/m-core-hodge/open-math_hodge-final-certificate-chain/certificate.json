@@ -1,0 +1,116 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-hodge",
+ "branch": "open-math/hodge-final-certificate-chain",
+ "branch_state": "parada",
+ "head_commit": "07a508bf627a756393a4ed22cb40e793672e0162",
+ "head_commit_date": "2026-09-25T08:33:36+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "07a508bf627a756393a4ed22cb40e793672e0162",
+   "date": "2026-09-25T08:33:36+01:00",
+   "subject": "open-math: register Hodge certificate chain ledger"
+  },
+  {
+   "commit": "2aa62815d8ddae0cd6c48d631b3df00f1e8b02b0",
+   "date": "2026-09-25T08:33:21+01:00",
+   "subject": "open-math: wire Hodge final certificate chain into MCore"
+  },
+  {
+   "commit": "f39934edcc84cdb6a7eebacb5cae79c0cb1972bd",
+   "date": "2026-09-25T08:33:13+01:00",
+   "subject": "open-math: add fail-closed Hodge final certificate chain"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.final_external_implies_rational_hodge",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 103,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.HodgeSemanticData}, MCore.HodgeFinalExternalCertificate D → MCore.RationalHodgeConjecture D"
+  },
+  {
+   "name": "MCore.h01_iff_open_math_core",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 115,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.HodgeSemanticData), MCore.H01MinimalForwardPayload D ↔ MCore.HodgeOpenMathCore D"
+  },
+  {
+   "name": "MCore.h01_to_surjectivity",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.HodgeSemanticData}, MCore.H01MinimalForwardPayload D → MCore.HodgeAlgebraicitySurjectivityCertificate D"
+  },
+  {
+   "name": "MCore.hodgeReductionCertificate",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.HodgeSemanticData), MCore.HodgeReductionCertificate D"
+  },
+  {
+   "name": "MCore.hodge_final_external_from_h01",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 92,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.HodgeSemanticData},   MCore.HodgeCycleClassDirectionCertificate D → MCore.H01MinimalForwardPayload D → MCore.HodgeFinalExternalCertificate D"
+  },
+  {
+   "name": "MCore.surjectivity_to_theorem",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.HodgeSemanticData},   MCore.HodgeCycleClassDirectionCertificate D →     MCore.HodgeAlgebraicitySurjectivityCertificate D → MCore.HodgeTheoremCertificate D"
+  },
+  {
+   "name": "MCore.theorem_to_final_external",
+   "file": "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean",
+   "line": 86,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.HodgeSemanticData}, MCore.HodgeTheoremCertificate D → MCore.HodgeFinalExternalCertificate D"
+  }
+ ],
+ "closed": 7,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/Hodge.lean": "ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57",
+  "lean/MCore/HodgeBoundary.lean": "5d5e73c712c5e5d1d88493cb7625f48b671a91881a3b43fcbc5a8f8c39056032",
+  "lean/MCore/HodgeReduction.lean": "d7866b8952937cd25ed20910fe0fb873acdf5dbc8ebcf60853510d0327cefb30",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "273c1a3686b01cdeb8746aa8b8c679c864679a50b7b9b855bcbf99f6ecdd8f19",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/OpenMath/HodgeFinalCertificateChain.lean": "4ee05060996c103990e6597085c10751d294a0cabbf455997865303fde88d84f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "5384032f443ffedef559987177b32a89037a1174aacd3643ffede5ee38b599cf"
+}

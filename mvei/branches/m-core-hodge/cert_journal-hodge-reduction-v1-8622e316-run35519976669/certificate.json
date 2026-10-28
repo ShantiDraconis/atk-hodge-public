@@ -1,0 +1,139 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-hodge",
+ "branch": "cert/journal-hodge-reduction-v1-8622e316-run35519976669",
+ "branch_state": "parada",
+ "head_commit": "8622e3163c5a695d08e835fa7c465f208bcd6c72",
+ "head_commit_date": "2026-09-20T16:33:52+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "8622e3163c5a695d08e835fa7c465f208bcd6c72",
+   "date": "2026-09-20T16:33:52+01:00",
+   "subject": "ci: validate materialized journal certificate"
+  },
+  {
+   "commit": "a376e0b462e000461f2be65d29abc6d744ec91c9",
+   "date": "2026-09-20T16:33:36+01:00",
+   "subject": "publication: add human-readable journal certificate"
+  },
+  {
+   "commit": "df6f3f54018a40ffb971d43714b1d826abf84e52",
+   "date": "2026-09-20T16:33:34+01:00",
+   "subject": "publication: materialize journal reduction certificate"
+  },
+  {
+   "commit": "582b95d0cfc60b869c6e6d67223e92db8e114dc4",
+   "date": "2026-09-20T16:32:08+01:00",
+   "subject": "ci: audit publication-grade Hodge reduction theorem"
+  },
+  {
+   "commit": "2f2f289b73d494d8e00bc78030d9d1abc90cbe45",
+   "date": "2026-09-20T16:31:49+01:00",
+   "subject": "publication: wire journal reduction certificate"
+  },
+  {
+   "commit": "b4087515a49d3eb9476178a2970bf18d2dc6c6d4",
+   "date": "2026-09-20T16:31:37+01:00",
+   "subject": "publication: add journal-grade Hodge reduction theorem"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Publication.journal_geometric_payload_implies_concrete_algebraicity",
+   "file": "lean/MCore/Publication/JournalReductionCertificate.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.Publication.JournalPointwiseGeometricPayload G M → MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.Publication.journal_geometric_payload_implies_hodge",
+   "file": "lean/MCore/Publication/JournalReductionCertificate.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeCertificationBoundary G M →     MCore.Publication.JournalPointwiseGeometricPayload G M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.Publication.journal_hodge_not_exportable",
+   "file": "lean/MCore/Publication/JournalReductionCertificate.lean",
+   "line": 119,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Publication.journalCertificateFrontier.mayExportHodgeProof = false"
+  },
+  {
+   "name": "MCore.Publication.journal_hodge_still_open",
+   "file": "lean/MCore/Publication/JournalReductionCertificate.lean",
+   "line": 122,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Publication.journalCertificateFrontier.hodge = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.Publication.journal_local_r1d_r2_r3_closure",
+   "file": "lean/MCore/Publication/JournalReductionCertificate.lean",
+   "line": 69,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} (D : MCore.BackwardAudit.R1DescentPointContract S),   MCore.BackwardAudit.R2FiberAlgebraicityTarget M D →     MCore.BackwardAudit.R3SpecializationPayload M S → MCore."
+  },
+  {
+   "name": "MCore.Publication.journal_reduction_exportable",
+   "file": "lean/MCore/Publication/JournalReductionCertificate.lean",
+   "line": 116,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Publication.journalCertificateFrontier.mayExportReductionTheorem = true"
+  }
+ ],
+ "closed": 6,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BackwardAudit/R1DescentBoundary.lean": "0e41d345031d16b18a87cc9a3883f9dd9ced95bd8dc8f29e53727400bf403b6a",
+  "lean/MCore/BackwardAudit/R2AfterR3.lean": "e1f71caabaecd302948ebfe95e60099edc72ba42d4cb3d5eb2553235dca168aa",
+  "lean/MCore/BackwardAudit/R2FiberAlgebraicityBoundary.lean": "3628ba63d4b54bf1243f214f84b114ec955d45d6b251eedc1f5619a335f428ac",
+  "lean/MCore/BackwardAudit/R3Contract.lean": "ce8213bd912e6fdf58da94c866624ac66293263307c78d7b49eb0a0d7600c07b",
+  "lean/MCore/BackwardAudit/R3SpecializationBoundary.lean": "b5630f5ab451219775c21050617548f1a831c6e4fcce1b2cf4da59d6657d8b53",
+  "lean/MCore/BackwardAudit/TypedVariationalGeometry.lean": "417462de2aa7d8cdfeaa951abf14b7308e03c449dd354761166016be1ec3759b",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/Hodge.lean": "ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57",
+  "lean/MCore/HodgeDecomposition.lean": "41f2a50a9b5aedff2ce543217c598c2df9ff77c00f68b982b280745004a57ad7",
+  "lean/MCore/HodgeReduction.lean": "d7866b8952937cd25ed20910fe0fb873acdf5dbc8ebcf60853510d0327cefb30",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "273c1a3686b01cdeb8746aa8b8c679c864679a50b7b9b855bcbf99f6ecdd8f19",
+  "lean/MCore/K11.lean": "4a3c83c7e4f7d24540512322737c6c8f47e079670d3af69bf8b0bc51e1f14799",
+  "lean/MCore/K12.lean": "a532f18415a766aaa4a4737649c644763404851244a8ea323477dcba6314c6f2",
+  "lean/MCore/K13.lean": "ece5938282d291b55a9e4413168d54f25bf49ce23320dc7bb659a782e5951664",
+  "lean/MCore/K14.lean": "5aeb4c52f3744b90253e20fe7c623130e8e0d423327948adedb95ac0aab451aa",
+  "lean/MCore/K15.lean": "de99c1ec3b446705162da87de6e730d389133680c35e59646b3b0eb0ce7095aa",
+  "lean/MCore/K16.lean": "40602929beec057ab3cba850a22eca6edfbfb1e175331c8071937e4cc6dd235f",
+  "lean/MCore/K17.lean": "5bb3ca9962bf6e618cdad5274182955152d6a675439460094c2665d9376c0e53",
+  "lean/MCore/K18.lean": "97e98fb29a0c157fa272db03b68c362218c716855c20c7c6452225d9a6471bd8",
+  "lean/MCore/K19.lean": "dae000bfc6212adfa4405b60e3bdca142b2f46414efde105467cb0540a4fb43d",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K20.lean": "5a7adf5a0787bea3f7eab9e2f3ab609cee979932741c10c32f8a4f63bfabeedb",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/Publication/JournalReductionCertificate.lean": "7174e44e715ff0f5b891d745143f037029a10cff9de5e4afb54cc81fdc32e27b",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "ed20fe772adfe0b6b93192fe786c242f160ee13b399e950df519eae2916d7694"
+}

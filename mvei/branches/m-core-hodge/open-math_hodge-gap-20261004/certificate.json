@@ -1,0 +1,1038 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-hodge",
+ "branch": "open-math/hodge-gap-20261004",
+ "branch_state": "parada",
+ "head_commit": "59f3ab6bdf3a1b60ec43550660228c2860f639ad",
+ "head_commit_date": "2026-10-04T22:56:59+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "59f3ab6bdf3a1b60ec43550660228c2860f639ad",
+   "date": "2026-10-04T22:56:59+02:00",
+   "subject": "hodge: make basepoint R3 use explicit equality transport"
+  },
+  {
+   "commit": "b3310b5e78b45a8209ba0a06df9eaaab53ecaad2",
+   "date": "2026-10-04T22:21:24+02:00",
+   "subject": "hodge: validate basepoint R3 fast path"
+  },
+  {
+   "commit": "b843fed5459a976460e27c2fbc0e728980509eb9",
+   "date": "2026-10-04T22:21:16+02:00",
+   "subject": "hodge: wire basepoint R3 fast path into root build"
+  },
+  {
+   "commit": "e2bf9ea7013397bf04ccf355f79078892c349c6f",
+   "date": "2026-10-04T22:21:10+02:00",
+   "subject": "hodge: close R3 mechanically on Qbar basepoint route"
+  },
+  {
+   "commit": "47c1e8585cbacfca0dc8c778eb477d412007b8b2",
+   "date": "2026-10-04T22:00:44+02:00",
+   "subject": "hodge: validate minimal R3 combination cut"
+  },
+  {
+   "commit": "89cfc43c2e521774c0d7678699ab856a4b49e538",
+   "date": "2026-10-04T22:00:36+02:00",
+   "subject": "hodge: wire minimal R3 combination cut into root build"
+  },
+  {
+   "commit": "31c179de680c695440938cfa94f791a357272abd",
+   "date": "2026-10-04T22:00:30+02:00",
+   "subject": "hodge: compress R3 functoriality to finite-combination compatibility"
+  },
+  {
+   "commit": "5c3e009bf728c8adbeb33b811672c4d9bc036faf",
+   "date": "2026-10-04T21:55:52+02:00",
+   "subject": "hodge: fix R3 specialization fold induction"
+  },
+  {
+   "commit": "808c356ae010023ed4ec54ca325caf23a4411710",
+   "date": "2026-10-04T21:54:34+02:00",
+   "subject": "hodge: validate R3 specialization mincut"
+  },
+  {
+   "commit": "55402aee9b2203a45efc77fd1217eede003502b6",
+   "date": "2026-10-04T21:54:24+02:00",
+   "subject": "hodge: wire R3 specialization mincut into root build"
+  },
+  {
+   "commit": "efdc8872b3b40c32039e434070b82619c8246b35",
+   "date": "2026-10-04T21:54:17+02:00",
+   "subject": "hodge: compress R3 to specialization action and recovery"
+  },
+  {
+   "commit": "5818596a17421f02da05dc39452cca811d81a339",
+   "date": "2026-10-04T21:29:56+02:00",
+   "subject": "hodge: validate basepoint fast path and corrected R3 frontier"
+  },
+  {
+   "commit": "c7c0afdb8d197d7c5dc2f2e604d1d3c51dcf75e6",
+   "date": "2026-10-04T21:29:49+02:00",
+   "subject": "hodge: wire corrected material search frontier into root build"
+  },
+  {
+   "commit": "a3342b8b6d8540c2b091d48f2a3b382ee2677425",
+   "date": "2026-10-04T21:29:42+02:00",
+   "subject": "hodge: expose basepoint A fast path and restore R3 material gap"
+  },
+  {
+   "commit": "63815f52356885416f598f7cfd6ed9419c0307ad",
+   "date": "2026-10-04T21:23:26+02:00",
+   "subject": "hodge: validate fail-closed executable search end to end"
+  },
+  {
+   "commit": "f173648d880adfa53215682d3493b701120d3cf3",
+   "date": "2026-10-04T21:23:17+02:00",
+   "subject": "hodge: wire executable search smoke test into root build"
+  },
+  {
+   "commit": "ce40b277f0882dde346b77723dd1a412c8d7beef",
+   "date": "2026-10-04T21:23:10+02:00",
+   "subject": "hodge: execute A-C-E search on fail-closed countermodel"
+  },
+  {
+   "commit": "b352bca8707a85ac238a45c6883d8c171148aeca",
+   "date": "2026-10-04T21:21:39+02:00",
+   "subject": "hodge: construct A contract directly from accepted candidate"
+  },
+  {
+   "commit": "677f11c3c4cb80629d5b5c40cc4300eaa2168cfa",
+   "date": "2026-10-04T21:16:51+02:00",
+   "subject": "hodge: fix executable A and E dependent search soundness"
+  },
+  {
+   "commit": "af914a4cbfdfeca24e9715655d0841cb5c2660ca",
+   "date": "2026-10-04T21:13:07+02:00",
+   "subject": "hodge: preserve dependent witnesses in executable search"
+  },
+  {
+   "commit": "531b341c633b1931a3094703e010574a072010c1",
+   "date": "2026-10-04T21:04:46+02:00",
+   "subject": "hodge: validate compressed executable A-C-E search"
+  },
+  {
+   "commit": "cb8c7280c699f5d62fd70e631eecca60a6a2a49d",
+   "date": "2026-10-04T21:04:36+02:00",
+   "subject": "hodge: wire executable A-C-E search engine into root build"
+  },
+  {
+   "commit": "be97537212bbeb3899c3a833ecedd5dca9085782",
+   "date": "2026-10-04T21:04:28+02:00",
+   "subject": "hodge: add executable finite search for A C and E"
+  },
+  {
+   "commit": "d2a5147edc3f6c25417ed53bd5f442e6be66c7bc",
+   "date": "2026-10-04T21:03:43+02:00",
+   "subject": "hodge: wire compressed A-C-E frontier into root build"
+  },
+  {
+   "commit": "2c1d1fedc523becd666e41f6a301c2005b9c2e57",
+   "date": "2026-10-04T21:03:28+02:00",
+   "subject": "hodge: eliminate mechanical B and D search gaps"
+  },
+  {
+   "commit": "ea23088cecc4abad4eb0cc1c812a030671663d4b",
+   "date": "2026-10-04T20:40:18+02:00",
+   "subject": "hodge: make cohomology coordinate injectivity core-explicit"
+  },
+  {
+   "commit": "175cc0b0667bb1975df4fa5333ff3f9cc8eb666d",
+   "date": "2026-10-04T20:39:50+02:00",
+   "subject": "hodge: force kernel to validate A-E search architecture"
+  },
+  {
+   "commit": "23bde21e623bc43e3e5971e27e92533fd487f158",
+   "date": "2026-10-04T20:39:38+02:00",
+   "subject": "hodge: wire A-E search architecture into root build"
+  },
+  {
+   "commit": "28c319e88c615008a64c301a30a8e289cc561991",
+   "date": "2026-10-04T20:39:31+02:00",
+   "subject": "hodge: structure sound search architecture for A-E"
+  },
+  {
+   "commit": "06dd6904e55cea91ef40f8090d7cb0eb0288361c",
+   "date": "2026-10-04T20:28:05+02:00",
+   "subject": "hodge: force kernel through open witnesses and A-E questions"
+  },
+  {
+   "commit": "fc8468c9e6cb17d72239b9b7a8bb7011d8bc570d",
+   "date": "2026-10-04T20:27:56+02:00",
+   "subject": "hodge: wire exact A-E questions into root build"
+  },
+  {
+   "commit": "595504296998cb6fce5514bdcea5e8aec65afe8c",
+   "date": "2026-10-04T20:27:49+02:00",
+   "subject": "hodge: force exact A-E material questions"
+  },
+  {
+   "commit": "7cf42672c43935c663f9d86fa3852af211f1c815",
+   "date": "2026-10-04T20:27:03+02:00",
+   "subject": "hodge: fix literal open witness regressions"
+  },
+  {
+   "commit": "eb1493acb65fc9e1b0e1d2e4ef2e66e34e6f0a39",
+   "date": "2026-10-04T20:09:58+02:00",
+   "subject": "hodge: wire open witness compression into root build"
+  },
+  {
+   "commit": "676bde5f35690af9ef35c254f4a9063f49560110",
+   "date": "2026-10-04T20:09:52+02:00",
+   "subject": "hodge: expose literal witnesses for every open kernel answer"
+  },
+  {
+   "commit": "cef96bb0270c58a38f9f7bd42091e76f26eec297",
+   "date": "2026-10-04T20:01:14+02:00",
+   "subject": "hodge: force kernel to answer compressed question matrix"
+  },
+  {
+   "commit": "797f2049da0e46249bd3ded9b95db1602df8368e",
+   "date": "2026-10-04T20:00:59+02:00",
+   "subject": "hodge: wire kernel question matrix into root build"
+  },
+  {
+   "commit": "55b74953c4d0f3507a35544134ebf3b575125cd1",
+   "date": "2026-10-04T20:00:46+02:00",
+   "subject": "hodge: compress full audit into kernel question matrix"
+  },
+  {
+   "commit": "3e9866cc6d26c06ef2766a019d64e427ba89de06",
+   "date": "2026-10-04T19:55:27+02:00",
+   "subject": "hodge: fix q1 kernel elaboration and remove recovery axioms"
+  },
+  {
+   "commit": "ce3ebf4ca176241d4e1f9b494b5f0e82e0399396",
+   "date": "2026-10-04T19:54:33+02:00",
+   "subject": "hodge: wire Q1 Q2 Q3 into root kernel build"
+  },
+  {
+   "commit": "987725098f17ef04d70f981035f3190501da12c6",
+   "date": "2026-10-04T19:54:25+02:00",
+   "subject": "hodge: force kernel to answer Q1 Q2 Q3"
+  },
+  {
+   "commit": "e67a95550ba07e7176f22fe86a29edb2d0d0db46",
+   "date": "2026-10-04T19:53:30+02:00",
+   "subject": "hodge: remove stale pressure file outside MCore module prefix"
+  },
+  {
+   "commit": "e127449c378d11cc352bb3eb1587da49e678f038",
+   "date": "2026-10-04T19:53:21+02:00",
+   "subject": "hodge: retarget kernel pressure workflow to MCore path"
+  },
+  {
+   "commit": "8d981bc32bb2cbd358cd84d75361da2817972756",
+   "date": "2026-10-04T19:53:15+02:00",
+   "subject": "hodge: fix MCore module import for q1 pressure"
+  },
+  {
+   "commit": "85dbcb1c86def6f6d9c6cd1a75ac457a62fc4282",
+   "date": "2026-10-04T19:53:09+02:00",
+   "subject": "hodge: move q1 kernel pressure under MCore module prefix"
+  },
+  {
+   "commit": "b4d2b8514a2563e8cf021ac6fe289ac405e157c0",
+   "date": "2026-10-04T18:19:12+02:00",
+   "subject": "hodge: run minimal kernel pressure on open-math branch"
+  },
+  {
+   "commit": "59c635697f6cf0c7c6d72dcd7c4a3a4bc6a2fa79",
+   "date": "2026-10-04T17:35:55+02:00",
+   "subject": "hodge: import q1 kernel pressure into root build"
+  },
+  {
+   "commit": "3047639476335006a47f0019c0daf39df2b78af3",
+   "date": "2026-10-04T17:35:48+02:00",
+   "subject": "hodge: force q1 correspondence cut into kernel source"
+  },
+  {
+   "commit": "d93dffa3cb3c0dbeff8dae1749df5f1729bd8abd",
+   "date": "2026-10-04T17:28:20+02:00",
+   "subject": "hodge: remove tactic dependency from q1 correspondence route"
+  },
+  {
+   "commit": "1642b333975b454f39ad385e07269c5ec333a8af",
+   "date": "2026-10-04T17:27:50+02:00",
+   "subject": "hodge: force q1 divisor source correspondence route"
+  },
+  {
+   "commit": "c3f622c07fc10e7f58ef01f8a430ea1a3c8922fd",
+   "date": "2026-10-04T17:26:17+02:00",
+   "subject": "hodge: firewall arbitrary correspondences and force lower codimension"
+  },
+  {
+   "commit": "d10d56661f3795109a5107cabdae6a40e94f5b85",
+   "date": "2026-10-04T16:41:23+02:00",
+   "subject": "hodge: fix abstract correspondence term induction"
+  },
+  {
+   "commit": "d4bb8f7b4214ef7bb697ae0853d0d7532ce8eb97",
+   "date": "2026-10-04T16:41:07+02:00",
+   "subject": "hodge: refine correspondence route to explicit cohomological action"
+  },
+  {
+   "commit": "b8f2fcb3ba9a4424ab4abc9206eac7b18befffd2",
+   "date": "2026-10-04T16:12:54+02:00",
+   "subject": "hodge: add primitive correspondence route into H2c"
+  },
+  {
+   "commit": "19fa13e1b2449580bf016b98585a75f0b972c16a",
+   "date": "2026-10-04T16:11:09+02:00",
+   "subject": "hodge: isolate divisor-intersection route into H2c"
+  },
+  {
+   "commit": "510becce8c49c573ed00d48a17d1ec9c01ff497b",
+   "date": "2026-10-04T16:00:26+02:00",
+   "subject": "hodge: prove H2a H2b insufficient for H2c generation"
+  },
+  {
+   "commit": "59c1e18afe36ec94cdc8f8bf6add20ade5287fc2",
+   "date": "2026-10-04T15:55:51+02:00",
+   "subject": "hodge: compress H2a cut and close H2H3 through R3"
+  },
+  {
+   "commit": "e01cd300a8f8d0685eee968d181e5100420e4a1a",
+   "date": "2026-10-04T14:24:48+02:00",
+   "subject": "hodge: remove non-importable split forcing file"
+  },
+  {
+   "commit": "a1ff1d3bfd30dc122f8d5eea5723db8efeaf64e4",
+   "date": "2026-10-04T14:24:35+02:00",
+   "subject": "hodge: merge full H2a H2b H2c forcing into standalone source"
+  },
+  {
+   "commit": "3df394f9e6e6c25154d07f1b249145ab2cca8146",
+   "date": "2026-10-04T14:23:52+02:00",
+   "subject": "hodge: build H2a H2b H2c Hilbert forcing chain"
+  },
+  {
+   "commit": "4712b4457db61c9e5199c773c8aef34bb08bb2cb",
+   "date": "2026-10-04T14:23:13+02:00",
+   "subject": "hodge: close mechanical decomposition to R2 contract"
+  },
+  {
+   "commit": "d6cde19f0352f26b2abc7d04f37d05dc1b4f6359",
+   "date": "2026-10-04T14:13:47+02:00",
+   "subject": "hodge: isolate provenance-backed H2 to H3 forcing"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "P05.Hodge.ACandidate.accept_sound",
+   "file": "lean/MCore/P05/Hodge/ConcreteSearchEngine.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)}   {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : MCore.BackwardAudit.SpreadData G X p α hX hα}   (c : P05.Hodge.ACandidate S), c.accept = true → P05.Hodge.AnswerA S"
+  },
+  {
+   "name": "P05.Hodge.B_is_mechanical",
+   "file": "lean/MCore/P05/Hodge/CompressedFiveQuestions.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)}   {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : MCore.BackwardAudit.SpreadData G X p α hX hα}   (D0 : MCore.BackwardAudit.R1DescentPointContract S), 2 ≤ p → Nonempty (P05.Hodge.AnswerB D0)"
+  },
+  {
+   "name": "P05.Hodge.C_still_material",
+   "file": "lean/MCore/P05/Hodge/MaterialSearchFrontier.lean",
+   "line": 98,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.materialSearchStatus.C_universalProducer = false"
+  },
+  {
+   "name": "P05.Hodge.CohomologyCoordinates.equal_complete",
+   "file": "lean/MCore/P05/Hodge/SearchArchitecture.lean",
+   "line": 106,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {V : Type u} (K : P05.Hodge.CohomologyCoordinates V) {a b : V}, a = b → K.equal a b = true"
+  },
+  {
+   "name": "P05.Hodge.CohomologyCoordinates.equal_sound",
+   "file": "lean/MCore/P05/Hodge/SearchArchitecture.lean",
+   "line": 96,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {V : Type u} (K : P05.Hodge.CohomologyCoordinates V) {a b : V}, K.equal a b = true → a = b"
+  },
+  {
+   "name": "P05.Hodge.D_is_mechanical",
+   "file": "lean/MCore/P05/Hodge/CompressedFiveQuestions.lean",
+   "line": 55,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D0 : MCore.BackwardAudit.R1DescentPointContract S}   {B : P05.Hodge.AnswerB D0} (C : P05.Hodge.AnswerC M B), Nonempty (P05.Hodge.AnswerD M C)"
+  },
+  {
+   "name": "P05.Hodge.E_still_material",
+   "file": "lean/MCore/P05/Hodge/MaterialSearchFrontier.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.materialSearchStatus.E_universalTargetHit = false"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.H2H3HilbertProducer.closesR2",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 346,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (H : H2H3HilbertProducer M S) : R2FiberAlgebraicityTarget M H.h2a.useful.toDescentPoint"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.correspondence_actionEval_eq_cycleEval",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 950,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {C : CorrespondenceCycleBackend X p} (A : CohomologicalCorrespondenceAction (M"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.decomposition_implies_R2",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 150,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {U : UsefulQbarFiberGeometry S} (D : HilbertGeneratedFiberDecomposition (M"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.decomposition_implies_R2_nonempty",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 185,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {U : UsefulQbarFiberGeometry S} (D : HilbertGeneratedFiberDecomposition (M"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.decomposition_implies_concrete_span",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 131,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {U : UsefulQbarFiberGeometry S} (D : HilbertGeneratedFiberDecomposition (M"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.divisorSource_class_algebraic",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 1412,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {C : DivisorSourceCorrespondenceBackend X p} (L : DivisorSourceLefschetzData (M"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2a_h2b_do_not_force_h2c",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 539,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": ¬ Nonempty (H2cCohomologyGenerationProducer (M"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2cCounterCombination_eval_false",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 527,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(C : CycleCombination h2cCounterG h2cCounterM () 2) : C.eval h2cCounterM = false"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2c_correspondence_action_tail_mechanical",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 1081,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": h2cCorrespondenceActionFrontier.actionToGeneration = .mechanical"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2c_correspondence_route_tail_mechanical",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 883,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": h2cCorrespondenceRouteFrontier.hilbertRealizationToH2c = .mechanical"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2c_divisor_correspondence_tail_mechanical",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 1506,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": h2cDivisorCorrespondenceFrontier.q1ToH2c = .mechanical"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2c_divisor_route_tail_mechanical",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 719,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": h2cDivisorRouteFrontier.hilbertRealizationToH2c = .mechanical"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2c_generation_still_open",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 395,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": h2h3ForcingFrontier.transportedAlphaGeneration = .openGeneration"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2c_lowerCodim_route_tail_mechanical",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 1286,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": ": h2cLowerCodimRouteFrontier.lowerCodimToGeneration = .mechanical"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2h3_mechanical_tail_closed",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 392,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": h2h3ForcingFrontier.decompositionToR2 = .mechanicallyClosed"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.h2h3_then_r3_yields_original_span",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 404,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (H : H2H3HilbertProducer M S) (R3 : R3TransportContract M S) : InConcreteCycleSpan M α"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.identityCorrespondenceBackend_realize",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 1111,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} (z : G.CycleQ X p) : (identityCorrespondenceBackend X p).realize z () = z"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.lowerCodim_pushEval_eq_cycleEval",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 1178,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {C : LowerCodimCorrespondenceBackend X p} (A : LowerCodimCorrespondenceAction (M"
+  },
+  {
+   "name": "P05.Hodge.OpenMath.nonempty_usefulFiber_iff_nonCircularQbarIntersection",
+   "file": "open_math/Hodge_H2_H3_Forcing.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) : Nonempty (UsefulQbarFiberGeometry S) ↔ NonCircularQbarIntersectsHodgeLocus S"
+  },
+  {
+   "name": "P05.Hodge.Q5_not_forced_by_spread",
+   "file": "lean/MCore/P05/Hodge/OpenWitnesses.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)}   {hX : G.isSmoothProjective X} {hα : G.isTypePP p α},   ¬P05.Hodge.Q5Witness (MCore.BackwardAudit.trivialSpreadNoQbar G X p α hX hα)"
+  },
+  {
+   "name": "P05.Hodge.Q7_Q8_do_not_force_Q9",
+   "file": "lean/MCore/P05/Hodge/OpenWitnesses.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty (P05.Hodge.Q7Witness P05.Hodge.kernelQCounterM P05.Hodge.kernelQCounterDescent) ∧   Nonempty (P05.Hodge.Q8Witness P05.Hodge.kernelQCounterM P05.Hodge.kernelQCounterDescent) ∧     ¬P05.Hodge.Q9Witness P05.Hodge.kernelQCounterM P05.Hodge.kernelQCounterDescent P05.Hodge.kernelQCounterQ2"
+  },
+  {
+   "name": "P05.Hodge.Q9_to_exact_R2",
+   "file": "lean/MCore/P05/Hodge/OpenWitnesses.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D : MCore.BackwardAudit.R1DescentPointContract S}   (Q2 : P05.Hodge.Q8Witness M D), P05.Hodge.Q9Witness M D Q2 → MCore.BackwardAudit.R2FiberAlgebraicityTarget M D"
+  },
+  {
+   "name": "P05.Hodge.R3CombinationSpecialization.closes_span",
+   "file": "lean/MCore/P05/Hodge/R3CombinationMincut.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} (P : MCore.BackwardAudit.AlgebraicPointData M S),   P05.Hodge.R3CombinationSpecialization M { y := P.y, path := P.path, y_is_hodge := ⋯, y_is_defined_over_Qbar := ⋯ }"
+  },
+  {
+   "name": "P05.Hodge.R3_still_material",
+   "file": "lean/MCore/P05/Hodge/MaterialSearchFrontier.lean",
+   "line": 104,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.materialSearchStatus.R3_universalTransport = false"
+  },
+  {
+   "name": "P05.Hodge.answerE_iff_Q3",
+   "file": "lean/MCore/P05/Hodge/ExactFiveQuestions.lean",
+   "line": 133,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D0 : MCore.BackwardAudit.R1DescentPointContract S}   (B : P05.Hodge.AnswerB D0) (C : P05.Hodge.AnswerC M B) (D : P05.Hodge.AnswerD M C),   P05.Hodge.AnswerE D ↔ P05."
+  },
+  {
+   "name": "P05.Hodge.answer_Q10_proved",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 113,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.answerOf 10 = some P05.Hodge.KernelAnswer.proved"
+  },
+  {
+   "name": "P05.Hodge.answer_Q15_open",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 116,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.answerOf 15 = some P05.Hodge.KernelAnswer.openMath"
+  },
+  {
+   "name": "P05.Hodge.answer_Q6_refuted",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 106,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.answerOf 6 = some P05.Hodge.KernelAnswer.refuted"
+  },
+  {
+   "name": "P05.Hodge.answer_Q9_open",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 110,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.answerOf 9 = some P05.Hodge.KernelAnswer.openMath"
+  },
+  {
+   "name": "P05.Hodge.answersABCDE_close_R2",
+   "file": "lean/MCore/P05/Hodge/ExactFiveQuestions.lean",
+   "line": 150,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα},   P05.Hodge.AnswerA S →     ((D0 : MCore.BackwardAudit.R1DescentPointContract S) → P05.Hodge.AnswerB D0) →       ((D0 : MCore.BackwardAudit.R1DescentPointContract S)"
+  },
+  {
+   "name": "P05.Hodge.basepointA_search_hits",
+   "file": "lean/MCore/P05/Hodge/MaterialSearchFrontier.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)}   {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : MCore.BackwardAudit.SpreadData G X p α hX hα)   (hQbar : S.fieldOfDefinition.isDefinedOverQbar S.basepoint),   (P05.Hodge.searchA (P05.Hodge.basepointAPool S hQbar)).isSome = true"
+  },
+  {
+   "name": "P05.Hodge.basepointR3_closes_span",
+   "file": "lean/MCore/P05/Hodge/BasepointR3FastPath.lean",
+   "line": 87,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) (hQbar : S.fieldOfDefinition.isDefinedOverQbar S.basepoint) (c : CycleCombination G M (S.Family S.basepoint) p) (hc : c.eval M = S.transportedAlpha (S.pathRefl S.basepoint)) : InConcreteCycleSpan M α"
+  },
+  {
+   "name": "P05.Hodge.basepointRouteGaps_count",
+   "file": "lean/MCore/P05/Hodge/BasepointR3FastPath.lean",
+   "line": 162,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": basepointRouteGaps.length = 2"
+  },
+  {
+   "name": "P05.Hodge.basepoint_fast_path_green",
+   "file": "lean/MCore/P05/Hodge/MaterialSearchFrontier.lean",
+   "line": 95,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.materialSearchStatus.A_basepointFastPath = true"
+  },
+  {
+   "name": "P05.Hodge.castCohomology_cancel",
+   "file": "lean/MCore/P05/Hodge/BasepointR3FastPath.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{G : GradedRationalHodgeData} {X Y : G.Variety} {n : Nat} (h : X = Y) (β : G.CohomologyQ X n) : castCohomology G h.symm (castCohomology G h β) = β"
+  },
+  {
+   "name": "P05.Hodge.castCombination_eval",
+   "file": "lean/MCore/P05/Hodge/BasepointR3FastPath.lean",
+   "line": 46,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X Y : G.Variety} {p : Nat} (h : X = Y) (c : CycleCombination G M X p) : (⟨c.terms.map (fun t => (t.1, castCycle G h t.2))⟩ : CycleCombination G M Y p).eval M = castCohomology G h (c.eval M)"
+  },
+  {
+   "name": "P05.Hodge.certified_search_answers_close_R2",
+   "file": "lean/MCore/P05/Hodge/SearchArchitecture.lean",
+   "line": 216,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα},   P05.Hodge.AnswerA S →     ∀ (D0 : MCore.BackwardAudit.R1DescentPointContract S) (B : P05.Hodge.AnswerB D0) (C : P05.Hodge.AnswerC M B)       (D : P05.Hodge.AnswerD"
+  },
+  {
+   "name": "P05.Hodge.compressedOpenAnswers_count",
+   "file": "lean/MCore/P05/Hodge/CompressedFiveQuestions.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.compressedOpenAnswers.length = 3"
+  },
+  {
+   "name": "P05.Hodge.counterA_search_hits",
+   "file": "lean/MCore/P05/Hodge/ExecutableSearchSmokeTest.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(P05.Hodge.searchA P05.Hodge.counterAPool).isSome = true"
+  },
+  {
+   "name": "P05.Hodge.counterC_search_hits",
+   "file": "lean/MCore/P05/Hodge/ExecutableSearchSmokeTest.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(P05.Hodge.searchC P05.Hodge.counterCPool).isSome = true"
+  },
+  {
+   "name": "P05.Hodge.counterE_search_rejects",
+   "file": "lean/MCore/P05/Hodge/ExecutableSearchSmokeTest.lean",
+   "line": 86,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.searchE P05.Hodge.counterCoordinates P05.Hodge.counterDPool = none"
+  },
+  {
+   "name": "P05.Hodge.counterE_verifier_rejects",
+   "file": "lean/MCore/P05/Hodge/ExecutableSearchSmokeTest.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.verifyAnswerE P05.Hodge.counterD P05.Hodge.counterCoordinates = false"
+  },
+  {
+   "name": "P05.Hodge.divisorCorrespondenceKernelProducer_closes_R2_target",
+   "file": "lean/MCore/P05/Hodge/DivisorCorrespondenceKernelPressure.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D : MCore.BackwardAudit.R1DescentPointContract S},   P05.Hodge.DivisorCorrespondenceKernelProducer M D → MCore.BackwardAudit.R2FiberAlgebraicityTarget M D"
+  },
+  {
+   "name": "P05.Hodge.divisorCorrespondenceKernelProducer_q1_lt_p",
+   "file": "lean/MCore/P05/Hodge/DivisorCorrespondenceKernelPressure.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D : MCore.BackwardAudit.R1DescentPointContract S},   P05.Hodge.DivisorCorrespondenceKernelProducer M D → 1 < p"
+  },
+  {
+   "name": "P05.Hodge.divisorCorrespondenceKernelProducer_source_algebraic",
+   "file": "lean/MCore/P05/Hodge/DivisorCorrespondenceKernelPressure.lean",
+   "line": 116,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D : MCore.BackwardAudit.R1DescentPointContract S}   (K : P05.Hodge.DivisorCorrespondenceKernelProducer M D),   MCore.Lefschetz11DivisorBackend G M →     ∀ (β : G.Coh"
+  },
+  {
+   "name": "P05.Hodge.exact_R2_can_be_endpoint",
+   "file": "lean/MCore/P05/Hodge/OpenWitnesses.lean",
+   "line": 98,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α},   MCore.BackwardAudit.R2FiberAlgebraicityTarget M MCore.BackwardAudit.trivialQbarDescent ↔ MCore.InConcreteCycleSpan M α"
+  },
+  {
+   "name": "P05.Hodge.executable_search_fail_closed",
+   "file": "lean/MCore/P05/Hodge/ExecutableSearchSmokeTest.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(P05.Hodge.searchA P05.Hodge.counterAPool).isSome = true ∧   (P05.Hodge.searchC P05.Hodge.counterCPool).isSome = true ∧     P05.Hodge.searchE P05.Hodge.counterCoordinates P05.Hodge.counterDPool = none"
+  },
+  {
+   "name": "P05.Hodge.findAccepted_sound",
+   "file": "lean/MCore/P05/Hodge/ConcreteSearchEngine.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : Type u} (accept : C → Bool) {cs : List C} {c : C}, P05.Hodge.findAccepted accept cs = some c → accept c = true"
+  },
+  {
+   "name": "P05.Hodge.five_answer_search_sound",
+   "file": "lean/MCore/P05/Hodge/SearchArchitecture.lean",
+   "line": 271,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.fiveAnswerSearchFrontier.soundness = P05.Hodge.SearchArchitectureStatus.sound"
+  },
+  {
+   "name": "P05.Hodge.five_answer_tail_closed",
+   "file": "lean/MCore/P05/Hodge/ExactFiveQuestions.lean",
+   "line": 204,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.fiveAnswerFrontier.ABCDE_to_R2 = P05.Hodge.FiveAnswerStatus.implicationProved"
+  },
+  {
+   "name": "P05.Hodge.hodgeKernelQ3_closes_R2",
+   "file": "lean/MCore/P05/Hodge/KernelQuestions.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D : MCore.BackwardAudit.R1DescentPointContract S}   (Q2 : P05.Hodge.HodgeKernelQ2 M D), P05.Hodge.HodgeKernelQ3 M D Q2 → MCore.BackwardAudit.R2FiberAlgebraicityTarge"
+  },
+  {
+   "name": "P05.Hodge.kernelQCounter_Q1_inhabited",
+   "file": "lean/MCore/P05/Hodge/KernelQuestions.lean",
+   "line": 189,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty (P05.Hodge.HodgeKernelQ1 P05.Hodge.kernelQCounterM P05.Hodge.kernelQCounterDescent)"
+  },
+  {
+   "name": "P05.Hodge.kernelQCounter_Q2_inhabited",
+   "file": "lean/MCore/P05/Hodge/KernelQuestions.lean",
+   "line": 193,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty (P05.Hodge.HodgeKernelQ2 P05.Hodge.kernelQCounterM P05.Hodge.kernelQCounterDescent)"
+  },
+  {
+   "name": "P05.Hodge.kernelQCounter_Q3_impossible",
+   "file": "lean/MCore/P05/Hodge/KernelQuestions.lean",
+   "line": 197,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬P05.Hodge.HodgeKernelQ3 P05.Hodge.kernelQCounterM P05.Hodge.kernelQCounterDescent P05.Hodge.kernelQCounterQ2"
+  },
+  {
+   "name": "P05.Hodge.materialSearchGaps_count",
+   "file": "lean/MCore/P05/Hodge/MaterialSearchFrontier.lean",
+   "line": 76,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.materialSearchGaps.length = 4"
+  },
+  {
+   "name": "P05.Hodge.material_head_is_open",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 140,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.hodgeRemainingMaterialCut.qbarUsefulPoint = P05.Hodge.KernelAnswer.openMath ∧   P05.Hodge.hodgeRemainingMaterialCut.correspondenceGeometry = P05.Hodge.KernelAnswer.openMath ∧     P05.Hodge.hodgeRemainingMaterialCut.finiteDivisorSource = P05.Hodge.KernelAnswer.openMath ∧       P05.Hodge.hodgeRemainingMaterialCut.pushedSourceHitsTarget = P05.Hodge.KernelAnswer.openMath"
+  },
+  {
+   "name": "P05.Hodge.material_tail_is_closed",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 135,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.hodgeRemainingMaterialCut.q3ToR2 = P05.Hodge.KernelAnswer.proved ∧   P05.Hodge.hodgeRemainingMaterialCut.r2Wrapper = P05.Hodge.KernelAnswer.proved"
+  },
+  {
+   "name": "P05.Hodge.matrix_has_15_questions",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.hodgeKernelQuestionMatrix.length = 15"
+  },
+  {
+   "name": "P05.Hodge.q1_q2_not_enough",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 55,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty (P05.Hodge.HodgeKernelQ1 P05.Hodge.kernelQCounterM P05.Hodge.kernelQCounterDescent) ∧   Nonempty (P05.Hodge.HodgeKernelQ2 P05.Hodge.kernelQCounterM P05.Hodge.kernelQCounterDescent) ∧     ¬P05.Hodge.HodgeKernelQ3 P05.Hodge.kernelQCounterM P05.Hodge.kernelQCounterDescent P05.Hodge.kernelQCounterQ2"
+  },
+  {
+   "name": "P05.Hodge.q3_is_sufficient_for_R2",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D : MCore.BackwardAudit.R1DescentPointContract S}   (Q2 : P05.Hodge.HodgeKernelQ2 M D), P05.Hodge.HodgeKernelQ3 M D Q2 → MCore.BackwardAudit.R2FiberAlgebraicityTarge"
+  },
+  {
+   "name": "P05.Hodge.r1d_gate_is_exact",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 78,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)}   {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : MCore.BackwardAudit.SpreadData G X p α hX hα),   Nonempty (MCore.BackwardAudit.R1DescentPointContract S) ↔ MCore.BackwardAudit.QbarIntersectsHodgeLocus S"
+  },
+  {
+   "name": "P05.Hodge.r2_gate_is_exact",
+   "file": "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean",
+   "line": 91,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} (D : MCore.BackwardAudit.R1DescentPointContract S),   Nonempty (MCore.BackwardAudit.R2PointProductionContract M S D) ↔ MCore.BackwardAudit.R2FiberAlgebraicityTarget M"
+  },
+  {
+   "name": "P05.Hodge.r3MinimalQuestions_count",
+   "file": "lean/MCore/P05/Hodge/R3CombinationMincut.lean",
+   "line": 134,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.r3MinimalQuestions.length = 3"
+  },
+  {
+   "name": "P05.Hodge.r3Questions_count",
+   "file": "lean/MCore/P05/Hodge/R3SpecializationMincut.lean",
+   "line": 194,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.r3Questions.length = 3"
+  },
+  {
+   "name": "P05.Hodge.r3_action_closes_original_span",
+   "file": "lean/MCore/P05/Hodge/R3SpecializationMincut.lean",
+   "line": 118,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} (P : MCore.BackwardAudit.AlgebraicPointData M S),   P05.Hodge.R3SpecializationAction M { y := P.y, path := P.path, y_is_hodge := ⋯, y_is_defined_over_Qbar := ⋯ } →"
+  },
+  {
+   "name": "P05.Hodge.remainingWitnessKinds_count",
+   "file": "lean/MCore/P05/Hodge/OpenWitnesses.lean",
+   "line": 128,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "P05.Hodge.remainingWitnessKinds.length = 5"
+  },
+  {
+   "name": "P05.Hodge.searchE_sound",
+   "file": "lean/MCore/P05/Hodge/ConcreteSearchEngine.lean",
+   "line": 231,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D0 : MCore.BackwardAudit.R1DescentPointContract S}   {B : P05.Hodge.AnswerB D0} {C : P05.Hodge.AnswerC M B}   (K : P05.Hodge.CohomologyCoordinates (G.CohomologyQ (S."
+  },
+  {
+   "name": "P05.Hodge.specializeCombination_eval",
+   "file": "lean/MCore/P05/Hodge/R3SpecializationMincut.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {Q : MCore.BackwardAudit.QbarHodgePointData S}   (R : P05.Hodge.R3SpecializationAction M Q) (c : MCore.CycleCombination G M (S.Family Q.y) p),   MCore.CycleCombinatio"
+  },
+  {
+   "name": "P05.Hodge.verifyAnswerE_complete",
+   "file": "lean/MCore/P05/Hodge/SearchArchitecture.lean",
+   "line": 153,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D0 : MCore.BackwardAudit.R1DescentPointContract S}   {B : P05.Hodge.AnswerB D0} {C : P05.Hodge.AnswerC M B} (D : P05.Hodge.AnswerD M C)   (K : P05.Hodge.CohomologyCo"
+  },
+  {
+   "name": "P05.Hodge.verifyAnswerE_sound",
+   "file": "lean/MCore/P05/Hodge/SearchArchitecture.lean",
+   "line": 134,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D0 : MCore.BackwardAudit.R1DescentPointContract S}   {B : P05.Hodge.AnswerB D0} {C : P05.Hodge.AnswerC M B} (D : P05.Hodge.AnswerD M C)   (K : P05.Hodge.CohomologyCo"
+  }
+ ],
+ "closed": 68,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BackwardAudit/CodimOneLefschetz11.lean": "c8b257808421715ea094de9328853a546ac8a92d1ab987a42839f549b1ce8e88",
+  "lean/MCore/BackwardAudit/H01MinimalForwardPayload.lean": "2c56127ee06c26df25354d38cc5c6dbee6d0dd938d9c901fffdc702e249e4050",
+  "lean/MCore/BackwardAudit/R1DescentBoundary.lean": "0e41d345031d16b18a87cc9a3883f9dd9ced95bd8dc8f29e53727400bf403b6a",
+  "lean/MCore/BackwardAudit/R1dArithmeticIntersection.lean": "de46e417e46e39116b552b2dbc2f0fa78f710991761eea5d48488c6657c90d95",
+  "lean/MCore/BackwardAudit/R1dBasepointFastPath.lean": "48b1906d34086bc4b08694e6abb0de2da1eb2f4fdd507daca70b9100434f1924",
+  "lean/MCore/BackwardAudit/R1dQbarPointBoundary.lean": "373f3d84e308f25d0d43784f86d1930c740af05ffdb1ca0df89304e84e3a59f3",
+  "lean/MCore/BackwardAudit/R2AfterR3.lean": "e1f71caabaecd302948ebfe95e60099edc72ba42d4cb3d5eb2553235dca168aa",
+  "lean/MCore/BackwardAudit/R2FiberAlgebraicityBoundary.lean": "3628ba63d4b54bf1243f214f84b114ec955d45d6b251eedc1f5619a335f428ac",
+  "lean/MCore/BackwardAudit/R2HardCore.lean": "cd0bd39ffddd950cfda67891223186a5e27e50a06699684025944f8a7a9a697d",
+  "lean/MCore/BackwardAudit/R3AtomicSpecialization.lean": "88a4a5b1b3a164d43b3a0040c252aec52ceeed871cbf1ccd4835023e1b9d33e2",
+  "lean/MCore/BackwardAudit/R3BackTransport.lean": "7ad35922e54f0aa6cbb37ca3e2fc138e1684c78392da75777613cff930c393e0",
+  "lean/MCore/BackwardAudit/R3CombinationMinimal.lean": "eaa26a78e0ac4308fc4a7cf2d6db1e786b57fe1a9c7b5fbad03c3e397d6340dd",
+  "lean/MCore/BackwardAudit/R3Contract.lean": "ce8213bd912e6fdf58da94c866624ac66293263307c78d7b49eb0a0d7600c07b",
+  "lean/MCore/BackwardAudit/R3RelativeCycleCut.lean": "c6a8564fe08d51575562134c43fd1f678aa66333ee56ae3f5ed6421444a3dafe",
+  "lean/MCore/BackwardAudit/R3SpecializationBoundary.lean": "b5630f5ab451219775c21050617548f1a831c6e4fcce1b2cf4da59d6657d8b53",
+  "lean/MCore/BackwardAudit/R3StandardBackend.lean": "777c498060baac152599d14d495bd749e527e406fcb0cac968f2406b3c7b2057",
+  "lean/MCore/BackwardAudit/R3aHilbertProperness.lean": "195d61f9ca77b057235c50fb7ac636bb29ea96e22303ea19290afbaa4bf399c8",
+  "lean/MCore/BackwardAudit/TypedVariationalGeometry.lean": "417462de2aa7d8cdfeaa951abf14b7308e03c449dd354761166016be1ec3759b",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/CodimZeroGeometry.lean": "08ac6b362d9c3487f1a4f61f7080f270a72f00034cfb67ba381e008c0b9276ea",
+  "lean/MCore/Hodge.lean": "ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57",
+  "lean/MCore/HodgeDecomposition.lean": "41f2a50a9b5aedff2ce543217c598c2df9ff77c00f68b982b280745004a57ad7",
+  "lean/MCore/HodgeExactRemaining.lean": "368ecd54d3c932236d35f8aa828738f2db8d4eb6c9b200ff59f6851452db19c2",
+  "lean/MCore/HodgeGeometricBackends.lean": "f851106fde60e9c55178c5b3e83d800091e6d1074025c3c4b6cb2e2dd0dace26",
+  "lean/MCore/HodgeMaterialFrontier.lean": "45acfb3239614bf00b0508afec7fd33cd4dde7582fd9055e137a8228f5c229e3",
+  "lean/MCore/HodgeMaterialInhabitant.lean": "292e8a3866b6a35a196711ab9c927f5735dca148a3b16aea90d599213ac44d07",
+  "lean/MCore/HodgeReduction.lean": "d7866b8952937cd25ed20910fe0fb873acdf5dbc8ebcf60853510d0327cefb30",
+  "lean/MCore/HodgeTerminalLaw.lean": "56325a303c70eeb089c100f3b3d38224201d3aa0c673a24b763438b01bf1be2e",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "273c1a3686b01cdeb8746aa8b8c679c864679a50b7b9b855bcbf99f6ecdd8f19",
+  "lean/MCore/K11.lean": "4a3c83c7e4f7d24540512322737c6c8f47e079670d3af69bf8b0bc51e1f14799",
+  "lean/MCore/K12.lean": "a532f18415a766aaa4a4737649c644763404851244a8ea323477dcba6314c6f2",
+  "lean/MCore/K13.lean": "ece5938282d291b55a9e4413168d54f25bf49ce23320dc7bb659a782e5951664",
+  "lean/MCore/K14.lean": "5aeb4c52f3744b90253e20fe7c623130e8e0d423327948adedb95ac0aab451aa",
+  "lean/MCore/K15.lean": "de99c1ec3b446705162da87de6e730d389133680c35e59646b3b0eb0ce7095aa",
+  "lean/MCore/K16.lean": "40602929beec057ab3cba850a22eca6edfbfb1e175331c8071937e4cc6dd235f",
+  "lean/MCore/K17.lean": "5bb3ca9962bf6e618cdad5274182955152d6a675439460094c2665d9376c0e53",
+  "lean/MCore/K18.lean": "97e98fb29a0c157fa272db03b68c362218c716855c20c7c6452225d9a6471bd8",
+  "lean/MCore/K19.lean": "dae000bfc6212adfa4405b60e3bdca142b2f46414efde105467cb0540a4fb43d",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K20.lean": "5a7adf5a0787bea3f7eab9e2f3ab609cee979932741c10c32f8a4f63bfabeedb",
+  "lean/MCore/K21.lean": "7489fe7c83615b2cea598ec30443bc93a6edded93a4b8a88d279e06d3afce34e",
+  "lean/MCore/K22.lean": "b63b8da7703957255d5665adcacda315f2c9999052f48a094f86d0ecbc2195a3",
+  "lean/MCore/K23.lean": "248cb592d95fb9c953e6e5e1a2c422d2d52be5eb83e3a1a061faa7309ce35591",
+  "lean/MCore/K24.lean": "6c9d3f278fafb8fb0fd029ee1c443675a127d90943e64cd94d319be7b859e2a3",
+  "lean/MCore/K25.lean": "e4d805cb48e2ca73d9622d605dff3e6a04d0acbd87cda56a01ad2a2a83c9502a",
+  "lean/MCore/K26.lean": "fcd709cf992aba50c681938bb70f90e6a7d10bcdfd43426920e58bfdf298d291",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/P05/Hodge/BasepointR3FastPath.lean": "183f491bf7b72984a51be759469b9c7277981b8cf28a6dce66d2cff948c87d72",
+  "lean/MCore/P05/Hodge/CompressedFiveQuestions.lean": "6e87845268758b64eeb24c632fe631860817cec25305a4056faaa2c5625fef34",
+  "lean/MCore/P05/Hodge/ConcreteSearchEngine.lean": "6a5845dc34202509d52888f0d27aa548083dda32621c3e19be91c4ef7e88c638",
+  "lean/MCore/P05/Hodge/DivisorCorrespondenceKernelPressure.lean": "d8beb42437a0e26a6c813c60284e3163a1724481415894d0be2a773e0b3a1396",
+  "lean/MCore/P05/Hodge/ExactFiveQuestions.lean": "4d8bfc7a658b4c0b73e21551c0829a71bd7608fe1a682d11eac9c5e5f818993b",
+  "lean/MCore/P05/Hodge/ExecutableSearchSmokeTest.lean": "ceb941a4ddab84f7681e92bb7dfa6171a1b1ec2e2bb02daed7a413eae068ee1b",
+  "lean/MCore/P05/Hodge/KernelQuestionMatrix.lean": "502d51d6cd5ac9a9a4bcd953acc55c41e149f2a2f048db520761414923fdf22c",
+  "lean/MCore/P05/Hodge/KernelQuestions.lean": "df7c16d7af32fe9bd2aab89910c92f0d91b0ee891f9db1aa3a5efc02be32f848",
+  "lean/MCore/P05/Hodge/MaterialSearchFrontier.lean": "ae04900579ebbacf835d7beb18a9b3b121917cfd486fef26a9d73a5ab5595786",
+  "lean/MCore/P05/Hodge/OpenWitnesses.lean": "f54c5bb1b11b5865effce6d775de30e356c1b190a31fd89f254db240d2e2953f",
+  "lean/MCore/P05/Hodge/R3CombinationMincut.lean": "feaa1eff18138bd9cedbb71c15d3d4d24d94108ec6ba20a60f73b4614932cf4a",
+  "lean/MCore/P05/Hodge/R3SpecializationMincut.lean": "586f9b94da19d20f920278bfce9227d53502f4e7c5c06c14472bd39ba47952ed",
+  "lean/MCore/P05/Hodge/SearchArchitecture.lean": "874b3f2666834d669f57255eedba184a7d42d255bd21e77cec1d4d3d0448de10",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9",
+  "open_math/Hodge_H2_H3_Forcing.lean": "4656c7b007ac9514502c3811821bc6382a3bc3667ea00dad1053c97419dfa826"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "12e2d94aa4cf8a25a448451d35f9981d435dc498acbd9127ff284514834284a9"
+}
