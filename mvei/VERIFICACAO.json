@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:47:17+00:00",
+ "generated_at": "2026-10-28T16:41:02+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 30.9,
+   "build_seconds": 28.9,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -8102,6 +8102,836 @@
    ],
    "integrity": [],
    "note": "MANIFESTO RESOLVIDO: o lake-manifest.json não trazia o Mathlib; o MVEI rodou `lake update` na cópia de trabalho (o repositório não foi alterado).",
+   "corrections": [],
+   "lakefile_gerado": "",
+   "avulso": false,
+   "salvage": [
+    {
+     "arquivo": "audit/ATK_HODGE_SEMANTIC_INTERFACE_COUNTERAUDIT.lean",
+     "linha": 21,
+     "nome": "MCore.toyHodgeSemanticData_not_rationalHodge",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/ATK_HODGE_SEMANTIC_INTERFACE_COUNTERAUDIT.lean",
+     "linha": 27,
+     "nome": "MCore.semantic_interface_does_not_force_hodge",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/BackwardWitnessExtraction.lean",
+     "linha": 13,
+     "nome": "MCore.BackwardAudit.targetWitness_unfold",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HypotheticalClosureOracle.olean' of module MCore.BackwardAudit.HypotheticalClosureOracle does not exist"
+    },
+    {
+     "arquivo": "audit/BackwardWitnessExtraction.lean",
+     "linha": 23,
+     "nome": "MCore.BackwardAudit.withOracle_extracts_targetWitness",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HypotheticalClosureOracle.olean' of module MCore.BackwardAudit.HypotheticalClosureOracle does not exist"
+    },
+    {
+     "arquivo": "audit/EndpointCompression.lean",
+     "linha": 118,
+     "nome": "HodgeBackwardAudit.endpoint_compression",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/EndpointCompression.lean",
+     "linha": 127,
+     "nome": "HodgeBackwardAudit.real_frontier_closes_endpoint",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/EndpointCompression.lean",
+     "linha": 134,
+     "nome": "HodgeBackwardAudit.spread_variational_compression",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/EndpointCompression.lean",
+     "linha": 153,
+     "nome": "HodgeBackwardAudit.compression_is_nonpromoting",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/FinalEndpoint.lean",
+     "linha": 10,
+     "nome": "HodgeBackwardAudit.final_statement_is_existing_endpoint",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/FinalEndpoint.lean",
+     "linha": 37,
+     "nome": "HodgeBackwardAudit.endpoint_is_nonpromoting",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/JournalCertificate.lean",
+     "linha": 35,
+     "nome": "MCore.JournalAudit.certified_reduction_state",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/R1_without_oracle.lean",
+     "linha": 17,
+     "nome": "MCore.BackwardAuditR1.r1_interface_is_typed",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R1SemanticBoundary.olean' of module MCore.BackwardAudit.R1SemanticBoundary does not exist"
+    },
+    {
+     "arquivo": "audit/R1_without_oracle.lean",
+     "linha": 21,
+     "nome": "MCore.BackwardAuditR1.r1_quantifiers_are_typed",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R1SemanticBoundary.olean' of module MCore.BackwardAudit.R1SemanticBoundary does not exist"
+    },
+    {
+     "arquivo": "audit/R1_without_oracle.lean",
+     "linha": 25,
+     "nome": "MCore.BackwardAuditR1.r1_counts_are_explicit",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R1SemanticBoundary.olean' of module MCore.BackwardAudit.R1SemanticBoundary does not exist"
+    },
+    {
+     "arquivo": "audit/R1_without_oracle.lean",
+     "linha": 34,
+     "nome": "MCore.BackwardAuditR1.r1a_interface_closed",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R1SemanticBoundary.olean' of module MCore.BackwardAudit.R1SemanticBoundary does not exist"
+    },
+    {
+     "arquivo": "audit/R1_without_oracle.lean",
+     "linha": 38,
+     "nome": "MCore.BackwardAuditR1.r1_semantic_match_still_open",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R1SemanticBoundary.olean' of module MCore.BackwardAudit.R1SemanticBoundary does not exist"
+    },
+    {
+     "arquivo": "audit/R1_without_oracle.lean",
+     "linha": 42,
+     "nome": "MCore.BackwardAuditR1.r1_not_closed",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R1SemanticBoundary.olean' of module MCore.BackwardAudit.R1SemanticBoundary does not exist"
+    },
+    {
+     "arquivo": "audit/repro_ALGEBRAICITY_SURJECTIVITY.lean",
+     "linha": 14,
+     "nome": "HodgeBackwardAuditRepro.literal_endpoint_matches_frozen_statement",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/repro_ALGEBRAICITY_SURJECTIVITY.lean",
+     "linha": 19,
+     "nome": "HodgeBackwardAuditRepro.repro_from_k26_payload",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/repro_ALGEBRAICITY_SURJECTIVITY.lean",
+     "linha": 29,
+     "nome": "HodgeBackwardAuditRepro.repro_variational_spread_given_residues",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/repro_ALGEBRAICITY_SURJECTIVITY.lean",
+     "linha": 51,
+     "nome": "HodgeBackwardAuditRepro.target_certificate_not_emitted",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/repro_R1.lean",
+     "linha": 82,
+     "nome": "HodgeBackwardAuditR1.uniformFamily_implies_pointwiseV21",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/repro_R1.lean",
+     "linha": 101,
+     "nome": "HodgeBackwardAuditR1.r1_feeds_candidate_given_adapter",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/repro_R1.lean",
+     "linha": 121,
+     "nome": "HodgeBackwardAuditR1.r1_pointwise_not_promoted",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "audit/repro_R1.lean",
+     "linha": 125,
+     "nome": "HodgeBackwardAuditR1.r1_uniform_not_promoted",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/H01QuantifierFirewall.lean",
+     "linha": 17,
+     "nome": "MCore.HodgeQuantifierFirewall.pointwise_witness_exists",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/H01QuantifierFirewall.lean",
+     "linha": 22,
+     "nome": "MCore.HodgeQuantifierFirewall.no_uniform_witness",
+     "status": "fechado",
+     "axioms": [
+      "propext"
+     ]
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/H01QuantifierFirewall.lean",
+     "linha": 33,
+     "nome": "MCore.HodgeQuantifierFirewall.pointwise_does_not_imply_uniform",
+     "status": "fechado",
+     "axioms": [
+      "propext"
+     ]
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeFastR2Mincut.lean",
+     "linha": 19,
+     "nome": "MCore.BackwardAudit.hodge_fast_r2_iff_concrete_payload",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R3TrivialQbar.olean' of module MCore.BackwardAudit.R3TrivialQbar does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeFastR2Mincut.lean",
+     "linha": 25,
+     "nome": "MCore.BackwardAudit.hodge_fast_r1d_closed",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R3TrivialQbar.olean' of module MCore.BackwardAudit.R3TrivialQbar does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeFastR2Mincut.lean",
+     "linha": 37,
+     "nome": "MCore.BackwardAudit.hodge_fast_r3_closed",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R3TrivialQbar.olean' of module MCore.BackwardAudit.R3TrivialQbar does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeFastR2Mincut.lean",
+     "linha": 50,
+     "nome": "MCore.BackwardAudit.hodge_fast_r2_pointwise_sufficient",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/R3TrivialQbar.olean' of module MCore.BackwardAudit.R3TrivialQbar does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeGapSignature.lean",
+     "linha": 31,
+     "nome": "MCore.BackwardAudit.hodge_gap_signature_closed_normal_form",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalNormalForm.olean' of module MCore.BackwardAudit.HodgeTerminalNormalForm does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeGapSignature.lean",
+     "linha": 41,
+     "nome": "MCore.BackwardAudit.hodge_gap_is_terminal_normal_form",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalNormalForm.olean' of module MCore.BackwardAudit.HodgeTerminalNormalForm does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeLastBitFrontier.lean",
+     "linha": 16,
+     "nome": "MCore.BackwardAudit.hodge_last_bit_iff_concrete_payload",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeFastR2Mincut.olean' of module MCore.BackwardAudit.HodgeFastR2Mincut does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeLastBitFrontier.lean",
+     "linha": 22,
+     "nome": "MCore.BackwardAudit.hodge_last_bit_closes_terminal",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeFastR2Mincut.olean' of module MCore.BackwardAudit.HodgeFastR2Mincut does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeLastBitFrontier.lean",
+     "linha": 62,
+     "nome": "MCore.BackwardAudit.hodge_terminal_truncation_exact",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeFastR2Mincut.olean' of module MCore.BackwardAudit.HodgeFastR2Mincut does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOpenClosedDuality.lean",
+     "linha": 23,
+     "nome": "MCore.BackwardAudit.open_math_iff_closed_math",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeRatioCollapse.olean' of module MCore.BackwardAudit.HodgeRatioCollapse does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOpenClosedDuality.lean",
+     "linha": 29,
+     "nome": "MCore.BackwardAudit.closed_math_iff_negative_open_math",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeRatioCollapse.olean' of module MCore.BackwardAudit.HodgeRatioCollapse does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOpenClosedDuality.lean",
+     "linha": 35,
+     "nome": "MCore.BackwardAudit.negative_open_math_iff_open_math",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeRatioCollapse.olean' of module MCore.BackwardAudit.HodgeRatioCollapse does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOpenClosedDuality.lean",
+     "linha": 42,
+     "nome": "MCore.BackwardAudit.hodge_open_closed_duality_cycle",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeRatioCollapse.olean' of module MCore.BackwardAudit.HodgeRatioCollapse does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOpenClosedDuality.lean",
+     "linha": 56,
+     "nome": "MCore.BackwardAudit.any_open_closed_duality_inhabitant_closes",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeRatioCollapse.olean' of module MCore.BackwardAudit.HodgeRatioCollapse does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOpenClosedDuality.lean",
+     "linha": 69,
+     "nome": "MCore.BackwardAudit.open_closed_duality_does_not_imply_closed",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeRatioCollapse.olean' of module MCore.BackwardAudit.HodgeRatioCollapse does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOppositionCriterion.lean",
+     "linha": 29,
+     "nome": "MCore.BackwardAudit.self_opposition_closes",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeLastBitFrontier.olean' of module MCore.BackwardAudit.HodgeLastBitFrontier does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOppositionCriterion.lean",
+     "linha": 47,
+     "nome": "MCore.BackwardAudit.involution_alone_does_not_force_vanishing",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeLastBitFrontier.olean' of module MCore.BackwardAudit.HodgeLastBitFrontier does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOppositionMincut.lean",
+     "linha": 22,
+     "nome": "MCore.BackwardAudit.pointwise_opposition_bridge_closes",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOppositionCriterion.olean' of module MCore.BackwardAudit.HodgeOppositionCriterion does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOppositionMincut.lean",
+     "linha": 62,
+     "nome": "MCore.BackwardAudit.pointwise_opposition_iff_span",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOppositionCriterion.olean' of module MCore.BackwardAudit.HodgeOppositionCriterion does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOppositionMincut.lean",
+     "linha": 84,
+     "nome": "MCore.BackwardAudit.hodge_opposition_payload_iff_concrete_payload",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOppositionCriterion.olean' of module MCore.BackwardAudit.HodgeOppositionCriterion does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeOppositionMincut.lean",
+     "linha": 96,
+     "nome": "MCore.BackwardAudit.hodge_opposition_payload_iff_last_bit",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOppositionCriterion.olean' of module MCore.BackwardAudit.HodgeOppositionCriterion does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgePhaseDistinctness.lean",
+     "linha": 25,
+     "nome": "MCore.BackwardAudit.open_phases_are_distinct_labels",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOpenClosedDuality.olean' of module MCore.BackwardAudit.HodgeOpenClosedDuality does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgePhaseDistinctness.lean",
+     "linha": 29,
+     "nome": "MCore.BackwardAudit.open_phases_same_semantics",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOpenClosedDuality.olean' of module MCore.BackwardAudit.HodgeOpenClosedDuality does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgePhaseDistinctness.lean",
+     "linha": 36,
+     "nome": "MCore.BackwardAudit.closed_phase_reflexive",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOpenClosedDuality.olean' of module MCore.BackwardAudit.HodgeOpenClosedDuality does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgePhaseDistinctness.lean",
+     "linha": 43,
+     "nome": "MCore.BackwardAudit.open_math_not_self_unequal",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOpenClosedDuality.olean' of module MCore.BackwardAudit.HodgeOpenClosedDuality does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgePhaseDistinctness.lean",
+     "linha": 54,
+     "nome": "MCore.BackwardAudit.closed_math_not_self_unequal",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOpenClosedDuality.olean' of module MCore.BackwardAudit.HodgeOpenClosedDuality does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgePhaseDistinctness.lean",
+     "linha": 61,
+     "nome": "MCore.BackwardAudit.phase_distinctness_with_terminal_equivalence",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOpenClosedDuality.olean' of module MCore.BackwardAudit.HodgeOpenClosedDuality does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgePhaseDistinctness.lean",
+     "linha": 76,
+     "nome": "MCore.BackwardAudit.phase_distinct_cycle_does_not_imply_closed",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOpenClosedDuality.olean' of module MCore.BackwardAudit.HodgeOpenClosedDuality does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeRatioCollapse.lean",
+     "linha": 25,
+     "nome": "MCore.BackwardAudit.zero_over_one_to_one_over_one",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeThreeWayCore.olean' of module MCore.BackwardAudit.HodgeThreeWayCore does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeRatioCollapse.lean",
+     "linha": 34,
+     "nome": "MCore.BackwardAudit.zero_over_two_to_two_over_two",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeThreeWayCore.olean' of module MCore.BackwardAudit.HodgeThreeWayCore does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeRatioCollapse.lean",
+     "linha": 43,
+     "nome": "MCore.BackwardAudit.normalized_ratio_images_hit_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeThreeWayCore.olean' of module MCore.BackwardAudit.HodgeThreeWayCore does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeRatioCollapse.lean",
+     "linha": 51,
+     "nome": "MCore.BackwardAudit.normalized_ratio_inhabitant_closes",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeThreeWayCore.olean' of module MCore.BackwardAudit.HodgeThreeWayCore does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeRatioCollapse.lean",
+     "linha": 65,
+     "nome": "MCore.BackwardAudit.ratio_normalization_does_not_imply_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeThreeWayCore.olean' of module MCore.BackwardAudit.HodgeThreeWayCore does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycle.lean",
+     "linha": 23,
+     "nome": "MCore.BackwardAudit.terminal_endpoint_gap",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeGapSignature.olean' of module MCore.BackwardAudit.HodgeGapSignature does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycle.lean",
+     "linha": 30,
+     "nome": "MCore.BackwardAudit.terminal_gap_habitant",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeGapSignature.olean' of module MCore.BackwardAudit.HodgeGapSignature does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycle.lean",
+     "linha": 38,
+     "nome": "MCore.BackwardAudit.terminal_habitant_inhabitant",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeGapSignature.olean' of module MCore.BackwardAudit.HodgeGapSignature does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycle.lean",
+     "linha": 46,
+     "nome": "MCore.BackwardAudit.terminal_inhabitant_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeGapSignature.olean' of module MCore.BackwardAudit.HodgeGapSignature does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycle.lean",
+     "linha": 53,
+     "nome": "MCore.BackwardAudit.hodge_terminal_cycle",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeGapSignature.olean' of module MCore.BackwardAudit.HodgeGapSignature does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycle.lean",
+     "linha": 66,
+     "nome": "MCore.BackwardAudit.terminal_cycle_preserves_uninhabited",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeGapSignature.olean' of module MCore.BackwardAudit.HodgeGapSignature does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycle.lean",
+     "linha": 87,
+     "nome": "MCore.BackwardAudit.any_terminal_inhabitant_closes_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeGapSignature.olean' of module MCore.BackwardAudit.HodgeGapSignature does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycleCountermodel.lean",
+     "linha": 5,
+     "nome": "MCore.BackwardAudit.countermodel_endpoint_false",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalCycle.olean' of module MCore.BackwardAudit.HodgeTerminalCycle does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycleCountermodel.lean",
+     "linha": 20,
+     "nome": "MCore.BackwardAudit.countermodel_terminal_cycle_exists",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalCycle.olean' of module MCore.BackwardAudit.HodgeTerminalCycle does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalCycleCountermodel.lean",
+     "linha": 31,
+     "nome": "MCore.BackwardAudit.terminal_cycle_does_not_imply_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalCycle.olean' of module MCore.BackwardAudit.HodgeTerminalCycle does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalNormalForm.lean",
+     "linha": 23,
+     "nome": "MCore.BackwardAudit.normalized_lastBit_eq_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOppositionMincut.olean' of module MCore.BackwardAudit.HodgeOppositionMincut does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalNormalForm.lean",
+     "linha": 30,
+     "nome": "MCore.BackwardAudit.normalized_opposition_eq_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOppositionMincut.olean' of module MCore.BackwardAudit.HodgeOppositionMincut does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalNormalForm.lean",
+     "linha": 37,
+     "nome": "MCore.BackwardAudit.all_terminal_presentations_same_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOppositionMincut.olean' of module MCore.BackwardAudit.HodgeOppositionMincut does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeTerminalNormalForm.lean",
+     "linha": 54,
+     "nome": "MCore.BackwardAudit.hodge_terminal_normal_form_fixed_point",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeOppositionMincut.olean' of module MCore.BackwardAudit.HodgeOppositionMincut does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeThreeWayCore.lean",
+     "linha": 20,
+     "nome": "MCore.BackwardAudit.tristate_zero_iff_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalCycleCountermodel.olean' of module MCore.BackwardAudit.HodgeTerminalCycleCountermodel does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeThreeWayCore.lean",
+     "linha": 26,
+     "nome": "MCore.BackwardAudit.tristate_one_iff_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalCycleCountermodel.olean' of module MCore.BackwardAudit.HodgeTerminalCycleCountermodel does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeThreeWayCore.lean",
+     "linha": 32,
+     "nome": "MCore.BackwardAudit.tristate_two_iff_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalCycleCountermodel.olean' of module MCore.BackwardAudit.HodgeTerminalCycleCountermodel does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeThreeWayCore.lean",
+     "linha": 38,
+     "nome": "MCore.BackwardAudit.hodge_three_way_core_convergence",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalCycleCountermodel.olean' of module MCore.BackwardAudit.HodgeTerminalCycleCountermodel does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeThreeWayCore.lean",
+     "linha": 51,
+     "nome": "MCore.BackwardAudit.hodge_three_way_any_inhabited_closes",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalCycleCountermodel.olean' of module MCore.BackwardAudit.HodgeTerminalCycleCountermodel does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HodgeThreeWayCore.lean",
+     "linha": 65,
+     "nome": "MCore.BackwardAudit.hodge_three_way_convergence_does_not_imply_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeTerminalCycleCountermodel.olean' of module MCore.BackwardAudit.HodgeTerminalCycleCountermodel does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
+     "linha": 9,
+     "nome": "MCore.BackwardAudit.hypothetical_pointwise",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
+     "linha": 20,
+     "nome": "MCore.BackwardAudit.hypothetical_concrete_witness",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
+     "linha": 35,
+     "nome": "MCore.BackwardAudit.specification_oracle_only",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/R1SemanticBoundary.lean",
+     "linha": 37,
+     "nome": "MCore.BackwardAudit.spread_interface_inhabited",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/R1SemanticBoundary.lean",
+     "linha": 64,
+     "nome": "MCore.BackwardAudit.r1a_typed_family_interface_closed",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/R1SemanticBoundary.lean",
+     "linha": 68,
+     "nome": "MCore.BackwardAudit.r1_semantic_adapter_still_open",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/R1SemanticBoundary.lean",
+     "linha": 72,
+     "nome": "MCore.BackwardAudit.r1b_gauss_manin_match_pending",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/R1SemanticBoundary.lean",
+     "linha": 76,
+     "nome": "MCore.BackwardAudit.r1c_cdk_match_pending",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/R2CandidateFirewall.lean",
+     "linha": 17,
+     "nome": "MCore.BackwardAudit.candidate_holding_on_counterexample_cannot_force_fast_r2",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeFastR2Mincut.olean' of module MCore.BackwardAudit.HodgeFastR2Mincut does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/R2CandidateFirewall.lean",
+     "linha": 35,
+     "nome": "MCore.BackwardAudit.universally_true_candidate_cannot_force_fast_r2",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeFastR2Mincut.olean' of module MCore.BackwardAudit.HodgeFastR2Mincut does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/R3TrivialQbar.lean",
+     "linha": 32,
+     "nome": "MCore.BackwardAudit.r3_trivial_qbar_nonempty",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/R3TrivialQbar.lean",
+     "linha": 45,
+     "nome": "MCore.BackwardAudit.trivial_qbar_r2_is_sufficient",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/HodgeFinalGlobalExternalCertificate.lean",
+     "linha": 37,
+     "nome": "MCore.hodge_final_root_structural_certified",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeLastBitFrontier.olean' of module MCore.BackwardAudit.HodgeLastBitFrontier does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/HodgeFinalGlobalExternalCertificate.lean",
+     "linha": 43,
+     "nome": "MCore.hodge_final_root_of_last_bit",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/BackwardAudit/HodgeLastBitFrontier.olean' of module MCore.BackwardAudit.HodgeLastBitFrontier does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/Material/TerminalAdapter.lean",
+     "linha": 4,
+     "nome": "MCore.Material.terminal_inhabitant_is_sufficient",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/Material/Closure.olean' of module MCore.Material.Closure does not exist"
+    },
+    {
+     "arquivo": "lean/MCore/Real/P02DeterministicRejectionHodge.lean",
+     "linha": 27,
+     "nome": "MCore.Hodge.HodgeRejectionSystem.defectCollapse_iff_hodgeProperty",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/Real/P02DeterministicRejectionHodge.lean",
+     "linha": 46,
+     "nome": "MCore.Hodge.HodgeRejectionSystem.involution_does_not_force_defect_collapse",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/Real/P02DeterministicRejectionHodge.lean",
+     "linha": 51,
+     "nome": "MCore.Hodge.HodgeRejectionSystem.corrected_symmetry_does_not_force_hodgeProperty",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/Real/P02DeterministicRejectionHodge.lean",
+     "linha": 74,
+     "nome": "MCore.Hodge.HodgeRejectionSystem.toyFixedOrbit_orbitCollapse",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/Real/P02DeterministicRejectionHodge.lean",
+     "linha": 79,
+     "nome": "MCore.Hodge.HodgeRejectionSystem.orbitCollapse_does_not_force_defectCollapse",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/Real/P02DeterministicRejectionHodge.lean",
+     "linha": 90,
+     "nome": "MCore.Hodge.HodgeRejectionSystem.involutive_and_idempotent_forces_fixed",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "open_math/P02RejectionHodgeInvariantProbe.lean",
+     "linha": 37,
+     "nome": "MCore.Hodge.q7_forbidden_promotion",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/Real/P02DeterministicRejectionHodge.olean' of module MCore.Real.P02DeterministicRejectionHodge does not exist"
+    },
+    {
+     "arquivo": "open_math/P02RejectionHodgeInvariantProbe.lean",
+     "linha": 42,
+     "nome": "MCore.Hodge.q8_involution_not_orbitCollapse",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/Real/P02DeterministicRejectionHodge.olean' of module MCore.Real.P02DeterministicRejectionHodge does not exist"
+    },
+    {
+     "arquivo": "open_math/P02RejectionHodgeInvariantProbe.lean",
+     "linha": 50,
+     "nome": "MCore.Hodge.q9_orbitCollapse_not_defectCollapse",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/Real/P02DeterministicRejectionHodge.olean' of module MCore.Real.P02DeterministicRejectionHodge does not exist"
+    },
+    {
+     "arquivo": "open_math/P02RejectionHodgeInvariantProbe.lean",
+     "linha": 70,
+     "nome": "MCore.Hodge.q10_any_defect_collapse_rule_excludes_toy",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/Real/P02DeterministicRejectionHodge.olean' of module MCore.Real.P02DeterministicRejectionHodge does not exist"
+    },
+    {
+     "arquivo": "open_math/P02RejectionHodgeInvariantProbe.lean",
+     "linha": 81,
+     "nome": "MCore.Hodge.q10_invariants_are_not_terminal",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/Real/P02DeterministicRejectionHodge.olean' of module MCore.Real.P02DeterministicRejectionHodge does not exist"
+    }
+   ],
+   "preenchimento": [],
    "summary": {
     "fechado": 1101,
     "aberto-sorry": 0,
@@ -8115,7 +8945,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 74.5,
+   "build_seconds": 86.1,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -8147,6 +8977,11 @@
    ],
    "integrity": [],
    "note": "",
+   "corrections": [],
+   "lakefile_gerado": "",
+   "avulso": false,
+   "salvage": [],
+   "preenchimento": [],
    "summary": {
     "fechado": 2,
     "aberto-sorry": 0,

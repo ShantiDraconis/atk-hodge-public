@@ -11,30 +11,29 @@ This folder records what the Lean 4 kernel said about the Lean sources of the pr
 
 ## What the kernel said
 
-MVEI verification of 2026-10-28T13:47:17+00:00, on commit `31d96f3dae43aac29393f8502927f5376fffbfa2`. Each theorem was read with `Lean.collectAxioms`, the function behind `#print axioms`.
+MVEI verification of 2026-10-28T16:41:02+00:00, on commit `31d96f3dae43aac29393f8502927f5376fffbfa2`. Each theorem was read with `Lean.collectAxioms`, the function behind `#print axioms`.
 
-| Lean project | Lean version | Build | Closed | Conditional | Open (`sorry`) |
-|---|---|---|---:|---:|---:|
-| `.` | v4.19.0 | OK | 1 101 | 0 | 0 |
-| `atk-kernel` | v4.34.1 | OK | 2 | 0 | 0 |
+| Lean project | Lean version | Build | Closed | Conditional | Open (`sorry`) | Checked file by file: closed / conditional / open / proof error / not reached |
+|---|---|---|---:|---:|---:|---|
+| `.` | v4.19.0 | OK | 1 101 | 0 | 0 | 36 / 0 / 0 / 0 / 71 |
+| `atk-kernel` | v4.34.1 | OK | 2 | 0 | 0 | — |
 
 | Closed theorems in this repository | |
 |---|---:|
-| Counting each project | 1 103 |
-| Unique (name + statement) | 1 103 |
-| Unique, without the lemmas Lean generates itself (`eq_1`, `mk.inj`, `sizeOf_spec`, `deriving`) | 495 |
+| Counting each project | 1 139 |
+| Unique (name + statement) | 1 139 |
+| Unique, without the lemmas Lean generates itself (`eq_1`, `mk.inj`, `sizeOf_spec`, `deriving`) | 531 |
 
-*Closed* means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`. It says that the statement as written in the file is proved; it does not say that an open problem is solved. Every statement is in `VERIFICACAO.json`. *Conditional* means the proof also uses axioms declared in the repository; *open* means it uses `sorry`.
+*Closed* means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`. It says that the statement as written in the file is proved; it does not say that an open problem is solved. Every statement is in `VERIFICACAO.json`. *Conditional* means the proof also uses axioms declared in the repository; *open* means it uses `sorry`. *Checked file by file* covers the files that no build reached: each one went through Lean whole, with a `#print axioms` for each theorem.
 
 ### Declared theorems
 
-The `.lean` files of the verified commit declare 455 `theorem`/`lemma` (counting copies). The kernel checked 348 of them (348 closed, 0 conditional, 0 open). The closed count in the table above is larger: it also counts the theorems Lean generates by itself (equation lemmas, structure fields, `deriving`), which are not written in the text. 107 were not reached by any build:
+The `.lean` files of the verified commit declare 455 `theorem`/`lemma` (counting copies). The kernel checked 367 of them (367 closed, 0 conditional, 0 open). The closed count in the table above is larger: it also counts the theorems Lean generates by itself (equation lemmas, structure fields, `deriving`), which are not written in the text. For 88 the kernel has no result:
 
 | Reason | Theorems |
 |---|---:|
-| the project built, but the file is not part of the lakefile target | 107 |
-
-A file-by-file check of these (each file through Lean, with `#print axioms` for each theorem) is running in the MVEI pipeline; this folder will be updated with the result.
+| checked file by file: Lean did not reach the theorem (missing import, syntax error or timeout) | 63 |
+| the project built, but the file is not part of the lakefile target | 25 |
 
 ## Files in this folder
 
