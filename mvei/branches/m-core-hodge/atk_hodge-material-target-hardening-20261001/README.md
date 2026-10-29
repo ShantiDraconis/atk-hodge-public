@@ -5,7 +5,7 @@ Lean sources from the branch `atk/hodge-material-target-hardening-20261001` of t
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 6 — closed 4, conditional 0, open 0, proof error 0, not reached 2, no result 0.
 * History: 5 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `b1def4a41aae1f45c4e4cf42576ac5ba9a058a06584c4ff7bdb0fdf1165dcf2e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_hodge-material-target-hardening-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `c9abb523e829bf496d07a21b03a916fba55e8e1b97e725cad0a4d1dabab22fee`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_hodge-material-target-hardening-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

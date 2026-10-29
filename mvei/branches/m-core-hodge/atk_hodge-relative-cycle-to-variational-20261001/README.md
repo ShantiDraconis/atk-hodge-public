@@ -5,7 +5,7 @@ Lean sources from the branch `atk/hodge-relative-cycle-to-variational-20261001` 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 6 — closed 6, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 2 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `3d0f305d81fde3ff5724764fd95b873db2123d4c9ef01547e33af972363c05e7`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_hodge-relative-cycle-to-variational-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `1cb5e7edba0a0a1affd2a06a8350f4516f29307278d0c3fc65063ddda5f18d1e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_hodge-relative-cycle-to-variational-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

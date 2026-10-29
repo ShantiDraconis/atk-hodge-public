@@ -5,7 +5,7 @@ Lean sources from the branch `k7-HODGE` of the private repository `ShantiDraconi
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 2 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `cdfe6f20329b668690c2aa47af3205ae356e20bdeb0a4e8cc44d63e5a4b1e211`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/k7-HODGE/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `a0263e03b744ec78eed4e1fdc64f199aff82bf617f9df6412498f420fbb40fdb`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/k7-HODGE/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
