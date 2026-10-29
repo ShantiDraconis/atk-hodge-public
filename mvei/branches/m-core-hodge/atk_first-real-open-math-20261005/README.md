@@ -5,7 +5,7 @@ Lean sources from the branch `atk/first-real-open-math-20261005` of the private 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 5 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `9a2c13e684095ce0843476bdb87a65f87cc55c2f312fda76fa684ef0b52146fc`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_first-real-open-math-20261005/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `418da49f43209ed72daaeaef8062cb798666289b0f4aad502fe4248be066b3ac`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_first-real-open-math-20261005/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

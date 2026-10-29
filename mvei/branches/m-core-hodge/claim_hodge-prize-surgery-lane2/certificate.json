@@ -908,7 +908,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1471,6 +1471,6 @@
   "lean/MCore/OpenMath/HodgeStructuralFinalCertificate.lean": "f0ef381721469afdc79448ec9ed7bbebd9c0b3e20eea02808e328c8ad9b75988",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T02:47:01Z",
- "certificate_sha256": "b77073b1083eef3a033598211b031ee8637dea5b4f64718cc27b9f48576adaaf"
+ "published_at": "2026-10-29T06:27:12Z",
+ "certificate_sha256": "f6a052713400bf62d9710353acb914d418aaa84d345f877262a9917a623078ba"
 }

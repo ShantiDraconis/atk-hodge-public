@@ -5,7 +5,7 @@ Lean sources from the branch `atk/hodge-recovered-material-chain-20261007` of th
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 5 — closed 5, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 3 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `126746c444b6c1e47755cd7cc96397ad02bb5134c8085cc952aa605afc56d095`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_hodge-recovered-material-chain-20261007/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `3b0bda57cf7c4ae0cd16502f3ecdfdce7a4683d18d91488c381974ddde3a9062`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_hodge-recovered-material-chain-20261007/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

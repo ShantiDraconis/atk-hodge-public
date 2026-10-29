@@ -318,7 +318,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1033,6 +1033,6 @@
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9",
   "open_math/Hodge_H2_H3_Forcing.lean": "4656c7b007ac9514502c3811821bc6382a3bc3667ea00dad1053c97419dfa826"
  },
- "published_at": "2026-10-29T02:47:00Z",
- "certificate_sha256": "0d2ae04ca0c44a9ec11979eb5fe042775839f22825d01a26cdf757ff9fabf4f1"
+ "published_at": "2026-10-29T06:27:12Z",
+ "certificate_sha256": "21e508d711e52a5ed0f2ae22d20cc1fba8d1d1d03342f243b710d7380a303792"
 }
