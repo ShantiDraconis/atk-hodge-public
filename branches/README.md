@@ -15,3 +15,14 @@ Each row is a branch of a private repository of ShantiDraconis with theorems tha
 | m-core-hodge | `research/pure-math-final-proof-v1` | 2026-09-20 | parada | 5 / 5 | 15 | 14 | [certificate](../mvei/branches/m-core-hodge/research_pure-math-final-proof-v1/README.md) |
 | m-core-hodge | `atk/hodge-material-target-hardening-20261001` | 2026-10-01 | parada | 4 / 6 | 25 | 5 | [certificate](../mvei/branches/m-core-hodge/atk_hodge-material-target-hardening-20261001/README.md) |
 | m-core-hodge | `cert/hdg-final-attack-4419293f-run35232076043` | 2026-09-17 | parada | 4 / 4 | 33 | 3 | [certificate](../mvei/branches/m-core-hodge/cert_hdg-final-attack-4419293f-run35232076043/README.md) |
+| m-core-hodge | `reset/hodge-empty-final-scaffold` | 2026-09-25 | parada | 3 / 3 | 16 | 5 | [certificate](../mvei/branches/m-core-hodge/reset_hodge-empty-final-scaffold/README.md) |
+| m-core-hodge | `k7-HODGE` | 2026-09-15 | parada | 3 / 3 | 13 | 2 | [certificate](../mvei/branches/m-core-hodge/k7-HODGE/README.md) |
+| m-core-hodge | `atk/kernel-r3-basepoint-20260928` | 2026-09-28 | parada | 3 / 3 | 23 | 3 | [certificate](../mvei/branches/m-core-hodge/atk_kernel-r3-basepoint-20260928/README.md) |
+| m-core-hodge | `frozen/hodge-exact-remaining-green-78f997e5` | 2026-10-04 | incorporada | 3 / 3 | 49 | 0 | [certificate](../mvei/branches/m-core-hodge/frozen_hodge-exact-remaining-green-78f997e5/README.md) |
+| m-core-hodge | `k7-preflight/Hodge-OfficialSpec` | 2026-09-15 | parada | 3 / 3 | 13 | 1 | [certificate](../mvei/branches/m-core-hodge/k7-preflight_Hodge-OfficialSpec/README.md) |
+| m-core-hodge | `atk/hodge-material-producer-gate-20260928` | 2026-09-28 | parada | 2 / 2 | 15 | 3 | [certificate](../mvei/branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/README.md) |
+| m-core-hodge | `hdg-bridge-open` | 2026-09-17 | parada | 2 / 2 | 33 | 6 | [certificate](../mvei/branches/m-core-hodge/hdg-bridge-open/README.md) |
+| m-core-hodge | `atk/first-real-open-math-20261005` | 2026-10-05 | parada | 1 / 1 | 15 | 5 | [certificate](../mvei/branches/m-core-hodge/atk_first-real-open-math-20261005/README.md) |
+| m-core-hodge | `atk/hodge-r3-universal-family-compat-20260927` | 2026-09-28 | parada | 1 / 1 | 28 | 4 | [certificate](../mvei/branches/m-core-hodge/atk_hodge-r3-universal-family-compat-20260927/README.md) |
+| m-core-hodge | `atk/material-rigid-integration-20261009` | 2026-10-09 | parada | 1 / 1 | 51 | 3 | [certificate](../mvei/branches/m-core-hodge/atk_material-rigid-integration-20261009/README.md) |
+| m-core-hodge | `atk/proof-inventory-3fc16284` | 2026-10-11 | parada | 1 / 1 | 28 | 5 | [certificate](../mvei/branches/m-core-hodge/atk_proof-inventory-3fc16284/README.md) |

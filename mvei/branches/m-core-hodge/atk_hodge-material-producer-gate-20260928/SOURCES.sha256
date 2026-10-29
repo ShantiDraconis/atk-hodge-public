@@ -1,0 +1,15 @@
+b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lake-manifest.json
+63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lakefile.toml
+55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean-toolchain
+e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/Boundary.lean
+ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/Hodge.lean
+6cd40b40938bee7059b47e72d6d6007ddd278416b250ab60396f8dfde336c35e  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/HodgeMaterialProducerGate.lean
+d7866b8952937cd25ed20910fe0fb873acdf5dbc8ebcf60853510d0327cefb30  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/HodgeReduction.lean
+487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/K0.lean
+273c1a3686b01cdeb8746aa8b8c679c864679a50b7b9b855bcbf99f6ecdd8f19  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/K1.lean
+3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/K2.lean
+dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/K3.lean
+c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/K4.lean
+ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/K5.lean
+9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/K6.lean
+8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9  branches/m-core-hodge/atk_hodge-material-producer-gate-20260928/lean/MCore/Signature.lean

@@ -5,7 +5,7 @@ Lean sources from the branch `cert/hdg-final-attack-4419293f-run35232076043` of 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 4, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 3 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `1e65d8ef75cbd8d462426832e42d66fa4c1135f63ae00e26a6ddebd5f5759749`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/cert_hdg-final-attack-4419293f-run35232076043/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `0a09e741c788f905a8542531b27da8db35860448ab1aa0ddd795867f4ca99721`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/cert_hdg-final-attack-4419293f-run35232076043/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

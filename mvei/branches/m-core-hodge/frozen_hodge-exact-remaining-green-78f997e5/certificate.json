@@ -1,0 +1,101 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-hodge",
+ "branch": "frozen/hodge-exact-remaining-green-78f997e5",
+ "branch_state": "incorporada",
+ "head_commit": "78f997e54e101c8abb78c3abd7fc155aba31250f",
+ "head_commit_date": "2026-10-04T01:29:06+02:00",
+ "history_not_on_default_branch": [],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.HodgeExactMaterial.toConcretePayload",
+   "file": "lean/MCore/HodgeExactRemaining.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeExactMaterial G M → MCore.ConcreteAlgebraicityPayload M"
+  },
+  {
+   "name": "MCore.HodgeExactMaterial.toGradedHodge",
+   "file": "lean/MCore/HodgeExactRemaining.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.CycleSpanAdapter G M → MCore.HodgeExactMaterial G M → MCore.GradedRationalHodgeConjecture G"
+  },
+  {
+   "name": "MCore.HodgeExactMaterial.toTerminal",
+   "file": "lean/MCore/HodgeExactRemaining.lean",
+   "line": 75,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.HodgeSemanticData} {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G},   MCore.HodgeRealizationAdapters D G M → MCore.HodgeExactMaterial G M → MCore.HodgeTerminalCertifies D"
+  }
+ ],
+ "closed": 3,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BackwardAudit/CodimOneLefschetz11.lean": "c8b257808421715ea094de9328853a546ac8a92d1ab987a42839f549b1ce8e88",
+  "lean/MCore/BackwardAudit/H01MinimalForwardPayload.lean": "2c56127ee06c26df25354d38cc5c6dbee6d0dd938d9c901fffdc702e249e4050",
+  "lean/MCore/BackwardAudit/R1DescentBoundary.lean": "0e41d345031d16b18a87cc9a3883f9dd9ced95bd8dc8f29e53727400bf403b6a",
+  "lean/MCore/BackwardAudit/R1dArithmeticIntersection.lean": "de46e417e46e39116b552b2dbc2f0fa78f710991761eea5d48488c6657c90d95",
+  "lean/MCore/BackwardAudit/R1dBasepointFastPath.lean": "48b1906d34086bc4b08694e6abb0de2da1eb2f4fdd507daca70b9100434f1924",
+  "lean/MCore/BackwardAudit/R1dQbarPointBoundary.lean": "373f3d84e308f25d0d43784f86d1930c740af05ffdb1ca0df89304e84e3a59f3",
+  "lean/MCore/BackwardAudit/R2AfterR3.lean": "e1f71caabaecd302948ebfe95e60099edc72ba42d4cb3d5eb2553235dca168aa",
+  "lean/MCore/BackwardAudit/R2FiberAlgebraicityBoundary.lean": "3628ba63d4b54bf1243f214f84b114ec955d45d6b251eedc1f5619a335f428ac",
+  "lean/MCore/BackwardAudit/R3AtomicSpecialization.lean": "88a4a5b1b3a164d43b3a0040c252aec52ceeed871cbf1ccd4835023e1b9d33e2",
+  "lean/MCore/BackwardAudit/R3CombinationMinimal.lean": "eaa26a78e0ac4308fc4a7cf2d6db1e786b57fe1a9c7b5fbad03c3e397d6340dd",
+  "lean/MCore/BackwardAudit/R3Contract.lean": "ce8213bd912e6fdf58da94c866624ac66293263307c78d7b49eb0a0d7600c07b",
+  "lean/MCore/BackwardAudit/TypedVariationalGeometry.lean": "417462de2aa7d8cdfeaa951abf14b7308e03c449dd354761166016be1ec3759b",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/CodimZeroGeometry.lean": "08ac6b362d9c3487f1a4f61f7080f270a72f00034cfb67ba381e008c0b9276ea",
+  "lean/MCore/Hodge.lean": "ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57",
+  "lean/MCore/HodgeDecomposition.lean": "41f2a50a9b5aedff2ce543217c598c2df9ff77c00f68b982b280745004a57ad7",
+  "lean/MCore/HodgeExactRemaining.lean": "e2dcdc6056801f40bbe0904d2680b0769d76e087b7062babe0329044bf6bb526",
+  "lean/MCore/HodgeGeometricBackends.lean": "f851106fde60e9c55178c5b3e83d800091e6d1074025c3c4b6cb2e2dd0dace26",
+  "lean/MCore/HodgeMaterialFrontier.lean": "45acfb3239614bf00b0508afec7fd33cd4dde7582fd9055e137a8228f5c229e3",
+  "lean/MCore/HodgeMaterialInhabitant.lean": "292e8a3866b6a35a196711ab9c927f5735dca148a3b16aea90d599213ac44d07",
+  "lean/MCore/HodgeReduction.lean": "d7866b8952937cd25ed20910fe0fb873acdf5dbc8ebcf60853510d0327cefb30",
+  "lean/MCore/HodgeTerminalLaw.lean": "56325a303c70eeb089c100f3b3d38224201d3aa0c673a24b763438b01bf1be2e",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "273c1a3686b01cdeb8746aa8b8c679c864679a50b7b9b855bcbf99f6ecdd8f19",
+  "lean/MCore/K11.lean": "4a3c83c7e4f7d24540512322737c6c8f47e079670d3af69bf8b0bc51e1f14799",
+  "lean/MCore/K12.lean": "a532f18415a766aaa4a4737649c644763404851244a8ea323477dcba6314c6f2",
+  "lean/MCore/K13.lean": "ece5938282d291b55a9e4413168d54f25bf49ce23320dc7bb659a782e5951664",
+  "lean/MCore/K14.lean": "5aeb4c52f3744b90253e20fe7c623130e8e0d423327948adedb95ac0aab451aa",
+  "lean/MCore/K15.lean": "de99c1ec3b446705162da87de6e730d389133680c35e59646b3b0eb0ce7095aa",
+  "lean/MCore/K16.lean": "40602929beec057ab3cba850a22eca6edfbfb1e175331c8071937e4cc6dd235f",
+  "lean/MCore/K17.lean": "5bb3ca9962bf6e618cdad5274182955152d6a675439460094c2665d9376c0e53",
+  "lean/MCore/K18.lean": "97e98fb29a0c157fa272db03b68c362218c716855c20c7c6452225d9a6471bd8",
+  "lean/MCore/K19.lean": "dae000bfc6212adfa4405b60e3bdca142b2f46414efde105467cb0540a4fb43d",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K20.lean": "5a7adf5a0787bea3f7eab9e2f3ab609cee979932741c10c32f8a4f63bfabeedb",
+  "lean/MCore/K21.lean": "7489fe7c83615b2cea598ec30443bc93a6edded93a4b8a88d279e06d3afce34e",
+  "lean/MCore/K22.lean": "b63b8da7703957255d5665adcacda315f2c9999052f48a094f86d0ecbc2195a3",
+  "lean/MCore/K23.lean": "248cb592d95fb9c953e6e5e1a2c422d2d52be5eb83e3a1a061faa7309ce35591",
+  "lean/MCore/K24.lean": "6c9d3f278fafb8fb0fd029ee1c443675a127d90943e64cd94d319be7b859e2a3",
+  "lean/MCore/K25.lean": "e4d805cb48e2ca73d9622d605dff3e6a04d0acbd87cda56a01ad2a2a83c9502a",
+  "lean/MCore/K26.lean": "fcd709cf992aba50c681938bb70f90e6a7d10bcdfd43426920e58bfdf298d291",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-29T01:37:28Z",
+ "certificate_sha256": "1fb6d8d20fa7d826c9c2047927d7b821d034f4dd7ba6747e7010ee88b8d8b7ff"
+}

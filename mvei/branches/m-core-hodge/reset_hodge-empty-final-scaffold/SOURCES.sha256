@@ -1,0 +1,16 @@
+b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lake-manifest.json
+63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lakefile.toml
+55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean-toolchain
+e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/Boundary.lean
+6335628c2cf9b40cadaf953ff7b467a0dcb483b8a57437dd600ab9509d6a2c64  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/Hodge.lean
+c35ff45b2700ff312c9a852edbfaf678b5f7b22247391edb64485acb817d0fe1  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/HodgeBoundary.lean
+3524c6f6c2023bdadc2c2766c755a9b30ecddaaceb274955462df7fd2240f495  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/HodgeReduction.lean
+487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/K0.lean
+c8229e79b2584e311103d1eeaa4351a9c6bd2d55c71d5e9ae85e8e6059651d3f  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/K1.lean
+d56c41836096c324d99c781d1f0b4a1f6de098456af8b2d06bc36f7974d1a271  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/K2.lean
+1c2882c22a43ca234b55438e71dc106444fcb1e58bbdb7c63036f9a9fa70ce67  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/K3.lean
+56b893d52235390ff81739d9def2d8155a6c1d914bed3ff17474af5e05237499  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/K4.lean
+c0db0db0d58f8deef184ce036059612719e1c7f10fa9951ce6c137dd08d1aa41  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/K5.lean
+cbca5379212597094095520d22f6604f13a01bd49555f00185ff45ccb7e44f55  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/K6.lean
+dc432f1ae8039f52c740c299180e46a55da5c15711bd56d9ffc8199e366f112c  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/OpenMath/HodgeFinalCertificateChain.lean
+8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9  branches/m-core-hodge/reset_hodge-empty-final-scaffold/lean/MCore/Signature.lean

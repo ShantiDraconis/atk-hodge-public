@@ -1,0 +1,77 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-hodge",
+ "branch": "atk/first-real-open-math-20261005",
+ "branch_state": "parada",
+ "head_commit": "953507b951c7fdebcc4c217ff8fff29310facaad",
+ "head_commit_date": "2026-10-05T13:52:21+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "953507b951c7fdebcc4c217ff8fff29310facaad",
+   "date": "2026-10-05T13:52:21+02:00",
+   "subject": "ci: force exact material inhabitant search"
+  },
+  {
+   "commit": "452f18735b77857f7603e9035c1e3f944cab9d42",
+   "date": "2026-10-05T13:51:42+02:00",
+   "subject": "forcing: add direct material inhabitant search"
+  },
+  {
+   "commit": "99b338f7e05202c4a76b722614a0aee9090cb200",
+   "date": "2026-10-05T13:12:09+02:00",
+   "subject": "ci: build forcing module through Lake library path"
+  },
+  {
+   "commit": "9d57325807cf041cc133d1be540512afdbe7433b",
+   "date": "2026-10-05T13:11:00+02:00",
+   "subject": "ci: run first-real-open-math forcing kernel"
+  },
+  {
+   "commit": "54fc8ada0909bdc456d07ce274118fdcf3125d59",
+   "date": "2026-10-05T13:10:36+02:00",
+   "subject": "forcing: expose first real open-math target"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.OpenMath.Hodge.close_hodge_from_first_real_open_math",
+   "file": "lean/MCore/OpenMath/ForcingKernel.lean",
+   "line": 7,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : MCore.HodgeSemanticData} (h : FirstRealOpenMath D) : MCore.RationalHodgeConjecture D"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/Hodge.lean": "ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57",
+  "lean/MCore/HodgeReduction.lean": "d7866b8952937cd25ed20910fe0fb873acdf5dbc8ebcf60853510d0327cefb30",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "273c1a3686b01cdeb8746aa8b8c679c864679a50b7b9b855bcbf99f6ecdd8f19",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/OpenMath/ForcingKernel.lean": "c800cf8f514a5eabe9ff90fec658ea4dc890c9d8efc714845d0d40181707cad1",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-29T01:37:29Z",
+ "certificate_sha256": "dbbb0a74cdf8179e39144a421ed386da98530940aacc0773690f76e18c66aad1"
+}
