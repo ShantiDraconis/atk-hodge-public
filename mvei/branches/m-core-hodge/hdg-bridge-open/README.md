@@ -5,7 +5,7 @@ Lean sources from the branch `hdg-bridge-open` of the private repository `Shanti
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 6 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `864be1d5f4ca798fd778e5e3d02ff4c1ece6d1f12d2d4a4dd723def35fed1202`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/hdg-bridge-open/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9049d3480f4348ebbcb7e980b523e86e4ad581ccf5da3ca40539893129ca11c6`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/hdg-bridge-open/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

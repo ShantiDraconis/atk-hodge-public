@@ -5,7 +5,7 @@ Lean sources from the branch `claim/hodge-prize-surgery-lane2` of the private re
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 65 — closed 65, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 180 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `f6a052713400bf62d9710353acb914d418aaa84d345f877262a9917a623078ba`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/claim_hodge-prize-surgery-lane2/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `dbd4f7101ae68f611cd6a9bba7e0d075bd1aeee01ccf02ff80eaa59f60b5d594`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/claim_hodge-prize-surgery-lane2/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

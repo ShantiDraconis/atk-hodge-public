@@ -5,7 +5,7 @@ Lean sources from the branch `atk/kernel-r3-basepoint-20260928` of the private r
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 3 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `9ac1ac2b99f5c4431645c6b5d5e015230e41082da652115c725c1f5d0110635d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_kernel-r3-basepoint-20260928/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9d10c9f53eb0c4410035f850c103b483e146a1ddd12474f1b02f466e32a90dce`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_kernel-r3-basepoint-20260928/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

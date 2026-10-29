@@ -5,7 +5,7 @@ Lean sources from the branch `cert/journal-hodge-reduction-v1-8622e316-run355199
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 6 — closed 6, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 6 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `4858cb25f38a80fea69a5d4b4835fdbf0f94e833ceeec3a51c4e75be6b060d05`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/cert_journal-hodge-reduction-v1-8622e316-run35519976669/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9a4522f8870d39eb2914ead20c990a1a9f0572eab38761ed010c7485ce7723e5`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/cert_journal-hodge-reduction-v1-8622e316-run35519976669/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
