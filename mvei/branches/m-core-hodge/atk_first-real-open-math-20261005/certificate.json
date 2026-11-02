@@ -33,7 +33,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -72,6 +72,6 @@
   "lean/MCore/OpenMath/ForcingKernel.lean": "c800cf8f514a5eabe9ff90fec658ea4dc890c9d8efc714845d0d40181707cad1",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:16:13Z",
- "certificate_sha256": "ea56a4d84ff9df30f8c5984c77302990cdf525cf709ee9547e1a8849feafa0da"
+ "published_at": "2026-11-02T20:55:54Z",
+ "certificate_sha256": "2e32c731932e0f2c1699c9e149cabd1f7a204a994babb901bacd9473b8203e7e"
 }

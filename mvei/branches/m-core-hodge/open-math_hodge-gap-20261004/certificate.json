@@ -318,7 +318,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -390,7 +390,7 @@
    "name": "P05.Hodge.OpenMath.H2H3HilbertProducer.closesR2",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 346,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (H : H2H3HilbertProducer M S) : R2FiberAlgebraicityTarget M H.h2a.useful.toDescentPoint"
   },
@@ -398,17 +398,15 @@
    "name": "P05.Hodge.OpenMath.correspondence_actionEval_eq_cycleEval",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 950,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {C : CorrespondenceCycleBackend X p} (A : CohomologicalCorrespondenceAction (M"
   },
   {
    "name": "P05.Hodge.OpenMath.decomposition_implies_R2",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 150,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {U : UsefulQbarFiberGeometry S} (D : HilbertGeneratedFiberDecomposition (M"
   },
@@ -416,7 +414,7 @@
    "name": "P05.Hodge.OpenMath.decomposition_implies_R2_nonempty",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 185,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {U : UsefulQbarFiberGeometry S} (D : HilbertGeneratedFiberDecomposition (M"
   },
@@ -424,7 +422,7 @@
    "name": "P05.Hodge.OpenMath.decomposition_implies_concrete_span",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 131,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} {U : UsefulQbarFiberGeometry S} (D : HilbertGeneratedFiberDecomposition (M"
   },
@@ -432,37 +430,31 @@
    "name": "P05.Hodge.OpenMath.divisorSource_class_algebraic",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 1412,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {C : DivisorSourceCorrespondenceBackend X p} (L : DivisorSourceLefschetzData (M"
   },
   {
    "name": "P05.Hodge.OpenMath.h2a_h2b_do_not_force_h2c",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 539,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": ": ¬ Nonempty (H2cCohomologyGenerationProducer (M"
   },
   {
    "name": "P05.Hodge.OpenMath.h2cCounterCombination_eval_false",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 527,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(C : CycleCombination h2cCounterG h2cCounterM () 2) : C.eval h2cCounterM = false"
   },
   {
    "name": "P05.Hodge.OpenMath.h2c_correspondence_action_tail_mechanical",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 1081,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": h2cCorrespondenceActionFrontier.actionToGeneration = .mechanical"
   },
@@ -470,7 +462,7 @@
    "name": "P05.Hodge.OpenMath.h2c_correspondence_route_tail_mechanical",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 883,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": h2cCorrespondenceRouteFrontier.hilbertRealizationToH2c = .mechanical"
   },
@@ -478,7 +470,7 @@
    "name": "P05.Hodge.OpenMath.h2c_divisor_correspondence_tail_mechanical",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 1506,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": h2cDivisorCorrespondenceFrontier.q1ToH2c = .mechanical"
   },
@@ -486,7 +478,7 @@
    "name": "P05.Hodge.OpenMath.h2c_divisor_route_tail_mechanical",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 719,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": h2cDivisorRouteFrontier.hilbertRealizationToH2c = .mechanical"
   },
@@ -494,7 +486,7 @@
    "name": "P05.Hodge.OpenMath.h2c_generation_still_open",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 395,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": h2h3ForcingFrontier.transportedAlphaGeneration = .openGeneration"
   },
@@ -502,7 +494,7 @@
    "name": "P05.Hodge.OpenMath.h2c_lowerCodim_route_tail_mechanical",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 1286,
-   "state": "erro",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": h2cLowerCodimRouteFrontier.lowerCodimToGeneration = .mechanical"
   },
@@ -510,7 +502,7 @@
    "name": "P05.Hodge.OpenMath.h2h3_mechanical_tail_closed",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 392,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": h2h3ForcingFrontier.decompositionToR2 = .mechanicallyClosed"
   },
@@ -518,7 +510,7 @@
    "name": "P05.Hodge.OpenMath.h2h3_then_r3_yields_original_span",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 404,
-   "state": "erro",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} {S : SpreadData G X p α hX hα} (H : H2H3HilbertProducer M S) (R3 : R3TransportContract M S) : InConcreteCycleSpan M α"
   },
@@ -526,7 +518,7 @@
    "name": "P05.Hodge.OpenMath.identityCorrespondenceBackend_realize",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 1111,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} (z : G.CycleQ X p) : (identityCorrespondenceBackend X p).realize z () = z"
   },
@@ -534,17 +526,15 @@
    "name": "P05.Hodge.OpenMath.lowerCodim_pushEval_eq_cycleEval",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 1178,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {C : LowerCodimCorrespondenceBackend X p} (A : LowerCodimCorrespondenceAction (M"
   },
   {
    "name": "P05.Hodge.OpenMath.nonempty_usefulFiber_iff_nonCircularQbarIntersection",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 41,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) : Nonempty (UsefulQbarFiberGeometry S) ↔ NonCircularQbarIntersectsHodgeLocus S"
   },
@@ -648,17 +638,15 @@
    "name": "P05.Hodge.basepointR3_closes_span",
    "file": "lean/MCore/P05/Hodge/BasepointR3FastPath.lean",
    "line": 87,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α} (S : SpreadData G X p α hX hα) (hQbar : S.fieldOfDefinition.isDefinedOverQbar S.basepoint) (c : CycleCombination G M (S.Family S.basepoint) p) (hc : c.eval M = S.transportedAlpha (S.pathRefl S.basepoint)) : InConcreteCycleSpan M α"
   },
   {
    "name": "P05.Hodge.basepointRouteGaps_count",
    "file": "lean/MCore/P05/Hodge/BasepointR3FastPath.lean",
    "line": 162,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": basepointRouteGaps.length = 2"
   },
@@ -674,7 +662,7 @@
    "name": "P05.Hodge.castCohomology_cancel",
    "file": "lean/MCore/P05/Hodge/BasepointR3FastPath.lean",
    "line": 35,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {X Y : G.Variety} {n : Nat} (h : X = Y) (β : G.CohomologyQ X n) : castCohomology G h.symm (castCohomology G h β) = β"
   },
@@ -682,10 +670,8 @@
    "name": "P05.Hodge.castCombination_eval",
    "file": "lean/MCore/P05/Hodge/BasepointR3FastPath.lean",
    "line": 46,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} {X Y : G.Variety} {p : Nat} (h : X = Y) (c : CycleCombination G M X p) : (⟨c.terms.map (fun t => (t.1, castCycle G h t.2))⟩ : CycleCombination G M Y p).eval M = castCohomology G h (c.eval M)"
   },
   {
@@ -961,7 +947,7 @@
    "statement": "∀ {G : MCore.GradedRationalHodgeData} {M : MCore.CycleSpanMechanics G} {X : G.Variety} {p : Nat}   {α : G.CohomologyQ X (2 * p)} {hX : G.isSmoothProjective X} {hα : G.isTypePP p α}   {S : MCore.BackwardAudit.SpreadData G X p α hX hα} {D0 : MCore.BackwardAudit.R1DescentPointContract S}   {B : P05.Hodge.AnswerB D0} {C : P05.Hodge.AnswerC M B} (D : P05.Hodge.AnswerD M C)   (K : P05.Hodge.CohomologyCo"
   }
  ],
- "closed": 68,
+ "closed": 54,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
@@ -976,13 +962,9 @@
   "lean/MCore/BackwardAudit/R2FiberAlgebraicityBoundary.lean": "3628ba63d4b54bf1243f214f84b114ec955d45d6b251eedc1f5619a335f428ac",
   "lean/MCore/BackwardAudit/R2HardCore.lean": "cd0bd39ffddd950cfda67891223186a5e27e50a06699684025944f8a7a9a697d",
   "lean/MCore/BackwardAudit/R3AtomicSpecialization.lean": "88a4a5b1b3a164d43b3a0040c252aec52ceeed871cbf1ccd4835023e1b9d33e2",
-  "lean/MCore/BackwardAudit/R3BackTransport.lean": "7ad35922e54f0aa6cbb37ca3e2fc138e1684c78392da75777613cff930c393e0",
   "lean/MCore/BackwardAudit/R3CombinationMinimal.lean": "eaa26a78e0ac4308fc4a7cf2d6db1e786b57fe1a9c7b5fbad03c3e397d6340dd",
   "lean/MCore/BackwardAudit/R3Contract.lean": "ce8213bd912e6fdf58da94c866624ac66293263307c78d7b49eb0a0d7600c07b",
-  "lean/MCore/BackwardAudit/R3RelativeCycleCut.lean": "c6a8564fe08d51575562134c43fd1f678aa66333ee56ae3f5ed6421444a3dafe",
   "lean/MCore/BackwardAudit/R3SpecializationBoundary.lean": "b5630f5ab451219775c21050617548f1a831c6e4fcce1b2cf4da59d6657d8b53",
-  "lean/MCore/BackwardAudit/R3StandardBackend.lean": "777c498060baac152599d14d495bd749e527e406fcb0cac968f2406b3c7b2057",
-  "lean/MCore/BackwardAudit/R3aHilbertProperness.lean": "195d61f9ca77b057235c50fb7ac636bb29ea96e22303ea19290afbaa4bf399c8",
   "lean/MCore/BackwardAudit/TypedVariationalGeometry.lean": "417462de2aa7d8cdfeaa951abf14b7308e03c449dd354761166016be1ec3759b",
   "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
   "lean/MCore/CodimZeroGeometry.lean": "08ac6b362d9c3487f1a4f61f7080f270a72f00034cfb67ba381e008c0b9276ea",
@@ -1017,7 +999,6 @@
   "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
   "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
   "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
-  "lean/MCore/P05/Hodge/BasepointR3FastPath.lean": "183f491bf7b72984a51be759469b9c7277981b8cf28a6dce66d2cff948c87d72",
   "lean/MCore/P05/Hodge/CompressedFiveQuestions.lean": "6e87845268758b64eeb24c632fe631860817cec25305a4056faaa2c5625fef34",
   "lean/MCore/P05/Hodge/ConcreteSearchEngine.lean": "6a5845dc34202509d52888f0d27aa548083dda32621c3e19be91c4ef7e88c638",
   "lean/MCore/P05/Hodge/DivisorCorrespondenceKernelPressure.lean": "d8beb42437a0e26a6c813c60284e3163a1724481415894d0be2a773e0b3a1396",
@@ -1030,9 +1011,8 @@
   "lean/MCore/P05/Hodge/R3CombinationMincut.lean": "feaa1eff18138bd9cedbb71c15d3d4d24d94108ec6ba20a60f73b4614932cf4a",
   "lean/MCore/P05/Hodge/R3SpecializationMincut.lean": "586f9b94da19d20f920278bfce9227d53502f4e7c5c06c14472bd39ba47952ed",
   "lean/MCore/P05/Hodge/SearchArchitecture.lean": "874b3f2666834d669f57255eedba184a7d42d255bd21e77cec1d4d3d0448de10",
-  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9",
-  "open_math/Hodge_H2_H3_Forcing.lean": "4656c7b007ac9514502c3811821bc6382a3bc3667ea00dad1053c97419dfa826"
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:15:56Z",
- "certificate_sha256": "84abe96a64298b8fb375ba0961bafe76c50bb10fcbb2c2992212b785cf402e07"
+ "published_at": "2026-11-02T20:55:37Z",
+ "certificate_sha256": "e99b4df16cb51adcdd9256494496a2d0428c536f62db817703dc4e5a40b40279"
 }

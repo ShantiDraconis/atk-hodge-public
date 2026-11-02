@@ -38,7 +38,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -134,6 +134,6 @@
   "lean/MCore/Publication/JournalReductionCertificate.lean": "7174e44e715ff0f5b891d745143f037029a10cff9de5e4afb54cc81fdc32e27b",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:15:56Z",
- "certificate_sha256": "9a4522f8870d39eb2914ead20c990a1a9f0572eab38761ed010c7485ce7723e5"
+ "published_at": "2026-11-02T20:55:37Z",
+ "certificate_sha256": "edbc890384f01250bea17b5c87b2407b15bf65b6351f0be7ae2488d4cfd99c7e"
 }
