@@ -498,7 +498,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -514,7 +514,7 @@
    "name": "MCore.AutoCompose.extract",
    "file": "lean/MCore/AutoCompose.lean",
    "line": 24,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (c : TheoremCertificate P) : P"
   },
@@ -594,8 +594,10 @@
    "name": "MCore.BackwardAudit.boundary_does_not_force_unconditional_certificate",
    "file": "lean/MCore/BackwardAudit/HodgeUnconditionalNoShortcut.lean",
    "line": 100,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": ¬ (∀ {G : GradedRationalHodgeData} {M : CycleSpanMechanics G}, MCore.HodgeCertificationBoundary G M → UnconditionalHodgeCertificate G M)"
   },
   {
@@ -698,7 +700,7 @@
    "name": "MCore.BackwardAudit.direct_core_iff_constant_qbar_r2",
    "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
    "line": 22,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} (M : CycleSpanMechanics G) : H01DirectResearchCore M ↔ TrivialQbarR2Payload M"
   },
@@ -706,7 +708,7 @@
    "name": "MCore.BackwardAudit.direct_core_iff_hodge",
    "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
    "line": 28,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} (B : HodgeCertificationBoundary G M) : H01DirectResearchCore M ↔ GradedRationalHodgeConjecture G"
   },
@@ -714,7 +716,7 @@
    "name": "MCore.BackwardAudit.direct_core_is_single_terminal_gate",
    "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
    "line": 54,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": directCoreFrontier.directAlgebraicityCore = .terminalOpenResearch"
   },
@@ -914,7 +916,7 @@
    "name": "MCore.BackwardAudit.public_reuse_plus_H01_payload_closes_pointwise",
    "file": "lean/MCore/BackwardAudit/H01PublicReuseCompression.lean",
    "line": 76,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} (A : CycleSpanAdapter G M) {X : G.Variety} {p : Nat} {α : G.CohomologyQ X (2 * p)} (P : H01MinimalForwardPayload G M X p α) : GradedAlgebraicityAt G X p α"
   },
@@ -922,7 +924,7 @@
    "name": "MCore.BackwardAudit.r1d_no_longer_mandatory_gate",
    "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
    "line": 57,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": directCoreFrontier.r1dQbarDescent = .optionalRoute"
   },
@@ -930,7 +932,7 @@
    "name": "MCore.BackwardAudit.r3_no_longer_mandatory_gate",
    "file": "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean",
    "line": 60,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": directCoreFrontier.r3VariationalAlgebraicity = .optionalRoute"
   },
@@ -978,7 +980,7 @@
    "name": "MCore.BackwardAudit.remainingResearchSubgates_count",
    "file": "lean/MCore/BackwardAudit/H01PublicReuseCompression.lean",
    "line": 72,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": remainingResearchSubgates.length = 3"
   },
@@ -986,7 +988,7 @@
    "name": "MCore.BackwardAudit.remainingResearchSubgates_exact",
    "file": "lean/MCore/BackwardAudit/H01PublicReuseCompression.lean",
    "line": 63,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": remainingResearchSubgates = [ .qbarHodgePointExistence, .fiberAlgebraicity, .variationalAlgebraicity ]"
   },
@@ -1018,16 +1020,20 @@
    "name": "MCore.BackwardAudit.unconditional_counterexample_payload_false",
    "file": "lean/MCore/BackwardAudit/HodgeUnconditionalNoShortcut.lean",
    "line": 94,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": ¬ MCore.ConcreteAlgebraicityPayload unconditionalCounterexampleM"
   },
   {
    "name": "MCore.BackwardAudit.unconditional_false_in_concrete_span",
    "file": "lean/MCore/BackwardAudit/HodgeUnconditionalNoShortcut.lean",
    "line": 36,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{p : Nat} : InConcreteCycleSpan unconditionalCounterexampleM (X"
   },
   {
@@ -1042,21 +1048,26 @@
    "name": "MCore.BackwardAudit.unconditional_true_not_in_concrete_span",
    "file": "lean/MCore/BackwardAudit/HodgeUnconditionalNoShortcut.lean",
    "line": 42,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{p : Nat} : ¬ InConcreteCycleSpan unconditionalCounterexampleM (X"
   }
  ],
- "closed": 54,
+ "closed": 63,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/AutoCompose.lean": "82d237a328a26f6f2bd3fefd78eec2ed3f05d5db26e46f63bfee75658946a7de",
   "lean/MCore/BackwardAudit/CodimOneAdapterFirewall.lean": "c55e4117582f7dd740589519e77e243b3a93ec26c1c6bbe623360683b6120d7b",
   "lean/MCore/BackwardAudit/CodimOneLefschetz11.lean": "c8b257808421715ea094de9328853a546ac8a92d1ab987a42839f549b1ce8e88",
   "lean/MCore/BackwardAudit/ExactFinalProducer.lean": "d2da89267f40183b363b53c2d643b37162f3212ed2523d53d318a749525fdcc8",
   "lean/MCore/BackwardAudit/FinalExternal.lean": "e75b02fb452e8594eb9fcfeb5ba94393f4e24050dc9d2877b7a08f4e898124c9",
+  "lean/MCore/BackwardAudit/H01DirectCoreCompression.lean": "25d9fffd831207caab0c64f038dfcc8d75d7417a2b8818efd3da790300e410de",
   "lean/MCore/BackwardAudit/H01MinimalForwardPayload.lean": "2c56127ee06c26df25354d38cc5c6dbee6d0dd938d9c901fffdc702e249e4050",
+  "lean/MCore/BackwardAudit/H01PublicReuseCompression.lean": "5d1b50ff15e9221ee9d95084dc9d25127cdf5f31b6e92fdbbaaab4b3ad5cfc1d",
   "lean/MCore/BackwardAudit/HodgeAssumedCompleteClosure.lean": "649243f883228a8c1f4ab45d4ae9de7e4958658f465a29d632aadf219e5924a2",
   "lean/MCore/BackwardAudit/HodgeCertifiedReuseBridge.lean": "08cdad424ed2c11c35ec03db62ace53a08a8acd77cc35bdab7b302d99cbe11d9",
   "lean/MCore/BackwardAudit/HodgeCodimTrisection.lean": "3a2432cfb8431c737812ae5df553f2c90004fc1db0256d40281ec6fa1630f4d8",
@@ -1072,6 +1083,7 @@
   "lean/MCore/BackwardAudit/R1DescentBoundary.lean": "0e41d345031d16b18a87cc9a3883f9dd9ced95bd8dc8f29e53727400bf403b6a",
   "lean/MCore/BackwardAudit/R2AfterR3.lean": "e1f71caabaecd302948ebfe95e60099edc72ba42d4cb3d5eb2553235dca168aa",
   "lean/MCore/BackwardAudit/R2FiberAlgebraicityBoundary.lean": "3628ba63d4b54bf1243f214f84b114ec955d45d6b251eedc1f5619a335f428ac",
+  "lean/MCore/BackwardAudit/R2HardCore.lean": "cd0bd39ffddd950cfda67891223186a5e27e50a06699684025944f8a7a9a697d",
   "lean/MCore/BackwardAudit/R3AtomicSpecialization.lean": "88a4a5b1b3a164d43b3a0040c252aec52ceeed871cbf1ccd4835023e1b9d33e2",
   "lean/MCore/BackwardAudit/R3CombinationMinimal.lean": "eaa26a78e0ac4308fc4a7cf2d6db1e786b57fe1a9c7b5fbad03c3e397d6340dd",
   "lean/MCore/BackwardAudit/R3Contract.lean": "ce8213bd912e6fdf58da94c866624ac66293263307c78d7b49eb0a0d7600c07b",
@@ -1105,6 +1117,6 @@
   "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-02T20:55:37Z",
- "certificate_sha256": "62d97d149dabba2cff176e0bc0c61fce08ce058c79c0dc7442ab1d1237c143b5"
+ "published_at": "2026-11-03T11:28:02Z",
+ "certificate_sha256": "044c5948f57ef8d01b68fe1a4675511f1c9f862a63dec9e791472d616b804db6"
 }

@@ -11,9 +11,13 @@ e1f71caabaecd302948ebfe95e60099edc72ba42d4cb3d5eb2553235dca168aa  branches/m-cor
 3628ba63d4b54bf1243f214f84b114ec955d45d6b251eedc1f5619a335f428ac  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R2FiberAlgebraicityBoundary.lean
 cd0bd39ffddd950cfda67891223186a5e27e50a06699684025944f8a7a9a697d  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R2HardCore.lean
 88a4a5b1b3a164d43b3a0040c252aec52ceeed871cbf1ccd4835023e1b9d33e2  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R3AtomicSpecialization.lean
+7ad35922e54f0aa6cbb37ca3e2fc138e1684c78392da75777613cff930c393e0  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R3BackTransport.lean
 eaa26a78e0ac4308fc4a7cf2d6db1e786b57fe1a9c7b5fbad03c3e397d6340dd  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R3CombinationMinimal.lean
 ce8213bd912e6fdf58da94c866624ac66293263307c78d7b49eb0a0d7600c07b  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R3Contract.lean
+c6a8564fe08d51575562134c43fd1f678aa66333ee56ae3f5ed6421444a3dafe  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R3RelativeCycleCut.lean
 b5630f5ab451219775c21050617548f1a831c6e4fcce1b2cf4da59d6657d8b53  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R3SpecializationBoundary.lean
+777c498060baac152599d14d495bd749e527e406fcb0cac968f2406b3c7b2057  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R3StandardBackend.lean
+195d61f9ca77b057235c50fb7ac636bb29ea96e22303ea19290afbaa4bf399c8  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/R3aHilbertProperness.lean
 417462de2aa7d8cdfeaa951abf14b7308e03c449dd354761166016be1ec3759b  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/BackwardAudit/TypedVariationalGeometry.lean
 e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/Boundary.lean
 08ac6b362d9c3487f1a4f61f7080f270a72f00034cfb67ba381e008c0b9276ea  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/CodimZeroGeometry.lean
@@ -48,6 +52,7 @@ dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f  branches/m-cor
 c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/K4.lean
 ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/K5.lean
 9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/K6.lean
+183f491bf7b72984a51be759469b9c7277981b8cf28a6dce66d2cff948c87d72  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/P05/Hodge/BasepointR3FastPath.lean
 6e87845268758b64eeb24c632fe631860817cec25305a4056faaa2c5625fef34  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/P05/Hodge/CompressedFiveQuestions.lean
 6a5845dc34202509d52888f0d27aa548083dda32621c3e19be91c4ef7e88c638  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/P05/Hodge/ConcreteSearchEngine.lean
 d8beb42437a0e26a6c813c60284e3163a1724481415894d0be2a773e0b3a1396  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/P05/Hodge/DivisorCorrespondenceKernelPressure.lean
@@ -61,3 +66,4 @@ feaa1eff18138bd9cedbb71c15d3d4d24d94108ec6ba20a60f73b4614932cf4a  branches/m-cor
 586f9b94da19d20f920278bfce9227d53502f4e7c5c06c14472bd39ba47952ed  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/P05/Hodge/R3SpecializationMincut.lean
 874b3f2666834d669f57255eedba184a7d42d255bd21e77cec1d4d3d0448de10  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/P05/Hodge/SearchArchitecture.lean
 8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9  branches/m-core-hodge/open-math_hodge-gap-20261004/lean/MCore/Signature.lean
+4656c7b007ac9514502c3811821bc6382a3bc3667ea00dad1053c97419dfa826  branches/m-core-hodge/open-math_hodge-gap-20261004/open_math/Hodge_H2_H3_Forcing.lean

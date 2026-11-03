@@ -33,7 +33,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -49,7 +49,7 @@
    "name": "MCore.BackwardAudit.h01UniversalMaterialProducer_closes",
    "file": "lean/MCore/BackwardAudit/H01UniversalMaterialProducer.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} (P : H01UniversalMaterialProducer G M) : GradedRationalHodgeConjecture G"
   },
@@ -57,7 +57,7 @@
    "name": "MCore.BackwardAudit.h01UniversalMaterialProducer_payload",
    "file": "lean/MCore/BackwardAudit/H01UniversalMaterialProducer.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{G : GradedRationalHodgeData} {M : CycleSpanMechanics G} (P : H01UniversalMaterialProducer G M) : ConcreteAlgebraicityPayload M"
   },
@@ -94,13 +94,21 @@
    "statement": ": ConcreteAlgebraicityPayload emptyCycleSpanMechanics"
   }
  ],
- "closed": 4,
+ "closed": 6,
  "files_sha256": {
   "audit/ATK_CONCRETE_PAYLOAD_MODEL_BINDING_COUNTERAUDIT.lean": "f4b7ee474aa757e0806ee7e6afe4f1c8ba60462fe14f29214a3c96debc4cb567",
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "63f53dc5304c2826b7477679caac46392ab7634e4ac851eaf4177a05c3dec797",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/BackwardAudit/ConcreteHodgeMaterialTarget.lean": "acca3055c0bac441257be8ddd3965c3429011201aee95e67f53cb2938a062708",
+  "lean/MCore/BackwardAudit/H01MinimalForwardPayload.lean": "2c56127ee06c26df25354d38cc5c6dbee6d0dd938d9c901fffdc702e249e4050",
+  "lean/MCore/BackwardAudit/H01UniversalMaterialProducer.lean": "7d78c135d92c03aefc12046bf1fcb5fb2627b18b76eb5e73dc1c37b7e1c9cbb5",
+  "lean/MCore/BackwardAudit/R1DescentBoundary.lean": "0e41d345031d16b18a87cc9a3883f9dd9ced95bd8dc8f29e53727400bf403b6a",
+  "lean/MCore/BackwardAudit/R2AfterR3.lean": "e1f71caabaecd302948ebfe95e60099edc72ba42d4cb3d5eb2553235dca168aa",
+  "lean/MCore/BackwardAudit/R3AtomicSpecialization.lean": "88a4a5b1b3a164d43b3a0040c252aec52ceeed871cbf1ccd4835023e1b9d33e2",
+  "lean/MCore/BackwardAudit/R3CombinationMinimal.lean": "eaa26a78e0ac4308fc4a7cf2d6db1e786b57fe1a9c7b5fbad03c3e397d6340dd",
+  "lean/MCore/BackwardAudit/R3Contract.lean": "ce8213bd912e6fdf58da94c866624ac66293263307c78d7b49eb0a0d7600c07b",
+  "lean/MCore/BackwardAudit/TypedVariationalGeometry.lean": "417462de2aa7d8cdfeaa951abf14b7308e03c449dd354761166016be1ec3759b",
   "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
   "lean/MCore/Hodge.lean": "ad547f28bd9d4efd104a470c1f02b3fa8a2e096ef9bed82d60c23d5c848b6e57",
   "lean/MCore/HodgeDecomposition.lean": "41f2a50a9b5aedff2ce543217c598c2df9ff77c00f68b982b280745004a57ad7",
@@ -122,6 +130,6 @@
   "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:15:56Z",
- "certificate_sha256": "94e451ef53cb97477f5852cafacf0fb795cb109aa0bb15cb1a7b9a51b383307a"
+ "published_at": "2026-11-03T11:28:02Z",
+ "certificate_sha256": "eb786706cef782992dda87e15274f63fd8059e438f6323a01969c2dfce696f10"
 }
