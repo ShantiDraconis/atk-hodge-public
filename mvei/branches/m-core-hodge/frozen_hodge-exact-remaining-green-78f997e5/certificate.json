@@ -7,7 +7,7 @@
  "head_commit_date": "2026-10-04T01:29:06+02:00",
  "history_not_on_default_branch": [],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -96,6 +96,6 @@
   "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:22Z",
- "certificate_sha256": "9fb8b0f6ca337e3012991a012f2df0c2d5f744c19966c2392d38ffb8e7f46857"
+ "published_at": "2026-11-05T17:43:18Z",
+ "certificate_sha256": "efbde5a7d0dda5371babb1a481771410f98a43ada5672a2c479cf9b878dad272"
 }

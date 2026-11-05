@@ -5,7 +5,7 @@ Lean sources from the branch `frozen/hodge-exact-remaining-green-78f997e5` of th
 * Branch state: incorporada (already in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 0 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `9fb8b0f6ca337e3012991a012f2df0c2d5f744c19966c2392d38ffb8e7f46857`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/frozen_hodge-exact-remaining-green-78f997e5/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `efbde5a7d0dda5371babb1a481771410f98a43ada5672a2c479cf9b878dad272`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/frozen_hodge-exact-remaining-green-78f997e5/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

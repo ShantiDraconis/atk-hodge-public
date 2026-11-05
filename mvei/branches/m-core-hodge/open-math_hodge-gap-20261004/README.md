@@ -5,7 +5,7 @@ Lean sources from the branch `open-math/hodge-gap-20261004` of the private repos
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 77 — closed 70, conditional 0, open 2, proof error 5, not reached 0, no result 0.
 * History: 62 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `9dfd0ccc220d060cac6e90cbdb9ff68b04002fe4804782f5126e21bd3fa05ee5`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/open-math_hodge-gap-20261004/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `fbbdded5de442961035815f17b108810543ad3b5138890f975d0dd61cd0aceca`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/open-math_hodge-gap-20261004/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

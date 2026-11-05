@@ -5,7 +5,7 @@ Lean sources from the branch `reset/hodge-empty-final-scaffold` of the private r
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 5 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `73e725d54503a174c468ff9f03854e198b2885e1869186776fe0fb754dc29ad4`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/reset_hodge-empty-final-scaffold/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `931e5b2f8a67b3af39bd58774475389606edc7075c41be0ec7a63b8e895cc4b7`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/reset_hodge-empty-final-scaffold/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -5,7 +5,7 @@ Lean sources from the branch `atk/hodge-closed-math-line-20261007` of the privat
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 25 — closed 23, conditional 0, open 1, proof error 1, not reached 0, no result 0.
 * History: 39 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `5572797082a52e027e78bda8fd5a8ad4d2e7cf1c2191ccf00fb0c9356bb68d77`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_hodge-closed-math-line-20261007/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `53d5badb77aada7e2acadef1112c8b99cfb10461cfb9d66c755794c82a70a914`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_hodge-closed-math-line-20261007/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
