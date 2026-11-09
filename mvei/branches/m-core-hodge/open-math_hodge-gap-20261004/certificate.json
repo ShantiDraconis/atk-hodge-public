@@ -318,7 +318,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -442,7 +442,7 @@
    "name": "P05.Hodge.OpenMath.h2a_h2b_do_not_force_h2c",
    "file": "open_math/Hodge_H2_H3_Forcing.lean",
    "line": 539,
-   "state": "erro",
+   "state": "aberto-sorry",
    "axioms_beyond_standard": [
     "sorryAx"
    ],
@@ -1033,6 +1033,6 @@
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9",
   "open_math/Hodge_H2_H3_Forcing.lean": "4656c7b007ac9514502c3811821bc6382a3bc3667ea00dad1053c97419dfa826"
  },
- "published_at": "2026-11-05T17:43:02Z",
- "certificate_sha256": "fbbdded5de442961035815f17b108810543ad3b5138890f975d0dd61cd0aceca"
+ "published_at": "2026-11-09T23:12:58Z",
+ "certificate_sha256": "1f41ca96761bd544a853c61793d5aa7288fccada856282be8e7b2fa0a4aa7cb5"
 }

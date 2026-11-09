@@ -3,9 +3,9 @@
 Lean sources from the branch `open-math/hodge-gap-20261004` of the private repository `ShantiDraconis/m-core-hodge`, commit `59f3ab6bdf3a1b60ec43550660228c2860f639ad` (2026-10-04T22:56:59+02:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 77 — closed 70, conditional 0, open 2, proof error 5, not reached 0, no result 0.
+* Theorems only on branches, in this branch: 77 — closed 70, conditional 0, open 3, proof error 4, not reached 0, no result 0.
 * History: 62 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `fbbdded5de442961035815f17b108810543ad3b5138890f975d0dd61cd0aceca`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/open-math_hodge-gap-20261004/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `1f41ca96761bd544a853c61793d5aa7288fccada856282be8e7b2fa0a4aa7cb5`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/open-math_hodge-gap-20261004/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
@@ -24,7 +24,7 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `P05.Hodge.OpenMath.decomposition_implies_R2_nonempty` | `open_math/Hodge_H2_H3_Forcing.lean`:185 | fechado |
 | `P05.Hodge.OpenMath.decomposition_implies_concrete_span` | `open_math/Hodge_H2_H3_Forcing.lean`:131 | fechado |
 | `P05.Hodge.OpenMath.divisorSource_class_algebraic` | `open_math/Hodge_H2_H3_Forcing.lean`:1412 | aberto-sorry |
-| `P05.Hodge.OpenMath.h2a_h2b_do_not_force_h2c` | `open_math/Hodge_H2_H3_Forcing.lean`:539 | erro |
+| `P05.Hodge.OpenMath.h2a_h2b_do_not_force_h2c` | `open_math/Hodge_H2_H3_Forcing.lean`:539 | aberto-sorry |
 | `P05.Hodge.OpenMath.h2cCounterCombination_eval_false` | `open_math/Hodge_H2_H3_Forcing.lean`:527 | erro |
 | `P05.Hodge.OpenMath.h2c_correspondence_action_tail_mechanical` | `open_math/Hodge_H2_H3_Forcing.lean`:1081 | fechado |
 | `P05.Hodge.OpenMath.h2c_correspondence_route_tail_mechanical` | `open_math/Hodge_H2_H3_Forcing.lean`:883 | fechado |
