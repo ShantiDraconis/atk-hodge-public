@@ -18,7 +18,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -71,6 +71,6 @@
   "lean/MCore/K7.lean": "2650bbfac4ccfe36f2ebacdf9a0f67a0ab8bd557d3a188bdf0b775d7228420ba",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-09T23:13:15Z",
- "certificate_sha256": "72f1bf41b601a22190556a66e37b85bf81fc8733f84b1905ad8d9897ee1ff6c2"
+ "published_at": "2026-11-11T15:17:24Z",
+ "certificate_sha256": "c7d0483133247a6139520d4b16af68592a19b78b5dfbd0054ec2de76db0e3827"
 }

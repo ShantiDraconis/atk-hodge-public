@@ -5,7 +5,7 @@ Lean sources from the branch `k7-preflight/Hodge-OfficialSpec` of the private re
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 1 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `4009065782fc3469fc6074166aaf4dfa4da9c6fd74c424ec337180a39badf669`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/k7-preflight_Hodge-OfficialSpec/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9307a648d7a5482d5e56329b387f2307f0768b57063b68196715074f528e819a`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/k7-preflight_Hodge-OfficialSpec/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

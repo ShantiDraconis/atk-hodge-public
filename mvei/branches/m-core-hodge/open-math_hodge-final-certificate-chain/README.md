@@ -5,7 +5,7 @@ Lean sources from the branch `open-math/hodge-final-certificate-chain` of the pr
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 7 — closed 7, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 3 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `4f6337a349afd957ab87dd050d32a5bbf53be2066443bb23eeb2874a0defeee7`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/open-math_hodge-final-certificate-chain/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `b36f1eb77980c690de47c0b9f4c89420cbbce30253b96c9d7dca06f01364b6e8`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/open-math_hodge-final-certificate-chain/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

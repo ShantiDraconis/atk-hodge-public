@@ -23,7 +23,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -146,6 +146,6 @@
   "lean/P05/Hodge/MathlibGeometryBridgeProbe.lean": "3a8bb754179e1e6b34194e058d7f88cb1a1b8be6b8ef363dd7f31793b0637a95",
   "lean/P05/Hodge/RecoveredMaterialChain.lean": "0b725b592d1c263033bc7370fd4aa21a260adfd92a33db44b26f5abeebf561a5"
  },
- "published_at": "2026-11-09T23:12:58Z",
- "certificate_sha256": "bf0e1f0dbcc3336dde8f53b144f4133b075a39c263adba49061cb643cd9a14b4"
+ "published_at": "2026-11-11T15:17:10Z",
+ "certificate_sha256": "c0b5d061fafb1f84a64a13fd1a41a7a9ca3edbcfddd51391541f1913a3b06862"
 }

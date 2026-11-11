@@ -5,7 +5,7 @@ Lean sources from the branch `atk/material-rigid-integration-20261009` of the pr
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 3 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `b580036acaf3779cfe99f3e1e7cdbd1fc8b363165c63b08c632c5f20ae431a84`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_material-rigid-integration-20261009/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `698fd28a30cee4684817c56f1920ecedfc93d6bc0e10c043f1c86d5b9f132a30`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-hodge/atk_material-rigid-integration-20261009/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
